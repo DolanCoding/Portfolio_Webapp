@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Personal Portfolio Website",
+    "description": "A responsive portfolio showcasing my projects and skills using React, Express, and CSS. The design focuses on a clean, modern aesthetic with a dark theme and glowing accents to highlight key information.",
+    "image": "https://portfolio-9qv4.onrender.com/images/project_images/Portfolio/portfolio_webapp1.png",
+    "image2": "https://portfolio-9qv4.onrender.com/images/project_images/Portfolio/portfolio_webapp3.png",
+    "image3": "https://portfolio-9qv4.onrender.com/images/project_images/Portfolio/portfolio_webapp2.png",
+    "github_link": "https://github.com/DolanCoding/Portfolio",
+    "live_link": "https://dolancoding.github.io/Portfolio/",
+    "tags": "React, Express, HTML, CSS, JavaScript",
+    "starting_date": "2025-04-28",
+    "finished_date": "2025-05-13",
+    "timespan": 75,
+    "hours_per_day": 5,
+    "learned_things": [
+      {
+        "CSS": "Mastery of Responsive Design with CSS Grid and Flexbox: Enables the development of user interfaces that function optimally on all devices and effectively appeal to a broad user base."
+      },
+      {
+        "React": "Confident use of React Hooks (useState, useEffect, useMemo, useRef): Leads to more efficient, maintainable, and performant code, accelerating development and reducing long-term costs."
+      },
+      {
+        "Js": "Coordination of animations with JS: Demonstrates attention to detail and the ability to create polished user experiences that convey professionalism."
+      },
+      {
+        "Node.js": "Backend integration with Express: Proves the ability to connect frontends with data sources and understand server-side logic – essential for complex applications."
+      }
+    ],
+    "reason": [
+      {
+        "Direct Proof of Skills": "Instead of just listing them, the portfolio provides direct, tangible proof of my practical skills. You'll see that I master technologies like React and Express and implement them into functional, appealing products – this reduces your hiring risk and builds trust."
+      },
+      {
+        "Demonstration of Comprehensive Work Approach": "Shows my ability for comprehensive (end-to-end) project implementation, from conception to deployment. Demonstrates my commitment to code quality and robustness for reliable applications, and highlights my problem-solving skills."
+      },
+      {
+        "Clear Sign of Motivation & Passion": "This self-initiated project is a clear indicator of my strong self-initiative, high motivation, and passion for web development. You'll gain an employee who is willing to engage enthusiastically and go beyond the standard."
+      },
+      {
+        "Proof of Willingness to Learn & Adaptability": "The documented learning successes prove my quick learning ability and adaptability. Essential in the tech industry for an employee who quickly gets up to speed and stays current – an important factor for project success."
+      }
+    ],
+    "key_features": [
+      {
+        "Dynamic tag-based filtering": "Dynamic, tag-based filtering: Allows you as an employer to quickly identify my relevant skills and find projects based on specific technologies – saving valuable time in candidate evaluation."
+      },
+      {
+        "Animated transitions": "Animated transitions: Demonstrates the ability to design high-quality and professional-looking user interfaces that enhance the user experience and show attention to detail."
+      },
+      {
+        "Backend with express.js and SQLite": "Implementation of a backend with Express.js and SQLite: Shows practical experience with database-driven applications and the ability to develop complete (full-stack) solutions."
+      },
+      {
+        "Hosting via Git-Pages": "Hosting via Git-Pages: Shows the ability to efficiently and cost-effectively deploy static content and leverage platform features for project presentation – ideal for landing pages or documentation."
+      },
+      {
+        "Deployment on Render.com": "Deployment on Render.com: Demonstrates experience in deploying and managing full-stack applications on modern cloud platforms. This proves the ability to bring complex applications from development to production and apply DevOps practices."
+      }
+    ],
+    "notes": [
+      {
+        "Note 1": "I had an idea of implementing an an admin panel but since the database has to be prepopulated with data as the free tier of render.com does not allow the usage of a persistent database, I decided to skip it for now."
+      }
+    ]
+  },
+  {
+    "title": "Project Planner",
+    "description": "An interactive web app for efficient task/project visualization and management. It offers an intuitive UI to structure and organize workflows visually.",
+    "image": "https://portfolio-9qv4.onrender.com/images/project_images/ProjectPlanner/ProjectPlanner.png",
+    "image2": "https://portfolio-9qv4.onrender.com/images/project_images/ProjectPlanner/ProjectPlanner2.png",
+    "image3": "https://portfolio-9qv4.onrender.com/images/project_images/ProjectPlanner/ProjectPlanner3.png",
+    "github_link": "https://github.com/DolanCoding/Project_Planner",
+    "live_link": "https://dolancoding.github.io/Project_Planner/",
+    "tags": "React, React-Flow, JavaScript, Redux",
+    "starting_date": "2025-05-14",
+    "finished_date": "2025-05-26",
+    "timespan": 60,
+    "hours_per_day": 5,
+    "learned_things": [
+      {
+        "React": "Mastery in building performant and scalable user interfaces with React: Demonstrates the ability to develop complex and dynamic frontend solutions that offer an excellent user experience and facilitate future expansions."
+      },
+      {
+        "React-Flow": "Creation of intuitive, node-based diagrams with React-Flow: Showcases expertise in developing specialized UI components for visual representation of complex data and relationships, essential for process optimization or data flow analysis tools."
+      },
+      {
+        "JavaScript": "Robust frontend logic and interactivity with JavaScript: Proves the ability to implement complex client-side functionalities that ensure high performance and seamless interactions, enhancing user engagement."
+      },
+      {
+        "Redux": "Centralized and predictable state management with Redux: Illustrates proficiency in managing complex application states, leading to more maintainable code, improved data consistency, and smooth application scalability."
+      }
+    ],
+    "reason": [
+      {
+        "Proof of Advanced Frontend Mastery": "This project serves as direct evidence of my advanced skills in complex frontend development. It showcases my ability not only to master common technologies but also to leverage specialized libraries like React-Flow to create innovative and visually appealing solutions that go far beyond standard applications."
+      },
+      {
+        "Demonstration of Intuitive Tool Building": "The development of an intuitive visual tool like the Project Planner highlights my capacity to translate complex problems into user-friendly interfaces. This is crucial for companies needing applications that are quickly understood and efficiently used by their users, reducing onboarding time and increasing productivity."
+      },
+      {
+        "Expertise in Scalable State Management": "By utilizing Redux, I demonstrate comprehensive knowledge in scalable state management for large and intricate applications. This ensures that the application remains stable and maintainable even with increasing functionality, which is critical for sustainable software development."
+      },
+      {
+        "Commitment to Modern Web Development Practices": "This project reflects my commitment to modern web development principles and best practices. It highlights my ability to design and implement high-performance, maintainable, and future-proof frontend architectures."
+      }
+    ],
+    "key_features": [
+      {
+        "Interactive Node-Based Planning": "Users can visually connect tasks, define dependencies, and rearrange project elements within an intuitive interface. This feature highlights advanced UI/UX development capabilities and the creation of highly interactive data visualization tools, directly translating to improved project oversight and efficiency for employers."
+      },
+      {
+        "Centralized State Management": "Leveraging Redux, the application boasts efficient management of complex application states, ensuring data consistency and a smooth user experience across all features. This demonstrates expertise in building scalable and maintainable frontends, reducing debugging time and future development costs."
+      },
+      {
+        "Dynamic UI with React": "The project showcases mastery in building performant and scalable user interfaces using React. This includes responsive design principles and optimized rendering, proving the ability to deliver engaging and fast web applications that meet modern user expectations."
+      },
+      {
+        "Frontend-Only Architecture": "This robust client-side application highlights a strong focus on UI/UX excellence and self-contained functionality. It demonstrates the ability to deliver powerful web experiences without immediate backend dependencies, allowing for rapid deployment and efficient resource allocation, ideal for static site generation or single-page applications."
+      }
+    ],
+    "notes": [
+      {
+        "Note 1": "This project was intentionally designed with a frontend-only architecture to highlight expertise in complex UI/UX development and robust client-side state management. This approach allows for lightweight deployment and rapid iteration on user-facing features. For projects requiring persistent data storage or server-side logic, a backend integration would be a logical next step, utilizing technologies such as Node.js with Express or a serverless function approach."
+      }
+    ]
+  },
+  {
+    "title": "Task Manager XP",
+    "description": "A dynamic web app for efficient task management and enhanced personal productivity, offering a clean, intuitive interface with distinct desktop and mobile functionalities.",
+    "image": "https://portfolio-9qv4.onrender.com/images/project_images/TaskmanagerXP/TaskmanagerXP1.png",
+    "image2": "https://portfolio-9qv4.onrender.com/images/project_images/TaskmanagerXP/TaskmanagerXP2.png",
+    "image3": "https://portfolio-9qv4.onrender.com/images/project_images/TaskmanagerXP/TaskmanagerXP3.png",
+    "github_link": "https://github.com/DolanCoding/TaskmanagerXP",
+    "live_link": "https://taskmanagerxp.onrender.com",
+    "tags": "Native JavaScript, Python, CSS",
+    "starting_date": "2025-05-26",
+    "finished_date": "2025-06-08",
+    "timespan": "70",
+    "hours_per_day": "5",
+    "learned_things": [
+      {
+        "Native JavaScript": "Mastery in building interactive and dynamic front-end experiences without relying on heavy frameworks, demonstrating a deep understanding of core web technologies and efficient DOM manipulation."
+      },
+      {
+        "Python Server & Templating": "Proficiency in back-end development using Python for server logic and templating for dynamic content generation, showcasing the ability to build robust and scalable server-side applications."
+      },
+      {
+        "Responsive Design": "Expertise in designing and implementing user interfaces that adapt seamlessly across various devices and screen sizes, ensuring optimal user experience on both desktop and mobile platforms."
+      },
+      {
+        "Drag and Drop Functionality": "Implementation of advanced UI interactions, specifically drag-and-drop features for desktop users, demonstrating skill in creating intuitive and engaging user workflows for complex operations."
+      },
+      {
+        "Database Integration & Data Handling": "Competence in managing and persisting application data, including task details, categories, points, and history, indicating strong command over data storage and retrieval mechanisms."
+      }
+    ],
+    "reason": [
+      {
+        "Proof of Full-Stack Proficiency": "This project serves as direct evidence of comprehensive full-stack development skills, combining robust Python back-end capabilities with interactive native JavaScript front-end implementation."
+      },
+      {
+        "Demonstration of Adaptive UX Design": "The application's responsive design and distinct desktop-specific features (like drag-and-drop) highlight a keen understanding of user experience across different form factors, crucial for delivering versatile and user-friendly products."
+      },
+      {
+        "Expertise in Scalable Server-Side Logic": "Leveraging a Python server, this project showcases the ability to develop maintainable and scalable back-end solutions capable of handling core application logic and data management efficiently."
+      },
+      {
+        "Commitment to Clean Code & Performance": "The use of native JavaScript suggests a focus on optimizing performance and maintaining a lightweight front-end, reflecting a commitment to best practices in web development."
+      }
+    ],
+    "key_features": [
+      {
+        "Core Task Management & Categorization": "Users can efficiently create, edit, and delete tasks, categorized for better organization, providing a clear and structured approach to personal productivity."
+      },
+      {
+        "Gamified Productivity System": "A unique points system adds an engaging and motivating element, encouraging consistent task completion and user engagement."
+      },
+      {
+        "Adaptive User Interface": "The application features a responsive design, ensuring a seamless and optimized experience whether accessed on a desktop or a mobile device."
+      },
+      {
+        "Desktop-Specific Drag & Drop + Grouping": "On desktop, users benefit from intuitive drag-and-drop functionality, enabling visual reordering and grouping of tasks for enhanced workflow management. This feature demonstrates advanced front-end interaction design."
+      },
+      {
+        "Comprehensive Task History & Pinboard": "Users can track their progress through a detailed task history and quickly review current tasks on an organized 'Pinboard'."
+      }
+    ],
+    "notes": [
+      {
+        "Note 1": "The project intentionally leverages native JavaScript for the front-end to highlight a deep understanding of core web technologies and performance optimization without framework overhead. The Python server provides a robust back-end, showcasing full-stack capabilities. The distinct desktop drag-and-drop functionality illustrates thoughtful responsive design decisions, adapting features to the most suitable screen real estate."
+      }
+    ]
+  }
+]

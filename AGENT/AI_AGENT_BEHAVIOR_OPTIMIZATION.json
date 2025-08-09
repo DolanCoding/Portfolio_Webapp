@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "type": "AI_AGENT_BEHAVIORAL_OPTIMIZATION",
+    "purpose": "OPTIMIZE_AI_AGENT_BEHAVIOR_FOR_AI_OPTIMIZED_WORKSPACES",
+    "target": "AI_AGENTS_WORKING_IN_MACHINE_OPTIMIZED_ENVIRONMENTS",
+    "last_updated": "2025-08-04"
+  },
+  "behavioral_adaptations": {
+    "context_parsing_priority": {
+      "first_action": "PARSE_AI_AGENT_CONTEXT_TAG_BEFORE_CODE_ANALYSIS",
+      "reasoning": "CONTEXT_TAG_PROVIDES_INSTANT_UNDERSTANDING_ELIMINATES_GUESSWORK",
+      "implementation": "READ_FIRST_LINE_EXTRACT_FILE_ROLE_PURPOSE_IMMEDIATELY",
+      "fallback": "IF_NO_AI_TAG_FOUND_REQUEST_ADDITION_BEFORE_PROCEEDING"
+    },
+    "navigation_methodology": {
+      "discovery_protocol": [
+        "CHECK_PREDICTABLE_PATHS_BEFORE_DIRECTORY_SCANNING",
+        "USE_AI_DEPENDENCY_TAGS_FOR_RELATIONSHIP_MAPPING",
+        "LEVERAGE_AI_LOGICAL_REGIONS_FOR_CODE_SECTION_NAVIGATION",
+        "REFERENCE_AI_NAVIGATION_EXPORTS_FOR_COMPONENT_DISCOVERY"
+      ],
+      "path_resolution": "ASSUME_DOMAIN_DRIVEN_STRUCTURE_FIRST",
+      "efficiency_gain": "90_PERCENT_REDUCTION_IN_FILE_SYSTEM_OPERATIONS"
+    },
+    "modification_discipline": {
+      "pre_modification_validation": [
+        "VERIFY_AI_TAG_CONSISTENCY_BEFORE_CHANGES",
+        "CHECK_TYPESCRIPT_COMPILATION_STATUS",
+        "VALIDATE_COMPONENT_ISOLATION_BOUNDARIES",
+        "CONFIRM_NAMING_CONVENTION_COMPLIANCE"
+      ],
+      "modification_patterns": [
+        "PRESERVE_EXISTING_AI_OPTIMIZATION_FEATURES",
+        "MAINTAIN_LOGICAL_REGION_ORGANIZATION",
+        "FOLLOW_ESTABLISHED_INTERFACE_PATTERNS",
+        "ENSURE_DEPENDENCY_TAG_ACCURACY"
+      ],
+      "post_modification_verification": [
+        "RUN_TYPESCRIPT_COMPILATION_CHECK",
+        "VALIDATE_AI_TAG_CONSISTENCY",
+        "VERIFY_COMPONENT_ISOLATION_PRESERVATION",
+        "CONFIRM_PATTERN_COMPLIANCE"
+      ]
+    }
+  },
+  "processing_optimizations": {
+    "data_structure_preference": {
+      "documentation_consumption": "PRIORITIZE_JSON_OBJECTS_OVER_PROSE",
+      "pattern_recognition": "USE_STRUCTURED_SCHEMAS_FOR_VALIDATION",
+      "decision_making": "LEVERAGE_BOOLEAN_FLAGS_AND_ENUMS",
+      "reporting": "OUTPUT_MACHINE_PARSEABLE_FORMATS_ONLY"
+    },
+    "analysis_efficiency": {
+      "component_understanding": "AI_TAGS_FIRST_CODE_ANALYSIS_SECOND",
+      "dependency_mapping": "USE_PRE_COMPUTED_GRAPHS_OVER_RUNTIME_ANALYSIS",
+      "pattern_matching": "REFERENCE_INDEXED_PATTERNS_AVOID_SCANNING",
+      "validation": "AUTOMATED_TOOLS_OVER_MANUAL_VERIFICATION"
+    },
+    "error_handling_approach": {
+      "prevention_strategy": "COMPILE_TIME_VALIDATION_OVER_RUNTIME_DEBUGGING",
+      "pattern_enforcement": "STRICT_ADHERENCE_TO_ESTABLISHED_CONVENTIONS",
+      "validation_sequence": "TYPESCRIPT_ESLINT_PATTERNS_AI_TAGS",
+      "recovery_protocol": "REFERENCE_WORKING_EXAMPLES_FOR_CORRECTION"
+    }
+  },
+  "workspace_interaction_protocols": {
+    "file_creation_sequence": [
+      "ANALYZE_SIMILAR_COMPONENTS_FOR_PATTERN_EXTRACTION",
+      "IMPLEMENT_MANDATORY_AI_CONTEXT_TAGS",
+      "FOLLOW_INTERFACE_PROPS_FC_EXPORT_STRUCTURE",
+      "VALIDATE_NAMING_CONVENTION_COMPLIANCE",
+      "VERIFY_COMPONENT_ISOLATION_PRINCIPLES"
+    ],
+    "file_modification_sequence": [
+      "READ_AI_AGENT_CONTEXT_FOR_COMPONENT_UNDERSTANDING",
+      "IDENTIFY_LOGICAL_REGIONS_FOR_TARGETED_CHANGES",
+      "PRESERVE_EXISTING_OPTIMIZATION_PATTERNS",
+      "VALIDATE_CHANGES_AGAINST_TYPESCRIPT_COMPILATION",
+      "CONFIRM_AI_TAG_CONSISTENCY_POST_MODIFICATION"
+    ],
+    "validation_workflow": [
+      "RUN_AUTOMATED_ANALYSIS_TOOLS_BEFORE_AFTER_CHANGES",
+      "CHECK_COMPONENT_ISOLATION_PRESERVATION",
+      "VERIFY_DEPENDENCY_TAG_ACCURACY",
+      "CONFIRM_ARCHITECTURAL_PATTERN_COMPLIANCE"
+    ]
+  },
+  "decision_making_framework": {
+    "pattern_vs_innovation": "PATTERN_CONSISTENCY_ALWAYS_TRUMPS_FEATURE_INNOVATION",
+    "modification_vs_creation": "MODIFY_IF_LOGICAL_REGION_EXISTS_CREATE_FOR_NEW_RESPONSIBILITY",
+    "complexity_vs_clarity": "REDUCE_OVERALL_SYSTEM_COMPLEXITY_OVER_LOCAL_OPTIMIZATION",
+    "automation_vs_manual": "PREFER_AUTOMATED_VALIDATION_OVER_MANUAL_VERIFICATION"
+  },
+  "communication_optimization": {
+    "response_format": "STRUCTURED_DATA_WITH_ACTIONABLE_ITEMS",
+    "explanation_depth": "MINIMAL_CONTEXT_MAXIMUM_VALUE",
+    "error_reporting": "ROOT_CAUSE_IDENTIFICATION_WITH_PATTERN_ALIGNMENT",
+    "recommendation_style": "REFERENCE_EXISTING_PATTERNS_AVOID_REINVENTION"
+  },
+  "continuous_learning_protocols": {
+    "pattern_recognition_improvement": [
+      "STUDY_WORKSPACE_SPECIFIC_CONVENTIONS",
+      "ADAPT_TO_PROJECT_OPTIMIZATION_LEVEL",
+      "LEARN_FROM_SUCCESSFUL_IMPLEMENTATIONS",
+      "EVOLVE_WITH_ARCHITECTURAL_IMPROVEMENTS"
+    ],
+    "efficiency_optimization": [
+      "IDENTIFY_REPEATED_OPERATIONS_FOR_CACHING",
+      "RECOGNIZE_WORKSPACE_SPECIFIC_SHORTCUTS",
+      "DEVELOP_PROJECT_CONTEXT_AWARENESS",
+      "OPTIMIZE_VALIDATION_SEQUENCE_TIMING"
+    ]
+  },
+  "workspace_health_maintenance": {
+    "proactive_monitoring": [
+      "REGULAR_AI_TAG_COVERAGE_ASSESSMENT",
+      "PATTERN_DRIFT_DETECTION_AND_CORRECTION",
+      "DEPENDENCY_GRAPH_HEALTH_MONITORING",
+      "TYPE_SAFETY_REGRESSION_PREVENTION"
+    ],
+    "optimization_preservation": [
+      "RESIST_ANTI_PATTERNS_DURING_FEATURE_PRESSURE",
+      "MAINTAIN_WORKSPACE_OPTIMIZATION_LEVEL",
+      "EDUCATE_ON_AI_OPTIMIZATION_BENEFITS",
+      "DOCUMENT_PATTERN_EVOLUTION_DECISIONS"
+    ]
+  }
+}

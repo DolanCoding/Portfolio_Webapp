@@ -1,0 +1,51 @@
+/* src/components/Header/Header.css */
+header {
+  background-image: linear-gradient(to bottom, #1a283b, #0e1a2b);
+  color: #e0e0e0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  min-height: 5vh;
+  padding: 0 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0.2rem 1.5rem rgba(0, 0, 0, 0.7),
+    0 0 1rem rgba(0, 191, 255, 0.1),
+    inset 0 -0.1rem 0.2rem rgba(255, 255, 255, 0.05);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5vw;
+}
+
+nav a {
+  color: #a0a4a8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, text-shadow 0.3s ease, transform 0.2s ease;
+  position: relative;
+  letter-spacing: 0.1rem;
+}
+
+nav a.active {
+  color: #00bfff;
+  font-weight: 700;
+  text-shadow: 0 0 1rem #00bfff;
+  transform: translateY(-0.2rem);
+}
+
+nav a:hover,
+nav a:focus {
+  color: #00bfff;
+  text-shadow: 0 0 0.5rem #00bfff;
+  transform: translateY(-0.2rem);
+}

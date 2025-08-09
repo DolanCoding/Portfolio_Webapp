@@ -1,0 +1,128 @@
+/* Final Blueprint background, focused on static elegance and performance */
+body {
+  background-color: #0d1b2a;
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+  /* Layer 1: The Subtle Grid */
+  background-image: repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 29px,
+      rgba(255, 255, 255, 0.05) 30px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 29px,
+      rgba(255, 255, 255, 0.05) 30px
+    );
+  background-size: 30px 30px;
+
+  /* Layer 2: A central, static light source to add depth and guide the eye */
+  box-shadow: inset 0 0 100px rgba(0, 255, 255, 0.03);
+}
+
+/* Layer 3 (Optional): A very subtle conic gradient for a radiating glow */
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.1; /* Very low opacity for a soft effect */
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    transparent 0deg,
+    rgba(0, 255, 255, 0.05) 10deg,
+    transparent 20deg
+  );
+  mix-blend-mode: color-dodge; /* Blends beautifully with the grid */
+}
+
+.App {
+  text-align: center;
+  color: var(--color-text-light); /* Ersetzt #eee */
+  display: grid;
+  grid-template-rows: 5vh 86vh 5vh;
+  row-gap: 2vh;
+  grid-template-columns: 25vw 50vw 25vw;
+  overflow: hidden;
+}
+.App > svg {
+  grid-column: 2;
+  grid-row: 2;
+  width: 66.66%;
+  height: 66.66%;
+}
+
+.main-content-wrapper {
+  max-height: 100%;
+  overflow-y: hidden;
+  grid-row: 2;
+  grid-column: 2;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  position: relative;
+  background-image: radial-gradient(
+    circle at center,
+    #1a283b 25%,
+    #0e1a2b 100%
+  );
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.7), 0 0 0.5rem rgba(0, 191, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.03);
+  border-radius: 0.8vmin;
+}
+
+.main-content-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 191, 255, 0.05),
+    transparent
+  );
+  background-repeat: repeat-y;
+  background-size: 100% 400px;
+  animation: perceptualFlow 80s infinite linear;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+@keyframes perceptualFlow {
+  from {
+    background-position: 0px -400px;
+  }
+  to {
+    background-position: 0px 100%;
+  }
+}
+
+@media (max-width: 1600px) {
+  .App {
+    grid-template-columns: 12.5vw 75vw 12.5vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .App {
+    grid-template-columns: 0vw 100vw 0vw;
+  }
+}

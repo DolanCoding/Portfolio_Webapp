@@ -1,0 +1,178 @@
+{
+  "meta": {
+    "type": "AI_AGENT_WORKFLOW_SPECIFICATION",
+    "purpose": "DEFINE_STEP_BY_STEP_WORKFLOW_FOR_AI_AGENTS_IN_OPTIMIZED_WORKSPACES",
+    "target": "AI_AGENTS_IMPLEMENTING_FEATURES_IN_AI_OPTIMIZED_ENVIRONMENTS",
+    "last_updated": "2025-08-04"
+  },
+  "mandatory_workflow_stages": {
+    "stage_1_workspace_discovery": {
+      "step_1_context_acquisition": {
+        "action": "READ_AI_AGENT_CONTEXT_TAGS_IN_TARGET_FILES",
+        "purpose": "INSTANT_COMPONENT_UNDERSTANDING_WITHOUT_CODE_ANALYSIS",
+        "validation": "CONFIRM_AI_TAG_EXISTS_BEFORE_PROCEEDING",
+        "fallback": "REQUEST_AI_TAG_ADDITION_IF_MISSING"
+      },
+      "step_2_dependency_mapping": {
+        "action": "PARSE_AI_DEPENDENCY_TAGS_FOR_RELATIONSHIP_UNDERSTANDING",
+        "purpose": "IDENTIFY_AFFECTED_COMPONENTS_AND_INTEGRATION_POINTS",
+        "validation": "VERIFY_DEPENDENCY_ACCURACY_AGAINST_IMPORTS",
+        "optimization": "USE_PRE_COMPUTED_DEPENDENCY_GRAPHS_IF_AVAILABLE"
+      },
+      "step_3_pattern_identification": {
+        "action": "IDENTIFY_SIMILAR_COMPONENTS_FOR_PATTERN_REFERENCE",
+        "purpose": "ESTABLISH_IMPLEMENTATION_PATTERNS_AND_STANDARDS",
+        "validation": "CONFIRM_PATTERN_COMPLIANCE_SCORE_ABOVE_80",
+        "reference": "PRIORITIZE_HIGHEST_AI_OPTIMIZATION_SCORE_EXAMPLES"
+      }
+    },
+    "stage_2_pre_implementation_validation": {
+      "step_1_typescript_compilation": {
+        "action": "RUN_TYPESCRIPT_COMPILATION_CHECK",
+        "purpose": "ENSURE_WORKSPACE_IS_IN_STABLE_STATE",
+        "command": "npm run type-check",
+        "requirement": "ZERO_COMPILATION_ERRORS_BEFORE_PROCEEDING"
+      },
+      "step_2_ai_tag_consistency": {
+        "action": "VALIDATE_AI_TAG_CONSISTENCY_ACROSS_WORKSPACE",
+        "purpose": "CONFIRM_OPTIMIZATION_STANDARDS_ARE_MAINTAINED",
+        "command": "npm run analyze",
+        "requirement": "AI_TAG_COVERAGE_ABOVE_80_PERCENT"
+      },
+      "step_3_pattern_compliance": {
+        "action": "VERIFY_EXISTING_PATTERNS_FOLLOW_CONVENTIONS",
+        "purpose": "ENSURE_NEW_IMPLEMENTATIONS_HAVE_CORRECT_REFERENCES",
+        "validation": "NAMING_CONVENTIONS_AND_STRUCTURE_COMPLIANCE",
+        "requirement": "REFERENCE_COMPONENTS_SCORE_ABOVE_85"
+      }
+    },
+    "stage_3_implementation": {
+      "step_1_ai_context_tag_creation": {
+        "action": "IMPLEMENT_AI_AGENT_CONTEXT_TAG_AS_FIRST_LINE",
+        "format": "// AI-AGENT CONTEXT: FILE={componentName} | ROLE={purpose} | PURPOSE={function}",
+        "requirement": "MANDATORY_FOR_ALL_NEW_FILES",
+        "validation": "CONFIRM_PROPER_FORMAT_AND_DESCRIPTIVE_CONTENT"
+      },
+      "step_2_logical_region_organization": {
+        "action": "ORGANIZE_CODE_INTO_AI_LOGICAL_REGIONS",
+        "purpose": "ENABLE_TARGETED_MODIFICATIONS_WITHOUT_FULL_FILE_ANALYSIS",
+        "pattern": "// AI-LOGICAL-REGION: {Descriptive_Name_With_Underscores}",
+        "requirement": "MINIMUM_3_REGIONS_FOR_FILES_ABOVE_50_LINES"
+      },
+      "step_3_dependency_tag_implementation": {
+        "action": "ADD_AI_DEPENDENCY_TAGS_FOR_EXTERNAL_DEPENDENCIES",
+        "purpose": "ENABLE_DEPENDENCY_TRACKING_AND_IMPACT_ANALYSIS",
+        "format": "// AI-DEPENDENCY: {component1,component2,library.export}",
+        "requirement": "ALL_EXTERNAL_DEPENDENCIES_MUST_BE_TAGGED"
+      },
+      "step_4_interface_and_implementation": {
+        "action": "FOLLOW_INTERFACE_PROPS_FC_EXPORT_PATTERN",
+        "purpose": "MAINTAIN_CONSISTENT_COMPONENT_STRUCTURE",
+        "pattern": "interface ComponentProps -> React.FC<ComponentProps> -> export default",
+        "requirement": "STRICT_ADHERENCE_TO_ESTABLISHED_PATTERNS"
+      }
+    },
+    "stage_4_validation_and_verification": {
+      "step_1_typescript_compilation_verification": {
+        "action": "RUN_TYPESCRIPT_COMPILATION_AFTER_IMPLEMENTATION",
+        "purpose": "ENSURE_NO_TYPE_ERRORS_INTRODUCED",
+        "command": "npm run type-check",
+        "requirement": "ZERO_NEW_COMPILATION_ERRORS"
+      },
+      "step_2_ai_tag_consistency_verification": {
+        "action": "VALIDATE_AI_TAG_IMPLEMENTATION_CORRECTNESS",
+        "purpose": "CONFIRM_OPTIMIZATION_FEATURES_PROPERLY_IMPLEMENTED",
+        "validation": "AI_CONTEXT_LOGICAL_REGIONS_DEPENDENCY_TAGS_PRESENT",
+        "requirement": "100_PERCENT_COMPLIANCE_FOR_NEW_FILES"
+      },
+      "step_3_component_isolation_verification": {
+        "action": "VERIFY_COMPONENT_BOUNDARIES_MAINTAINED",
+        "purpose": "ENSURE_NO_ACCIDENTAL_COUPLING_INTRODUCED",
+        "checks": [
+          "NO_DIRECT_DOM_MANIPULATION",
+          "NO_GLOBAL_STATE_ACCESS",
+          "PROPS_INTERFACE_COMPLIANCE"
+        ],
+        "requirement": "ALL_ISOLATION_PRINCIPLES_PRESERVED"
+      },
+      "step_4_pattern_compliance_verification": {
+        "action": "CONFIRM_IMPLEMENTATION_FOLLOWS_ESTABLISHED_PATTERNS",
+        "purpose": "MAINTAIN_WORKSPACE_CONSISTENCY_AND_PREDICTABILITY",
+        "validation": "NAMING_CONVENTIONS_STRUCTURE_AI_OPTIMIZATION_COMPLIANCE",
+        "requirement": "MINIMUM_90_PERCENT_PATTERN_COMPLIANCE_SCORE"
+      }
+    }
+  },
+  "workflow_optimizations": {
+    "efficiency_shortcuts": {
+      "context_caching": "CACHE_AI_CONTEXT_INFORMATION_FOR_SESSION_REUSE",
+      "pattern_indexing": "MAINTAIN_PATTERN_INDEX_FOR_INSTANT_REFERENCE",
+      "dependency_resolution": "USE_PRE_COMPUTED_DEPENDENCY_MAPS",
+      "validation_batching": "BATCH_VALIDATION_OPERATIONS_FOR_PERFORMANCE"
+    },
+    "error_prevention": {
+      "early_validation": "VALIDATE_CONSTRAINTS_BEFORE_IMPLEMENTATION",
+      "pattern_enforcement": "STRICT_ADHERENCE_TO_PROVEN_PATTERNS",
+      "compilation_gates": "COMPILATION_SUCCESS_REQUIRED_BEFORE_PROCEEDING",
+      "consistency_monitoring": "CONTINUOUS_AI_TAG_CONSISTENCY_CHECKING"
+    }
+  },
+  "workflow_variations": {
+    "modification_workflow": {
+      "pre_modification": [
+        "READ_EXISTING_AI_CONTEXT_FOR_UNDERSTANDING",
+        "IDENTIFY_TARGET_LOGICAL_REGION_FOR_CHANGES",
+        "VALIDATE_CURRENT_TYPESCRIPT_COMPILATION_STATUS"
+      ],
+      "during_modification": [
+        "PRESERVE_EXISTING_AI_OPTIMIZATION_FEATURES",
+        "MAINTAIN_LOGICAL_REGION_BOUNDARIES",
+        "UPDATE_DEPENDENCY_TAGS_IF_DEPENDENCIES_CHANGE"
+      ],
+      "post_modification": [
+        "VERIFY_AI_TAG_CONSISTENCY_MAINTAINED",
+        "CONFIRM_TYPESCRIPT_COMPILATION_SUCCESS",
+        "VALIDATE_COMPONENT_ISOLATION_PRESERVED"
+      ]
+    },
+    "refactoring_workflow": {
+      "preparation": [
+        "ANALYZE_COMPONENT_DEPENDENCIES_VIA_AI_TAGS",
+        "IDENTIFY_ALL_AFFECTED_COMPONENTS",
+        "PLAN_CHANGES_TO_MAINTAIN_PATTERN_CONSISTENCY"
+      ],
+      "execution": [
+        "UPDATE_AI_DEPENDENCY_TAGS_ACROSS_AFFECTED_FILES",
+        "MAINTAIN_AI_CONTEXT_TAG_ACCURACY",
+        "PRESERVE_LOGICAL_REGION_ORGANIZATION"
+      ],
+      "validation": [
+        "RUN_COMPREHENSIVE_WORKSPACE_ANALYSIS",
+        "VERIFY_DEPENDENCY_GRAPH_INTEGRITY",
+        "CONFIRM_PATTERN_COMPLIANCE_MAINTAINED"
+      ]
+    }
+  },
+  "quality_gates": {
+    "mandatory_checkpoints": [
+      "AI_CONTEXT_TAG_IMPLEMENTATION_VERIFIED",
+      "LOGICAL_REGION_ORGANIZATION_CONFIRMED",
+      "DEPENDENCY_TAG_ACCURACY_VALIDATED",
+      "TYPESCRIPT_COMPILATION_SUCCESS_ACHIEVED",
+      "COMPONENT_ISOLATION_PRINCIPLES_PRESERVED",
+      "PATTERN_COMPLIANCE_SCORE_ABOVE_THRESHOLD"
+    ],
+    "success_criteria": {
+      "ai_optimization_score": "MINIMUM_85_PERCENT",
+      "typescript_compliance": "ZERO_COMPILATION_ERRORS",
+      "pattern_consistency": "MINIMUM_90_PERCENT_COMPLIANCE",
+      "workspace_health": "NO_REGRESSION_IN_OPTIMIZATION_METRICS"
+    }
+  },
+  "workflow_automation_opportunities": {
+    "pre_commit_hooks": "AUTOMATED_AI_TAG_CONSISTENCY_VALIDATION",
+    "build_integration": "TYPESCRIPT_AND_PATTERN_COMPLIANCE_CHECKING",
+    "continuous_monitoring": "WORKSPACE_OPTIMIZATION_REGRESSION_DETECTION",
+    "pattern_enforcement": "AUTOMATED_PATTERN_COMPLIANCE_SCORING"
+  }
+}

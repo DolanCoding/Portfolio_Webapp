@@ -1,0 +1,27 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "22.x"
+      - name: Install dependencies
+        run: npm install
+        working-directory: my-portfolio-frontend
+      - name: Lint
+        run: npm run lint || true
+        working-directory: my-portfolio-frontend
+      - name: Test
+        run: npm test -- --watchAll=false
+        working-directory: my-portfolio-frontend
+      - name: Build
+        run: npm run build
+        working-directory: my-portfolio-frontend

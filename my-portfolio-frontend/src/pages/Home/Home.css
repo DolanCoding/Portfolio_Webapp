@@ -1,0 +1,99 @@
+.home-section {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically if section has a defined height */
+  padding: 2vmin; /* Add padding top/bottom and sides */
+  min-height: 100%; /* Ensure section takes at least full viewport height */
+  /* Replaced light background with the dark primary background variable */
+
+  /* Replaced standard text color with the light text color variable for contrast */
+  color: var(--color-text-light);
+  font-family: "Arial", sans-serif; /* Choose a clean, readable font */
+  line-height: 1.6; /* Improve readability */
+  text-align: center; /* Center text elements */
+  box-shadow: 0 0.4vmin 1vmin rgba(var(--color-black-rgb), 0.3);
+}
+
+.intro-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 0.8vmin; /* Rounded corners */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.profile-photo {
+  width: 20vh;
+  height: 20vh;
+  min-width: 20vh;
+  min-height: 20vh;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow:
+    0 0.2rem 1rem rgba(0, 0, 0, 0.7),
+    0 0 0.5rem rgba(0, 191, 255, 0.356),
+    inset 0 0 0.5rem rgba(255, 255, 255, 0.05);
+  transition: box-shadow 0.3s ease;
+  border: 2px solid rgba(0, 153, 255, 0.15);
+}
+
+.intro-headline {
+  font-size: 1.8rem;
+  color: var(--color-text-light);
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-shadow:
+    0 0.1rem 0.2rem rgba(0, 0, 0, 0.5),
+    0 0 0.5rem rgba(0, 153, 255, 0.26);
+  user-select: none;
+  pointer-events: none;
+}
+.home-text {
+  overflow-y: auto;
+}
+.intro-paragraph {
+  font-size: 1rem; /* Slightly larger font for paragraphs */
+  margin-bottom: 2vmin; /* Space between paragraphs */
+  text-align: justify; /* Justify text for a cleaner block */
+  hyphens: auto; /* Allow hyphens if needed for justification */
+  color: #5f94bf;
+  user-select: none;
+  pointer-events: none;
+}
+
+.cta-button.primary-cta {
+  display: inline-block;
+  background-image: linear-gradient(to bottom, #1b3b5aa6, #122b43);
+  color: var(--color-text-light);
+  padding: 1.2vmin 2.5vmin;
+  border-radius: 0.8vmin;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  box-shadow:
+    0 0.4vmin 1.2vmin rgba(0, 0, 0, 0.6),
+    0 0 1vmin rgba(27, 58, 90, 0.5),
+    inset 0 0.1vmin 0.2vmin rgba(255, 255, 255, 0.1);
+  border: 0.1vmin solid rgba(27, 58, 90, 0.8);
+}
+
+.cta-button.primary-cta:hover {
+  background-image: linear-gradient(to bottom, #234e78, #1b3a5a);
+  transform: translateY(-0.3vmin);
+  box-shadow:
+    0 0.6vmin 1.5vmin rgba(0, 0, 0, 0.8),
+    0 0 1.5vmin rgba(27, 58, 90, 0.8);
+}
+
+.cta-button.primary-cta:active {
+  transform: translateY(0);
+  box-shadow:
+    inset 0 0.2vmin 0.5vmin rgba(0, 0, 0, 0.4),
+    inset 0 0.1vmin 0.2vmin rgba(255, 255, 255, 0.1),
+    0 0 0.5vmin rgba(27, 58, 90, 0.4);
+}

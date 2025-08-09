@@ -1,0 +1,85 @@
+.certificates-page-container {
+  background-color: var(--color-primary-medium-dark);
+  color: var(--color-text-light);
+  border-radius: 1vmin;
+  text-align: start;
+  min-height: 88vh;
+  border: 0.3vmin solid #273050;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2vh 2vw;
+  box-sizing: border-box;
+}
+
+.certificates-page-container h2 {
+  color: var(--color-secondary-light-blue);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.certificates-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2vh;
+}
+
+.certificates-list-table-wrapper {
+  width: 100%;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+}
+
+.certificates-list-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #273050;
+  color: var(--color-text-light);
+  border-radius: 1vmin;
+  overflow: hidden;
+  box-shadow: 0 0.4vmin 0.8vmin rgba(0, 0, 0, 0.2);
+}
+
+.certificates-list-table th,
+.certificates-list-table td {
+  padding: 1vh 2vw;
+  text-align: center;
+  border-bottom: 1px solid var(--color-secondary-light-blue);
+}
+
+.certificates-list-table th {
+  background-color: var(--color-primary-dark);
+  color: var(--color-secondary-light-blue);
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.certificates-list-table tr {
+  transition: background 0.2s;
+}
+
+.certificates-list-table tr:hover {
+  background-color: var(--color-primary-medium-dark);
+}
+
+.selected-row {
+  background-color: var(--color-primary-light) !important;
+  color: var(--color-primary-dark) !important;
+}
+
+@media (max-width: 768px) {
+  .certificates-list-table {
+    width: 100%;
+    font-size: 0.95em;
+  }
+  .certificates-list-table th,
+  .certificates-list-table td {
+    padding: 1vh 1vw;
+  }
+}

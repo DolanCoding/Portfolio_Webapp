@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "version": "2.0",
+    "type": "AI_AGENT_WORKSPACE_OPTIMIZATION",
+    "purpose": "MACHINE_EXECUTABLE_TASK_MANAGEMENT",
+    "last_updated": "2025-08-04",
+    "optimization_target": "AI_AGENT_PROCESSING_EFFICIENCY"
+  },
+  "tier_1_foundation_status": {
+    "status": "COMPLETE",
+    "completion_rate": 1.0,
+    "optimization_level": "ELITE",
+    "ai_tag_coverage": 0.806,
+    "analysis_capability": "COMPREHENSIVE"
+  },
+  "ai_agent_workspace_optimizations": {
+    "A001_component_pattern_index": {
+      "priority": "HIGH",
+      "description": "Generate machine-readable component pattern index for instant agent reference",
+      "implementation": "scripts/generateComponentPatternIndex.js",
+      "output": "AGENT/COMPONENT_PATTERNS.json",
+      "agent_benefit": "Instant pattern matching without file scanning",
+      "data_structure": {
+        "component_type": "page|component|utility",
+        "pattern_signature": "interface_props_implementation_export",
+        "ai_optimization_score": "0-100",
+        "reference_files": ["best_examples_array"]
+      }
+    },
+    "A002_dependency_resolution_cache": {
+      "priority": "HIGH",
+      "description": "Build dependency resolution cache for immediate import path resolution",
+      "implementation": "scripts/buildDependencyCache.js",
+      "output": "AGENT/DEPENDENCY_CACHE.json",
+      "agent_benefit": "Zero-latency import resolution without file system traversal",
+      "data_structure": {
+        "component_name": "full_file_path",
+        "exports": ["exported_items_array"],
+        "dependencies": ["required_imports_array"],
+        "circular_dependencies": ["detected_cycles"]
+      }
+    },
+    "A003_api_contract_validation_automation": {
+      "priority": "MEDIUM",
+      "description": "Automated API contract validation against backend OpenAPI spec",
+      "implementation": "scripts/validateApiContracts.js",
+      "integration": "backend_openapi_yaml_sync",
+      "agent_benefit": "Prevent API integration errors during development",
+      "validation_targets": [
+        "src/api/apiClient.ts",
+        "src/types/index.ts",
+        "backend/openapi.yaml"
+      ]
+    },
+    "A004_component_isolation_validator": {
+      "priority": "MEDIUM",
+      "description": "Validate component isolation and prevent accidental coupling",
+      "implementation": "scripts/validateComponentIsolation.js",
+      "agent_benefit": "Ensure modifications don't break component boundaries",
+      "validation_rules": [
+        "no_direct_dom_manipulation",
+        "no_global_state_access",
+        "props_interface_compliance",
+        "css_scoping_enforcement"
+      ]
+    },
+    "A005_typescript_type_inference_enhancement": {
+      "priority": "LOW",
+      "description": "Generate enhanced TypeScript type definitions for better agent understanding",
+      "implementation": "scripts/enhanceTypeDefinitions.js",
+      "output": "src/types/enhanced.d.ts",
+      "agent_benefit": "Better type inference and validation during code generation",
+      "enhancements": [
+        "branded_type_extensions",
+        "utility_type_generators",
+        "component_prop_validators",
+        "api_response_type_guards"
+      ]
+    },
+    "A006_build_optimization_analysis": {
+      "priority": "LOW",
+      "description": "Analyze and optimize build performance for agent development cycles",
+      "implementation": "scripts/analyzeBuildPerformance.js",
+      "agent_benefit": "Faster feedback loops during agent-driven development",
+      "analysis_targets": [
+        "vite_build_time_profiling",
+        "typescript_compilation_bottlenecks",
+        "dependency_bundle_analysis",
+        "lazy_loading_effectiveness"
+      ]
+    }
+  },
+  "implementation_priority_queue": [
+    "A001_component_pattern_index",
+    "A002_dependency_resolution_cache",
+    "A003_api_contract_validation_automation",
+    "A004_component_isolation_validator",
+    "A005_typescript_type_inference_enhancement",
+    "A006_build_optimization_analysis"
+  ],
+  "workspace_enhancement_validation": {
+    "each_task_must": [
+      "reduce_agent_processing_time",
+      "eliminate_manual_file_scanning",
+      "prevent_agent_development_errors",
+      "enable_automated_validation",
+      "provide_machine_readable_outputs"
+    ],
+    "prohibited_features": [
+      "human_interface_components",
+      "visual_dashboards",
+      "manual_configuration_steps",
+      "runtime_monitoring_tools",
+      "user_experience_enhancements"
+    ]
+  },
+  "success_metrics": {
+    "agent_efficiency_gains": {
+      "pattern_discovery_time": "seconds_to_milliseconds",
+      "import_resolution_time": "file_scan_to_cache_lookup",
+      "validation_coverage": "manual_to_automated",
+      "error_prevention": "runtime_to_compile_time"
+    }
+  },
+  "integration_requirements": {
+    "all_outputs_must_be": [
+      "machine_parseable_json",
+      "version_controlled",
+      "automatically_updatable",
+      "build_process_integrated"
+    ]
+  },
+  "AI-AGENT CONTEXT": {
+    "FILE": "AGENT_TODO",
+    "ROLE": "agent_task_management",
+    "PURPOSE": "AI_Agent_Workspace_Optimization_Tasks"
+  }
+}

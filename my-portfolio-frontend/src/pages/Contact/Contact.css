@@ -1,0 +1,92 @@
+/* Contact.css - Adjusted for DolanCoding Portfolio Dark Theme */
+
+.contact-section {
+  padding: 3vh;
+  text-align: center;
+  color: var(--color-text-light);
+  background-color: var(--color-primary-medium-dark);
+}
+
+.contact-section h2 {
+  font-size: 2rem; /* Responsive font size */
+  margin-bottom: 2vh;
+  color: var(--color-secondary-light-blue);
+}
+
+.contact-intro {
+  font-size: 1rem; /* Slightly larger text */
+  color: var(--color-text-medium);
+  width: 66.66%;
+  justify-self: center;
+}
+
+.contact-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2vh; /* Increased gap between contact items */
+  margin-top: 2vh;
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-primary-medium);
+  border-radius: 1.2vw;
+  box-shadow: 0 0.8vw 2vw rgba(0, 0, 0, 0.3);
+  flex: 1 1;
+  text-align: center;
+  transition: transform 0.3sease-in-out, box-shadow 0.3sease-in-out;
+  border: 0.1vw solid var(--color-secondary-light-blue);
+  min-width: 20vw;
+  min-height: 15vh;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+}
+
+.contact-item:hover {
+  transform: translateY(-1vh); /* More pronounced lift on hover */
+  box-shadow: 0 1.2vw 3vw rgba(0, 0, 0, 0.5); /* Stronger shadow on hover */
+  background-color: var(
+    --color-primary-medium-dark
+  ); /* Slightly lighter on hover */
+}
+
+.contact-item h3 {
+  font-size: 2rem; /* Larger heading for each contact method */
+  margin-bottom: 1vh;
+  color: var(
+    --color-secondary-light-blue
+  ); /* Consistent blue accent for item headings */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-item h3 i {
+  margin-right: 1vw; /* More space for icons */
+  font-size: 2rem; /* Larger icons */
+  color: var(
+    --color-secondary-link
+  ); /* Using the orange/yellow accent for icons to provide contrast */
+}
+
+.contact-item p {
+  font-size: 1.1vw; /* Slightly larger paragraph text */
+  margin-bottom: 0;
+  color: var(--color-text-light); /* Light text for readability */
+}
+
+.contact-item a {
+  color: var(--color-secondary-link); /* Vibrant blue for links */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, text-shadow 0.3s ease; /* Add text-shadow transition */
+}
+
+.contact-item a:hover {
+  color: var(--color-secondary-lighter-blue); /* Lighter blue on hover */
+  text-decoration: underline;
+  text-shadow: 0 0 0.8vw var(--color-secondary-lighter-blue); /* Subtle glow on link hover */
+}

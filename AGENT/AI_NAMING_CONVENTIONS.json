@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "type": "AI_AGENT_NAMING_CONVENTIONS",
+    "purpose": "STANDARDIZED_NAMING_RULES_FOR_AI_OPTIMIZED_WORKSPACES",
+    "target": "AI_AGENTS_CREATING_OR_MODIFYING_FILES_IN_OPTIMIZED_ENVIRONMENTS",
+    "last_updated": "2025-08-04"
+  },
+  "naming_conventions": {
+    "file_naming": {
+      "components": {
+        "pattern": "PascalCase.tsx",
+        "examples": ["ProjectCard.tsx", "CertificateCard.tsx", "Header.tsx"],
+        "location": "src/components/{ComponentName}/{ComponentName}.tsx"
+      },
+      "pages": {
+        "pattern": "PascalCase.tsx",
+        "examples": ["Projects.tsx", "About.tsx", "Contact.tsx"],
+        "location": "src/pages/{PageName}/{PageName}.tsx"
+      },
+      "utilities": {
+        "pattern": "camelCase.ts",
+        "examples": ["apiClient.ts", "validationHelpers.ts", "codeAnalysis.ts"],
+        "location": "src/utils/{utilityName}.ts"
+      },
+      "types": {
+        "pattern": "camelCase.ts",
+        "examples": ["index.ts", "apiTypes.ts", "validationTypes.ts"],
+        "location": "src/types/{typeName}.ts"
+      },
+      "api": {
+        "pattern": "camelCase.ts",
+        "examples": ["apiClient.ts", "authService.ts", "dataService.ts"],
+        "location": "src/api/{serviceName}.ts"
+      }
+    },
+    "directory_structure": {
+      "predictable_paths": {
+        "components": "src/components/{ComponentName}/",
+        "pages": "src/pages/{PageName}/",
+        "utilities": "src/utils/",
+        "types": "src/types/",
+        "api": "src/api/"
+      },
+      "co_location_requirement": "COMPONENTS_MUST_BE_CO_LOCATED_WITH_CSS_FILES"
+    },
+    "variable_naming": {
+      "component_props": {
+        "pattern": "{ComponentName}Props",
+        "examples": ["ProjectCardProps", "HeaderProps", "CertificateCardProps"],
+        "requirement": "MANDATORY_FOR_ALL_COMPONENT_INTERFACES"
+      },
+      "interfaces": {
+        "pattern": "PascalCase",
+        "examples": ["ProjectData", "CertificateInfo", "ApiResponse"],
+        "requirement": "DESCRIPTIVE_AND_DOMAIN_SPECIFIC"
+      },
+      "functions": {
+        "pattern": "camelCase",
+        "examples": ["validateProject", "fetchCertificates", "handleSubmit"],
+        "requirement": "VERB_NOUN_PATTERN_PREFERRED"
+      },
+      "constants": {
+        "pattern": "SCREAMING_SNAKE_CASE",
+        "examples": [
+          "API_BASE_URL",
+          "DEFAULT_PROJECT_STATUS",
+          "MAX_RETRY_ATTEMPTS"
+        ],
+        "requirement": "DESCRIPTIVE_AND_IMMUTABLE"
+      },
+      "css_classes": {
+        "pattern": "kebab-case",
+        "examples": ["project-card", "certificate-grid", "header-nav"],
+        "requirement": "COMPONENT_NAME_PREFIX_REQUIRED"
+      }
+    },
+    "ai_tag_naming": {
+      "context_format": {
+        "pattern": "// AI-AGENT CONTEXT: FILE={name} | ROLE={purpose} | PURPOSE={function}",
+        "examples": [
+          "// AI-AGENT CONTEXT: FILE=ProjectCard | ROLE=reusable_component | PURPOSE=display_project_information",
+          "// AI-AGENT CONTEXT: FILE=apiClient | ROLE=api_service | PURPOSE=backend_communication_layer"
+        ],
+        "requirement": "MANDATORY_FIRST_LINE_ALL_FILES"
+      },
+      "logical_regions": {
+        "pattern": "// AI-LOGICAL-REGION: {Description_With_Underscores}",
+        "examples": [
+          "// AI-LOGICAL-REGION: Import_Dependencies",
+          "// AI-LOGICAL-REGION: Component_Interface",
+          "// AI-LOGICAL-REGION: Component_Implementation"
+        ],
+        "requirement": "MINIMUM_3_REGIONS_FOR_FILES_ABOVE_50_LINES"
+      },
+      "dependencies": {
+        "pattern": "// AI-DEPENDENCY: {comma,separated,list}",
+        "examples": [
+          "// AI-DEPENDENCY: React,./ProjectCard.css",
+          "// AI-DEPENDENCY: apiClient,validateProject,ProjectId"
+        ],
+        "requirement": "ALL_EXTERNAL_DEPENDENCIES_TAGGED"
+      },
+      "navigation": {
+        "pattern": "// AI-NAVIGATION: EXPORT={componentName}",
+        "examples": [
+          "// AI-NAVIGATION: EXPORT=ProjectCard",
+          "// AI-NAVIGATION: EXPORT=validateProject,isProjectId"
+        ],
+        "requirement": "ALL_EXPORTED_ITEMS_LISTED"
+      },
+      "performance": {
+        "pattern": "// AI-PERFORMANCE: {optimization,tags}",
+        "examples": [
+          "// AI-PERFORMANCE: LAZY_LOADING,MEMO_OPTIMIZATION",
+          "// AI-PERFORMANCE: ASYNC_VALIDATION,DEBOUNCED_INPUT"
+        ],
+        "requirement": "PERFORMANCE_CRITICAL_SECTIONS_TAGGED"
+      }
+    }
+  },
+  "consistency_rules": {
+    "mandatory_patterns": [
+      "INTERFACE_PROPS_BEFORE_COMPONENT_DEFINITION",
+      "REACT_FC_TYPING_REQUIRED",
+      "EXPORT_DEFAULT_AT_FILE_END",
+      "AI_AGENT_CONTEXT_TAG_FIRST_LINE",
+      "COMPONENT_SCOPED_CSS_IMPORTS"
+    ],
+    "prohibited_patterns": [
+      "ANY_TYPES_EXCEPT_DOCUMENTED_EDGE_CASES",
+      "GLOBAL_CSS_EXCEPT_INDEX_CSS",
+      "INLINE_STYLES_IN_JSX",
+      "DIRECT_DOM_MANIPULATION_BYPASS_REACT"
+    ],
+    "architectural_boundaries": [
+      "PAGES_CONTAIN_PAGE_LOGIC_ONLY",
+      "COMPONENTS_ARE_REUSABLE_AND_ISOLATED",
+      "UTILITIES_ARE_PURE_FUNCTIONS",
+      "API_LAYER_IS_CENTRALIZED_AND_TYPED"
+    ]
+  },
+  "enforcement_validation": {
+    "automated_checking": {
+      "typescript_compiler": "STRICT_MODE_ENABLED_ZERO_ANY_TYPES",
+      "eslint_rules": "AIRBNB_BASE_WITH_TYPESCRIPT_EXTENSIONS",
+      "naming_validation": "AUTOMATED_PATTERN_CHECKING_VIA_ANALYSIS_TOOLS",
+      "ai_tag_validation": "WORKSPACE_ANALYSIS_TOOL_COVERAGE_MONITORING"
+    },
+    "validation_commands": [
+      "npm run type-check",
+      "npm run lint",
+      "npm run analyze",
+      "npm run build"
+    ]
+  },
+  "pattern_compliance_scoring": {
+    "component_scoring_criteria": [
+      "AI_CONTEXT_TAG_PRESENT_25_POINTS",
+      "LOGICAL_REGIONS_ORGANIZED_15_POINTS",
+      "DEPENDENCY_TAGS_ACCURATE_10_POINTS",
+      "NAMING_CONVENTIONS_FOLLOWED_15_POINTS",
+      "TYPESCRIPT_COMPLIANT_20_POINTS",
+      "COMPONENT_ISOLATION_MAINTAINED_15_POINTS"
+    ],
+    "minimum_compliance_threshold": 85,
+    "optimization_target": "95_PERCENT_OR_ABOVE"
+  }
+}

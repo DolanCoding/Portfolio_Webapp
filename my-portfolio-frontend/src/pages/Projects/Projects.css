@@ -1,0 +1,21 @@
+.projects-page-container {
+  color: var(--color-text-light);
+  text-align: start;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  align-content: start;
+  padding: 0.9525rem;
+}
+
+.projects-list {
+  row-gap: 0.9525rem;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-auto-rows: calc((100% - 2 * 0.9525rem) / 3);
+  justify-content: center;
+  overflow-y: visible;
+  overflow-x: hidden;
+  position: relative;
+}

@@ -1,0 +1,246 @@
+/* src/components/ProjectCard/ProjectCard.css */
+
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #0e1a29;
+  padding: 2rem;
+}
+.project-card {
+  position: relative;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.project-card-overview {
+  min-height: 100%;
+  z-index: 2;
+  background-image: radial-gradient(circle at center, #1a314b 0%, #122237 100%);
+  display: grid;
+  grid-template-columns: 3fr 2.2fr; /* Two-column grid for text and image */
+  column-gap: 1rem; /* Increased space between columns */
+  position: relative;
+  padding: 1rem 1rem 1rem calc(1rem + 5px); /* Adjusted padding for the new border */
+  border: 1px solid rgba(0, 191, 255, 0.3);
+  border-right: none;
+  border-left: none; /* The pseudo-element will handle the left border */
+  border-radius: 0.8vmin;
+  box-shadow:
+    0 0.5vmin 0.5vmin rgba(0, 0, 0, 0.5),
+    inset 0 0 1rem rgba(0, 191, 255, 0.1); /* Stronger 3D shadow */
+  transition: all 0.3s ease-in-out;
+  overflow: hidden; /* To keep the gradient within the border radius */
+}
+
+.project-card-overview::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0.3rem;
+  background-image: linear-gradient(
+    to bottom,
+    transparent,
+    #00bfff,
+    transparent
+  );
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.project-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-card-title-description {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Updated headline styling for more impact, using the theme color */
+.project-card-text h3 {
+  font-size: 1.3rem;
+  color: var(--color-text-light);
+  text-shadow: 1px 1px 2px rgba(15, 127, 164, 0.8); /* Blue glow effect */
+  /* The pulsing animation has been removed */
+}
+
+.project-card-text p {
+  color: #5f94bf;
+  line-height: 1.5;
+  font-size: 0.9rem;
+  margin-bottom: 0.5vh;
+}
+
+.project-card-tags-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+}
+
+.project-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-tag {
+  background: linear-gradient(to bottom, #1f4262, #1b3a5a);
+  color: #a0c5e5;
+  border-radius: 0.8vmin;
+  font-size: 0.8em;
+  border: 0.1vmin solid rgba(0, 191, 255, 0.25);
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.5),
+    0 0 5px rgba(0, 191, 255, 0.2);
+  cursor: default;
+  white-space: nowrap;
+  padding: 0.1rem 0.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+/* Keyframes for the shimmer effect */
+@keyframes shimmer {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+/* The pseudo-element that creates the shimmer */
+.project-tag::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(0, 191, 255, 0) 0%,
+    rgba(0, 191, 255, 0.5) 50%,
+    rgba(0, 191, 255, 0) 100%
+  );
+  transform: translateX(-100%);
+}
+
+/* Apply the animation when the 'shimmer' class is active */
+.project-tag.shimmer::before {
+  animation: shimmer 0.8s forwards;
+}
+
+.project-links {
+  display: flex;
+  column-gap: 0.5vw;
+  flex-wrap: nowrap;
+}
+
+.project-button {
+  background: linear-gradient(to bottom, #00bfff, #007799); /* 3D gradient */
+  color: #122b43; /* Darker text for contrast */
+  font-weight: 500;
+  font-style: italic;
+  border-radius: 0.8vmin;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  border: 0.1vmin solid rgba(0, 191, 255, 0.5);
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0.1rem 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Raised button shadow */
+}
+
+.project-button:hover {
+  background: linear-gradient(
+    to bottom,
+    #00d2ff,
+    #0099cc
+  ); /* Brighter gradient on hover */
+  color: #0e1a29;
+  border-color: #00bfff;
+  transform: translateY(-0.2vmin);
+  box-shadow:
+    0 6px 8px rgba(0, 0, 0, 0.4),
+    0 0 10px rgba(0, 191, 255, 0.5); /* Enhanced shadow on hover */
+}
+
+.project-button:active {
+  background: linear-gradient(
+    to bottom,
+    #007799,
+    #00bfff
+  ); /* Inverted gradient for pressed effect */
+  color: #122b43;
+  border-color: #007799;
+  transform: translateY(0);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.5); /* Pressed-in shadow */
+}
+
+.project-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.project-image-container {
+  border-radius: 0.5vmin;
+  border: 0.1vmin solid rgba(0, 191, 255, 0.3);
+  overflow: hidden; /* This is crucial to clip the image to the rounded corners of the container */
+  box-shadow:
+    inset 0 0 15px rgba(0, 0, 0, 0.8),
+    inset 0 0 5px rgba(0, 191, 255, 0.1);
+}
+
+/* The pseudo-element that creates the inset effect on top of the image */
+.project-image-container::after {
+  content: "";
+  position: relative;
+  display: block;
+  z-index: 2;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  box-shadow:
+    inset 0 0 15px rgba(0, 0, 0, 0.8),
+    inset 0 0 5px rgba(0, 191, 255, 0.1);
+  border-radius: 0.8vmin;
+}
+
+.project-image {
+  position: relative;
+  object-fit: cover; /* Use cover to ensure the image fills the container */
+  width: 100%;
+  height: 100%;
+  display: block; /* Removes any default spacing below the image */
+  aspect-ratio: 16 / 9;
+  border-radius: 0.8vmin;
+  background-color: #0d1b2a;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .project-card-overview {
+    grid-template-columns: 1fr;
+  }
+  .project-image {
+    display: none; /* Hide the image on small screens for better space usage */
+  }
+  .project-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .project-button {
+    width: 100%;
+    text-align: center;
+  }
+}

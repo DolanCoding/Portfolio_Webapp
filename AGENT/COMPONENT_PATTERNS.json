@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "type": "AI_COMPONENT_PATTERN_INDEX",
+    "purpose": "INSTANT_AGENT_PATTERN_REFERENCE_WITHOUT_FILE_SCANNING",
+    "generated": "2025-08-04",
+    "workspace_analysis_source": "npm run analyze"
+  },
+  "pattern_index": {
+    "page_components": {
+      "pattern_signature": "interface_props_lazy_export_pattern",
+      "ai_optimization_score": 95,
+      "reference_files": [
+        "src/pages/Home/Home.tsx",
+        "src/pages/About/About.tsx",
+        "src/pages/Projects/Projects.tsx"
+      ],
+      "template_structure": {
+        "ai_context": "// AI-AGENT CONTEXT: FILE={PageName} | ROLE=page_component | PURPOSE={specific_page_function}",
+        "interface": "interface {PageName}Props {}",
+        "component": "const {PageName}: React.FC<{PageName}Props> = () => {}",
+        "export": "export default React.lazy(() => import('./{PageName}'))",
+        "css": "./{PageName}.css (co-located)"
+      },
+      "compliance_requirements": [
+        "AI_AGENT_CONTEXT_TAG_MANDATORY",
+        "PROPS_INTERFACE_EVEN_IF_EMPTY",
+        "REACT_FC_TYPING_REQUIRED",
+        "LAZY_LOADING_EXPORT_PATTERN",
+        "COMPONENT_SCOPED_CSS"
+      ]
+    },
+    "feature_components": {
+      "pattern_signature": "interface_props_fc_export_pattern",
+      "ai_optimization_score": 92,
+      "reference_files": [
+        "src/pages/Projects/components/ProjectCard/ProjectCard.tsx",
+        "src/pages/Certificates/CertificateCard/CertificateCard.tsx"
+      ],
+      "template_structure": {
+        "ai_context": "// AI-AGENT CONTEXT: FILE={ComponentName} | ROLE=feature_component | PURPOSE={specific_feature_function}",
+        "interface": "interface {ComponentName}Props { /* typed props */ }",
+        "component": "const {ComponentName}: React.FC<{ComponentName}Props> = (props) => {}",
+        "export": "export default {ComponentName}",
+        "css": "./{ComponentName}.css (co-located)"
+      },
+      "compliance_requirements": [
+        "AI_AGENT_CONTEXT_TAG_MANDATORY",
+        "TYPED_PROPS_INTERFACE_REQUIRED",
+        "REACT_FC_TYPING_REQUIRED",
+        "DEFAULT_EXPORT_PATTERN",
+        "COMPONENT_SCOPED_CSS"
+      ]
+    },
+    "shared_components": {
+      "pattern_signature": "interface_props_fc_export_pattern",
+      "ai_optimization_score": 88,
+      "reference_files": [
+        "src/components/Header/Header.tsx",
+        "src/components/Footer/Footer.tsx"
+      ],
+      "template_structure": {
+        "ai_context": "// AI-AGENT CONTEXT: FILE={ComponentName} | ROLE=shared_component | PURPOSE={reusable_function}",
+        "interface": "interface {ComponentName}Props { /* minimal props */ }",
+        "component": "const {ComponentName}: React.FC<{ComponentName}Props> = () => {}",
+        "export": "export default {ComponentName}",
+        "css": "./{ComponentName}.css (co-located)"
+      },
+      "compliance_requirements": [
+        "AI_AGENT_CONTEXT_TAG_MANDATORY",
+        "MINIMAL_PROPS_INTERFACE",
+        "REACT_FC_TYPING_REQUIRED",
+        "DEFAULT_EXPORT_PATTERN",
+        "COMPONENT_SCOPED_CSS"
+      ]
+    },
+    "utility_functions": {
+      "pattern_signature": "ai_context_typed_functions_exports",
+      "ai_optimization_score": 90,
+      "reference_files": [
+        "src/utils/aiValidationHelpers.ts",
+        "src/utils/codeStructureAnalysis.ts"
+      ],
+      "template_structure": {
+        "ai_context": "// AI-AGENT CONTEXT: FILE={utilityName} | ROLE=utility_functions | PURPOSE={specific_utility_purpose}",
+        "logical_regions": "// AI-LOGICAL-REGION: {Function_Group_Name}",
+        "typed_functions": "export const functionName = (param: Type): ReturnType => {}",
+        "navigation": "// AI-NAVIGATION: EXPORT={function1,function2}"
+      },
+      "compliance_requirements": [
+        "AI_AGENT_CONTEXT_TAG_MANDATORY",
+        "LOGICAL_REGIONS_FOR_ORGANIZATION",
+        "STRICT_TYPESCRIPT_TYPING",
+        "NAMED_EXPORTS_PREFERRED",
+        "AI_NAVIGATION_EXPORT_TAGS"
+      ]
+    },
+    "type_definitions": {
+      "pattern_signature": "branded_types_guards_exports",
+      "ai_optimization_score": 95,
+      "reference_files": ["src/types/index.ts"],
+      "template_structure": {
+        "ai_context": "// AI-AGENT CONTEXT: FILE=types | ROLE=type_definitions | PURPOSE=data_contracts_and_validation",
+        "branded_types": "export type TypeId = string & { readonly brand: unique symbol }",
+        "type_guards": "export const isTypeId = (value: string): value is TypeId => {}",
+        "interfaces": "export interface DataInterface { /* typed properties */ }"
+      },
+      "compliance_requirements": [
+        "AI_AGENT_CONTEXT_TAG_MANDATORY",
+        "BRANDED_TYPES_FOR_IDS",
+        "TYPE_GUARDS_FOR_VALIDATION",
+        "STRICT_INTERFACE_DEFINITIONS",
+        "NAMED_EXPORTS_ONLY"
+      ]
+    },
+    "api_services": {
+      "pattern_signature": "typed_api_client_pattern",
+      "ai_optimization_score": 93,
+      "reference_files": ["src/api/apiClient.ts"],
+      "template_structure": {
+        "ai_context": "// AI-AGENT CONTEXT: FILE=apiClient | ROLE=api_service | PURPOSE=backend_communication_layer",
+        "typed_functions": "export const apiFunction = async (param: Type): Promise<ResponseType> => {}",
+        "error_handling": "structured error response with typed contracts",
+        "centralized_config": "import endpoints from config.ts"
+      },
+      "compliance_requirements": [
+        "AI_AGENT_CONTEXT_TAG_MANDATORY",
+        "ASYNC_TYPED_FUNCTIONS",
+        "STRUCTURED_ERROR_HANDLING",
+        "CENTRALIZED_ENDPOINT_CONFIG",
+        "PROMISE_RETURN_TYPES"
+      ]
+    }
+  },
+  "pattern_compliance_scoring": {
+    "scoring_criteria": {
+      "ai_context_tag_present": 25,
+      "logical_regions_organized": 15,
+      "dependency_tags_accurate": 10,
+      "naming_conventions_followed": 15,
+      "typescript_compliant": 20,
+      "component_isolation_maintained": 15
+    },
+    "minimum_threshold": 85,
+    "elite_threshold": 95
+  },
+  "quick_reference": {
+    "best_pattern_examples": {
+      "page_component": "src/pages/Home/Home.tsx",
+      "feature_component": "src/pages/Projects/components/ProjectCard/ProjectCard.tsx",
+      "utility_functions": "src/utils/aiValidationHelpers.ts",
+      "type_definitions": "src/types/index.ts",
+      "api_service": "src/api/apiClient.ts"
+    },
+    "common_violations": [
+      "Missing AI-AGENT CONTEXT tags",
+      "Components not co-located with CSS",
+      "Any types without justification",
+      "Missing props interfaces",
+      "Non-strict TypeScript compliance"
+    ]
+  },
+  "ai_agent_context": "// AI-AGENT CONTEXT: FILE=COMPONENT_PATTERNS | ROLE=component_pattern_index | PURPOSE=AI_Reference_for_Component_Patterns"
+}

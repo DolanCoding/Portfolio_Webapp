@@ -1,0 +1,764 @@
+/* src/pages/About/About.css */
+
+.about-page-container {
+  /* max-width and margin handled by .main-content-wrapper */
+  border-radius: 0.8vmin;
+  text-align: start;
+  padding: 1vw;
+  height: 100%;
+  overflow-y: auto; /* <-- Enable vertical scrolling if content overflows */
+  display: flex;
+  flex-direction: column;
+}
+.headlineDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 1vw;
+
+  h2 {
+    color: var(--color-text-light); /* Color for the main page heading */
+    text-align: center; /* Center the main heading */
+  }
+  p {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
+.about-section {
+  margin-bottom: 2rem;
+}
+.about-section:last-child {
+  border-bottom: none; /* Remove border from the last section */
+  margin-bottom: 0; /* Remove bottom margin from the last section */
+  padding-bottom: 0;
+}
+
+.about-section h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1vw;
+  color: #b3cde0;
+  justify-self: center;
+  position: relative;
+  letter-spacing: 0.1rem;
+  text-shadow: 0 0 0.5rem #00bfff;
+}
+
+.about-section h3::before {
+  content: "";
+  position: absolute;
+  bottom: -0.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  border-radius: 50%;
+  height: 0.1vmin;
+  border-bottom: 0.1vmin solid rgb(18 79 103 / 78%);
+  border-top: 0.1vmin solid #8ccaddf0;
+  background-image: linear-gradient(
+    to top,
+    transparent,
+    #58bfe1cc,
+    transparent
+  );
+  box-shadow: 0px 0.3vmin 0.3rem 0rem #0e5065,
+    0px -0.1vmin 0.1rem 0.1vmin #96bac6;
+}
+
+.about-section p {
+  color: #5f94bf; /* Light gray for paragraphs */
+  line-height: 1.5;
+}
+
+.skills-section ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 0.5vw;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.skill-category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.skill-category::after {
+  content: "";
+  position: relative;
+  height: 0.2vmin;
+  width: 100%;
+  background: linear-gradient(90deg, transparent, #162842, transparent);
+  bottom: 0.75rem;
+  border-bottom: 0.1vmin solid #87ceeb0d;
+  border-radius: 50%;
+  box-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1),
+    inset 1px 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.skill-category h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #b3cde0;
+  margin: 0rem 0 1rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+.skill-category ul {
+  justify-content: center;
+}
+
+.skill-category ul li {
+  background-image: linear-gradient(to bottom, #1b3a5a, #122b43);
+  color: #f0f0f0;
+  padding: 0.8vmin 1.2vmin;
+  border-radius: 0.8vmin;
+  font-size: 1rem;
+  font-weight: 700;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.5),
+    0 0 0.5rem rgba(0, 191, 255, 0.1);
+  border: 1px solid rgba(0, 191, 255, 0.3);
+  display: flex;
+  align-items: center;
+  gap: 1vmin;
+  white-space: nowrap;
+  transition: transform 0.3s ease;
+}
+
+.skill-category ul li:hover {
+  transform: translateY(-0.5vmin);
+}
+
+.skill-level {
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.2vmin 0.6vmin;
+  border-radius: 0.5vmin;
+  color: #122b43;
+  text-shadow: none;
+  border: 0.1vmin solid;
+  border-color: rgba(255, 255, 255, 0.4) rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4)
+    rgba(255, 255, 255, 0.4);
+  box-shadow: 2px 2px 10px 2px rgb(7 42 64 / 64%),
+    inset 1px 1px 3px 1px rgb(136 229 250 / 48%);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.skill-level[data-level="expert"] {
+  background-color: #3e99d6;
+}
+
+.skill-level[data-level="proficient"] {
+  background-color: #5d99c6;
+}
+
+.skill-level[data-level="intermediate"] {
+  background-color: #a0c5e5;
+}
+
+.skill-level::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transition: transform 0.6s ease;
+  z-index: -1;
+  opacity: 0;
+}
+
+.skill-category ul li:hover .skill-level::before {
+  opacity: 1;
+  animation: shine 1s forwards;
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.summary-section p,
+.project-entry,
+.learning-entry {
+  background-image: radial-gradient(circle at center, #1a314b 0%, #122237 100%);
+  padding: 1.35rem;
+  margin-bottom: 1rem;
+  border-radius: 0.8vmin;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5),
+    0 0 0.5rem rgba(0, 191, 255, 0.1),
+    inset 0 0 0.5rem rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+}
+
+.summary-section p::before,
+.project-entry::before,
+.learning-entry::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0.3rem;
+  background-image: linear-gradient(to bottom, #00bfff, transparent);
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+/* Remove bottom margin from the last entry in each section */
+.about-section .project-entry:last-child,
+.about-section .learning-entry:last-child {
+  margin-bottom: 0;
+}
+
+.project-entry h4,
+.learning-entry h4 {
+  color: #98c1d9; /* Lighter blue for the entry title */
+  margin-top: 0; /* Remove default top margin */
+  margin-bottom: 5px; /* Space below the title */
+}
+
+.project-entry .project-date,
+.learning-entry .learning-institution,
+.learning-entry .learning-date {
+  color: #98c1d9; /* Medium blue for dates/institution */
+  font-size: 0.9em; /* Smaller font size */
+  font-style: italic; /* Italicize dates/institution */
+  margin: 0 !important;
+}
+
+/* Style for potential links within entries */
+.project-entry a {
+  color: #6495ed; /* Link color matching bullet/h3 border */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-entry a:hover {
+  text-decoration: underline;
+}
+
+.centered-p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  line-height: 1;
+}
+
+.learning-development-section {
+  position: relative;
+  width: 100%;
+}
+
+.learning-entry {
+  position: relative;
+  padding: 1.5rem;
+  margin-bottom: 0;
+  background-image: linear-gradient(to bottom, #1b3a5a, #122b43);
+  border: 1px solid rgba(0, 191, 255, 0.3);
+  border-radius: 1vmin;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.5),
+    0 0 0.5rem rgba(0, 191, 255, 0.1);
+}
+
+.learning-entry h4 {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 0.5rem rgba(0, 191, 255, 0.2);
+}
+
+.learning-entry p {
+  font-size: 1rem;
+  color: #b3cde0;
+  margin-bottom: 0.5rem;
+}
+
+.learning-date {
+  font-style: italic;
+  font-weight: 300;
+  color: #a0c5e5;
+}
+
+.learning-entry .learning-date[data-status="ongoing"] {
+  position: relative;
+  display: inline-block;
+}
+
+/* New keyframes for a flash-like effect on the status dot with a delay - more subtle */
+@keyframes pulsating-dot-flash {
+  0%,
+  37%,
+  45%,
+  52%,
+  60%,
+  68%,
+  75%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 191, 255, 0);
+  }
+  38%,
+  53%,
+  69% {
+    box-shadow: 0 0 0 0.2rem rgba(0, 191, 255, 0.3);
+  }
+  42%,
+  57%,
+  73% {
+    box-shadow: 0 0 0 0.1rem rgba(0, 191, 255, 0.2);
+  }
+}
+
+.learning-entry .learning-date[data-status="ongoing"]::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  margin-right: 0.5rem;
+  vertical-align: text-bottom;
+  left: 0;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid #00bfff;
+  border-radius: 50%;
+  animation: pulsating-dot-flash 4s linear infinite;
+}
+
+/* --- Wire and Port Styling (Default: right-to-left) --- */
+.wire-connector {
+  position: relative;
+  height: 4rem;
+  width: 100%;
+}
+
+.io-port {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #00bfff;
+  background-color: #1b3a5a;
+  z-index: 3;
+  animation: io-port-flicker 1.5s infinite linear;
+}
+
+@keyframes io-port-flicker {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.4),
+      inset 0 0 5px rgba(0, 191, 255, 0.2);
+  }
+  10% {
+    box-shadow: 0 0 12px rgba(0, 191, 255, 0.5),
+      inset 0 0 6px rgba(0, 191, 255, 0.3);
+  }
+  20% {
+    box-shadow: 0 0 8px rgba(0, 191, 255, 0.3),
+      inset 0 0 4px rgba(0, 191, 255, 0.1);
+  }
+  30% {
+    box-shadow: 0 0 11px rgba(0, 191, 255, 0.45),
+      inset 0 0 5.5px rgba(0, 191, 255, 0.25);
+  }
+  40% {
+    box-shadow: 0 0 9px rgba(0, 191, 255, 0.35),
+      inset 0 0 4.5px rgba(0, 191, 255, 0.15);
+  }
+  50% {
+    box-shadow: 0 0 12px rgba(0, 191, 255, 0.5),
+      inset 0 0 6px rgba(0, 191, 255, 0.3);
+  }
+  60% {
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.4),
+      inset 0 0 5px rgba(0, 191, 255, 0.2);
+  }
+  70% {
+    box-shadow: 0 0 13px rgba(0, 191, 255, 0.55),
+      inset 0 0 6.5px rgba(0, 191, 255, 0.35);
+  }
+  80% {
+    box-shadow: 0 0 9px rgba(0, 191, 255, 0.35),
+      inset 0 0 4.5px rgba(0, 191, 255, 0.15);
+  }
+  90% {
+    box-shadow: 0 0 11px rgba(0, 191, 255, 0.45),
+      inset 0 0 5.5px rgba(0, 191, 255, 0.25);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.4),
+      inset 0 0 5px rgba(0, 191, 255, 0.2);
+  }
+}
+
+@keyframes output-port-pulse {
+  0% {
+    box-shadow: 0 0 60px rgba(0, 191, 255, 0.6),
+      inset 0 0 30px rgba(0, 191, 255, 0.3);
+  }
+  5% {
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.3),
+      inset 0 0 8px rgba(0, 191, 255, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.3),
+      inset 0 0 8px rgba(0, 191, 255, 0.1);
+  }
+}
+
+@keyframes input-port-pulse {
+  0% {
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.3),
+      inset 0 0 8px rgba(0, 191, 255, 0.1);
+  }
+  25% {
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.3),
+      inset 0 0 8px rgba(0, 191, 255, 0.1);
+  }
+  25.5% {
+    box-shadow: 0 0 60px rgba(0, 191, 255, 0.6),
+      inset 0 0 30px rgba(0, 191, 255, 0.3);
+  }
+  30% {
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.3),
+      inset 0 0 8px rgba(0, 191, 255, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.3),
+      inset 0 0 8px rgba(0, 191, 255, 0.1);
+  }
+}
+
+.wire-connector .input-port {
+  bottom: -10px;
+  left: 15%;
+  transform: translateX(-50%);
+  animation: input-port-pulse 4s infinite linear;
+}
+.wire-connector .output-port {
+  top: -10px;
+  right: 15%;
+  transform: translateX(50%);
+  animation: output-port-pulse 4s infinite linear;
+}
+
+.wire-connector .v-wire-top,
+.wire-connector .h-wire,
+.wire-connector .v-wire-bottom {
+  position: absolute;
+  background-color: transparent;
+  box-shadow: 0 0 1px #00bfff;
+}
+.wire-connector .v-wire-top {
+  height: 2rem;
+  width: 1px;
+  top: 0;
+  right: 15%;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 191, 255, 0.1),
+    #00bfff,
+    rgba(0, 191, 255, 0.1)
+  );
+}
+.wire-connector .h-wire {
+  height: 1px;
+  width: 70%;
+  top: 2rem;
+  left: 15%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 191, 255, 0.1),
+    #00bfff,
+    rgba(0, 191, 255, 0.1)
+  );
+}
+.wire-connector .v-wire-bottom {
+  height: 2rem;
+  width: 1px;
+  bottom: 0;
+  left: 15%;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 191, 255, 0.1),
+    #00bfff,
+    rgba(0, 191, 255, 0.1)
+  );
+}
+
+.wire-connector .spark {
+  position: absolute;
+  background: rgba(135, 206, 235, 1);
+  box-shadow: 0 0 10px rgba(135, 206, 235, 0.9),
+    0 0 20px rgba(135, 206, 235, 0.5), 0 0 40px rgba(135, 206, 235, 0.3),
+    0 0 80px rgba(135, 206, 235, 0.1);
+  z-index: 2;
+  top: -5px;
+  /* Fix the left position for centering */
+  left: calc(85% - 2px);
+  animation: spark-flow 4s linear infinite;
+}
+
+/* Hide the last wire */
+.learning-entry:last-child + .wire-connector {
+  display: none;
+}
+
+/* UPDATED: Spark animation flows correctly along the wire path from right to left with width and height change */
+@keyframes spark-flow {
+  /* Start of movement (dot at top right) */
+  0% {
+    left: calc(85% - 2px);
+    top: -5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  /* Vertical movement to the corner (dot) */
+  5% {
+    left: calc(85% - 4px);
+    top: calc(2rem - 2px);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  /* Pause at the corner */
+
+  /* Horizontal movement and width expansion (beam across the horizontal wire) */
+  15% {
+    left: 15%;
+    top: calc(2rem - 0.5px);
+    width: 70%;
+    height: 1px;
+    border-radius: 0;
+    opacity: 1;
+  }
+  /* Horizontal movement and width reduction (dot at the other corner) */
+  25% {
+    left: calc(15% - 4px);
+    top: calc(2rem - 2px);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  /* Final vertical travel to the input port */
+  30% {
+    left: calc(15% - 4px);
+    top: calc(4rem - 5px);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  /* Pause/Break */
+  99.99% {
+    left: calc(15% - 2px);
+    top: calc(4rem - 5px);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    opacity: 0;
+  }
+  /* The spark is now invisible as it teleports back to the start */
+  100% {
+    left: calc(85% - 2px);
+    top: -5px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    opacity: 0;
+  }
+}
+
+/* --- Inverted Styling for every second connector using the new class --- */
+.inverted-connector .input-port {
+  left: auto;
+  right: 15%;
+  transform: translateX(50%);
+  animation: input-port-pulse-inverted 4s infinite linear;
+}
+.inverted-connector .output-port {
+  left: 15%;
+  right: auto;
+  transform: translateX(-50%);
+  animation: output-port-pulse-inverted 4s infinite linear;
+}
+
+@keyframes output-port-pulse-inverted {
+  0% {
+    box-shadow: 0 0 60px rgba(0, 191, 255, 0.6),
+      inset 0 0 30px rgba(0, 191, 255, 0.3);
+  }
+  5% {
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.3),
+      inset 0 0 8px rgba(0, 191, 255, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.3),
+      inset 0 0 8px rgba(0, 191, 255, 0.1);
+  }
+}
+
+@keyframes input-port-pulse-inverted {
+  0% {
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.3),
+      inset 0 0 8px rgba(0, 191, 255, 0.1);
+  }
+  25% {
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.3),
+      inset 0 0 8px rgba(0, 191, 255, 0.1);
+  }
+  25.5% {
+    box-shadow: 0 0 60px rgba(0, 191, 255, 0.6),
+      inset 0 0 30px rgba(0, 191, 255, 0.3);
+  }
+  30% {
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.3),
+      inset 0 0 8px rgba(0, 191, 255, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.3),
+      inset 0 0 8px rgba(0, 191, 255, 0.1);
+  }
+}
+
+/* Inverted wire styling for 3D effect and less glow */
+.inverted-connector .v-wire-top {
+  right: auto;
+  left: 15%;
+  width: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 191, 255, 0.1),
+    #00bfff,
+    rgba(0, 191, 255, 0.1)
+  );
+}
+.inverted-connector .h-wire {
+  left: auto;
+  right: 15%;
+  height: 1px;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 191, 255, 0.1),
+    #00bfff,
+    rgba(0, 191, 255, 0.1)
+  );
+}
+.inverted-connector .v-wire-bottom {
+  left: auto;
+  right: 15%;
+  width: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 191, 255, 0.1),
+    #00bfff,
+    rgba(0, 191, 255, 0.1)
+  );
+}
+
+/* Spark for the inverted connector */
+.inverted-connector .spark {
+  top: -5px;
+  /* Fix the left position for centering */
+  left: calc(15% - 2px);
+  animation: spark-flow-inverted 4s linear infinite;
+}
+
+/* UPDATED: Inverted Spark animation flows from left to right with width and height change */
+@keyframes spark-flow-inverted {
+  /* Start of movement (dot at top left) */
+  0% {
+    left: calc(15% - 2px);
+    top: -5px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  /* Vertical movement to the corner (dot) */
+  5% {
+    left: calc(15% - 2px);
+    top: calc(2rem - 2px);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  /* Pause at the corner */
+  10% {
+    left: calc(15% - 2px);
+    top: calc(2rem - 2px);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  /* Horizontal movement and width expansion (beam across the horizontal wire) */
+  20% {
+    left: 15%;
+    top: calc(2rem - 0.5px);
+    width: 70%;
+    height: 1px;
+    border-radius: 0;
+    opacity: 1;
+  }
+  /* Horizontal movement and width reduction (dot at the other corner) */
+  24% {
+    left: calc(85% - 2px);
+    top: calc(2rem - 2px);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  /* Final vertical travel to the input port */
+  25% {
+    left: calc(85% - 2px);
+    top: calc(4rem - 5px);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  /* Pause/Break */
+  26%,
+  99% {
+    left: calc(85% - 2px);
+    top: calc(4rem - 5px);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    opacity: 0;
+  }
+  /* The spark is now invisible as it teleports back to the start */
+  100% {
+    left: calc(15% - 2px);
+    top: -5px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    opacity: 0;
+  }
+}

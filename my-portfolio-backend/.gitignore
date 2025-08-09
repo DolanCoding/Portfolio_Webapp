@@ -1,0 +1,61 @@
+# Node.js / npm
+/node_modules
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# VS Code
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+
+# IDEs
+.idea/
+*.iml
+*.swp
+
+# Logs
+*.log
+
+# Docker
+docker-compose.yml
+Dockerfile
+
+# Temporary files
+*.tmp
+*.bak
+
+# Webpack / Vite
+*.wasm
+*.map
+
+# Python
+__pycache__
+*.pyc
+venv/
+
+# Java
+*.class
+*.jar
+
+# Ruby
+.bundle
+Gemfile.lock
+*.rbc
+
+# Rust
+target/
+
+# Go
+go.mod
+go.sum
