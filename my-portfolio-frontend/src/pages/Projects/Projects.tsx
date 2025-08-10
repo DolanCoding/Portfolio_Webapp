@@ -25,6 +25,7 @@ const Projects: React.FC<ProjectsPageProps> = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [isProjectLoading, setIsProjectLoading] = useState<boolean>(true);
   const [projectError, setProjectError] = useState<ApiError | null>(null);
+  const [visibleProjectIds, setVisibleProjectIds] = useState<string[]>([]);
   const projectScrollContainerRef = useRef<HTMLDivElement>(null);
 
   // AI-LOGICAL-REGION: Data_Fetching
@@ -58,29 +59,21 @@ const Projects: React.FC<ProjectsPageProps> = () => {
 
   // AI-LOGICAL-REGION: Animation_Effects
   useEffect(() => {
-    const ProjectCardElements = document.querySelectorAll(".project-card");
-    ProjectCardElements.forEach((element) => {
-      element.classList.add("position-outside");
-      element.classList.remove("transition-fade-out");
-    });
-
+    const timeouts: ReturnType<typeof setTimeout>[] = [];
+    setVisibleProjectIds([]);
     const staggerDelayMs = 100;
 
-    ProjectCardElements.forEach((card, index) => {
-      const delay = index * staggerDelayMs;
-      if (index <= 3) {
-        setTimeout(() => {
-          card.classList.remove("position-outside");
-          card.classList.add("transition-fade-in");
-          setTimeout(() => {
-            card.classList.remove("transition-fade-in");
-          }, 300);
-        }, delay);
-      } else {
-        card.classList.remove("transition-fade-in");
-        card.classList.remove("position-outside");
-      }
+    projectList.forEach((project, index) => {
+      const delay = index <= 3 ? index * staggerDelayMs : 0;
+      const timeout = setTimeout(() => {
+        setVisibleProjectIds((prev) => [...prev, project.id]);
+      }, delay);
+      timeouts.push(timeout);
     });
+
+    return () => {
+      timeouts.forEach(clearTimeout);
+    };
   }, [projectList]);
 
   // AI-LOGICAL-REGION: Performance_Optimization
@@ -224,6 +217,7 @@ const Projects: React.FC<ProjectsPageProps> = () => {
               learned_things={project.learned_things}
               key_features={project.key_features}
               notes={project.notes}
+              isVisible={visibleProjectIds.includes(project.id)}
             />
           ))
         )}

@@ -34,6 +34,7 @@ interface ProjectCardComponentProps {
   learned_things: string;
   key_features: string;
   notes: string;
+  isVisible?: boolean;
 }
 
 const ProjectCard: React.FC<ProjectCardComponentProps> = memo((props) => {
@@ -56,8 +57,8 @@ const ProjectCard: React.FC<ProjectCardComponentProps> = memo((props) => {
     learned_things,
     key_features,
     notes,
+    isVisible = false,
   } = props;
-  console.log(props);
   const cardRef = useRef<HTMLDivElement>(null);
   const [detailsOpen, setDetailsOpen] = useState(false);
   const [shimmeringTagIndexes, setShimmeringTagIndexes] = useState<number[]>(
@@ -202,7 +203,9 @@ const ProjectCard: React.FC<ProjectCardComponentProps> = memo((props) => {
       <div
         ref={cardRef}
         key={id + " " + title}
-        className="project-card position-outside"
+        className={`project-card ${
+          isVisible ? "project-card-visible" : "project-card-hidden"
+        }`}
         id={id + "-" + title}
       >
         <div className="project-card-overview" id={id}>
