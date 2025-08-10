@@ -8,19 +8,6 @@ interface TableColumn {
   type: string;
 }
 
-interface TableInfo {
-  name: string;
-  columns: TableColumn[];
-}
-
-interface DatabaseInstance {
-  get: (query: string) => Promise<{ count: number } | undefined>;
-  run: (query: string, values: (string | number)[]) => Promise<any>;
-  all: (query: string) => Promise<any[]>;
-  exec: (query: string) => Promise<void>;
-  close: () => Promise<void>;
-}
-
 // AI-LOGICAL-REGION: Import_Dependencies
 import { open, Database } from "sqlite";
 import sqlite3 from "sqlite3";

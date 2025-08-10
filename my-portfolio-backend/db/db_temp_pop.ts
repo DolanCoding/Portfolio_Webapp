@@ -1,5 +1,5 @@
 // AI-AGENT CONTEXT: FILE=db_temp_pop | ROLE=Database_Population | PURPOSE=Initial_Data_Loading_JSON_Import
-// AI-DEPENDENCY: fs,path,sqlite
+// AI-DEPENDENCY: fs,sqlite
 // AI-SECURITY: FILE_VALIDATION,JSON_PARSING_SAFETY
 
 // AI-LOGICAL-REGION: Type_Definitions
@@ -26,7 +26,6 @@ type JsonData = JsonRowData[];
 
 // AI-LOGICAL-REGION: Import_Dependencies
 import fs from "fs";
-import path from "path";
 
 // AI-LOGICAL-REGION: Table_Population_Function
 export async function populateTables(

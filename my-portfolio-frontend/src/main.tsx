@@ -1,3 +1,7 @@
+// ⛳ AGENT-ENTRYPOINT
+// 📎 CONTEXT: Frontend entry; bootstraps React app and router.
+// TODO(ai): [type=doc] [impact=low] [rationale=Anchor placement for agents] [plan=Maintain anchors across refactors]
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
@@ -11,9 +15,7 @@ import { BrowserRouter } from "react-router-dom";
 type RootElement = HTMLElement;
 
 // AI-LOGICAL-REGION: Root_Element_Setup
-const root = ReactDOM.createRoot(
-  document.getElementById("root") as RootElement
-);
+const root = ReactDOM.createRoot(document.getElementById("root") as RootElement);
 
 // AI-LOGICAL-REGION: App_Rendering
 root.render(

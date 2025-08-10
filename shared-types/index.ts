@@ -1,6 +1,26 @@
+/*
+---
+agent:
+  file: shared-types/index.ts
+  role: Shared_Type_Definitions
+  purpose: Cross_Project_Type_Sharing
+owner: TBD
+stability: alpha
+dependencies: []
+contracts:
+  exports:
+    - Project
+    - Certificate
+tags:
+  - shared
+  - types
+---
+*/
+
 // AI-AGENT CONTEXT: FILE=sharedTypes | ROLE=Shared_Type_Definitions | PURPOSE=Cross_Project_Type_Sharing
 // AI-DEPENDENCY: none
 
+// 🧪 CONTRACT: Shared DTOs used by both backend and frontend
 // AI-LOGICAL-REGION: Project_Interface
 export interface Project {
   id: string;
@@ -34,5 +54,7 @@ export interface Certificate {
   description?: string;
   skills?: string;
 }
+
+// TODO(ai): [type=test] [impact=med] [rationale=Contract tests must assert these shapes] [plan=Add API contract tests in backend]
 
 // AI-NAVIGATION: EXPORT=Project,Certificate

@@ -2,6 +2,7 @@
   "name": "my-portfolio-frontend",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^7.0.0",
     "@fortawesome/react-fontawesome": "^0.2.3",
@@ -19,7 +20,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "analyze": "ts-node src/utils/runAnalysis.ts"
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts,.tsx --max-warnings=0",
+    "format": "prettier -w .",
+    "format:check": "prettier -c .",
+    "test": "vitest",
+    "test:ci": "vitest run --reporter=dot"
   },
   "homepage": "https://dolancoding.github.io/Portfolio/",
   "eslintConfig": {
@@ -48,14 +54,20 @@
     "@types/react-dom": "^19.1.7",
     "@types/react-fontawesome": "^1.6.8",
     "@types/react-router-dom": "^5.3.3",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
     "@vitejs/plugin-react": "^4.7.0",
+    "@vitest/coverage-v8": "^2.0.5",
     "eslint": "^9.32.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.3",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
     "gh-pages": "^6.3.0",
+    "jsdom": "^24.1.0",
     "prettier": "^3.6.2",
-    "ts-node": "^10.9.2",
-    "typescript": "^4.9.5",
-    "vite": "^7.0.6"
+    "typescript": "^5.5.4",
+    "vite": "^7.0.6",
+    "vitest": "^2.0.5"
   }
 }

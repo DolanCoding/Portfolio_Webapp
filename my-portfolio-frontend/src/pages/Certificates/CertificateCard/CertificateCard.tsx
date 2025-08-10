@@ -25,17 +25,13 @@ interface CertificateCardProps {
 }
 
 const CertificateCard: React.FC<CertificateCardProps> = memo(
-  ({ id, title, type, date, issuer, image, link, description, skills }) => {
+  ({ id: _id, title, type, date, issuer, image, link, description, skills }) => {
     // AI-LOGICAL-REGION: Render_Logic
     return (
       <div className="certificate-card">
         <div className="certificate-image-container">
           {image && (
-            <LazyImage
-              src={image}
-              alt={`${title} certificate`}
-              className="certificate-image"
-            />
+            <LazyImage src={image} alt={`${title} certificate`} className="certificate-image" />
           )}
         </div>
 
@@ -45,9 +41,7 @@ const CertificateCard: React.FC<CertificateCardProps> = memo(
           {issuer && <p className="certificate-issuer">Issued by: {issuer}</p>}
           <p className="certificate-date">Date: {date}</p>
 
-          {description && (
-            <p className="certificate-description">{description}</p>
-          )}
+          {description && <p className="certificate-description">{description}</p>}
 
           {skills && (
             <div className="certificate-skills">
@@ -58,12 +52,7 @@ const CertificateCard: React.FC<CertificateCardProps> = memo(
 
           {link && (
             <div className="certificate-actions">
-              <a
-                href={link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="certificate-link"
-              >
+              <a href={link} target="_blank" rel="noopener noreferrer" className="certificate-link">
                 View Certificate
               </a>
             </div>

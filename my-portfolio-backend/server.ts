@@ -1,3 +1,38 @@
+/*
+---
+agent:
+  file: server.ts
+  role: Express_Server
+  purpose: Portfolio_Backend_API_SQLite_Database
+owner: TBD
+stability: alpha
+dependencies:
+  - dotenv
+  - express
+  - cors
+  - sqlite
+  - sqlite3
+  - path
+  - ./db/init_db
+  - shared-types
+contracts:
+  routes:
+    - "GET /api/projects -> Project[]"
+    - "GET /api/certificates -> Certificate[]"
+security:
+  - CORS_CONFIGURATION
+  - SQL_INJECTION_PREVENTION
+  - ERROR_SANITIZATION
+tags:
+  - backend
+  - api
+---
+*/
+
+// ⛳ AGENT-ENTRYPOINT
+// 📎 CONTEXT: Express server entry; serves API + static assets. ENV: PORT, DB_PATH.
+// TODO(ai): [type=doc] [impact=low] [rationale=Anchor placement for agents] [plan=Maintain anchors across refactors]
+
 // AI-AGENT CONTEXT: FILE=server | ROLE=Express_Server | PURPOSE=Portfolio_Backend_API_SQLite_Database
 // AI-DEPENDENCY: express,cors,sqlite,sqlite3,path,dotenv, sharedTypes
 // AI-SECURITY: CORS_CONFIGURATION,SQL_INJECTION_PREVENTION,ERROR_SANITIZATION
@@ -8,15 +43,6 @@ interface DatabaseRow {
   [key: string]: string | number | undefined;
 }
 
-interface ApiResponse<T> {
-  message?: string;
-  error?: string;
-  data?: T;
-}
-
-type ServerPort = number;
-type DatabasePath = string;
-
 // AI-LOGICAL-REGION: Import_Dependencies
 import dotenv from "dotenv";
 import express, { Request, Response } from "express";
@@ -25,10 +51,12 @@ import { open, Database } from "sqlite";
 import sqlite3 from "sqlite3";
 import path from "path";
 import { initializeDatabase } from "./db/init_db";
-import { Project, Certificate } from "../shared-types";
+// 🔒 INVARIANTS: Use shared types for API contracts; import as type-only to avoid runtime coupling
+import type { Project, Certificate } from "../shared-types";
 
 dotenv.config();
 const app = express();
+// 🔒 INVARIANTS: PORT must be a valid integer; default 3001
 const port: number = parseInt(process.env.PORT || "3001");
 
 let db: Database; // Variable to hold the database connection instance
@@ -37,6 +65,7 @@ let db: Database; // Variable to hold the database connection instance
 async function openDatabase(): Promise<void> {
   // Initialize the database (create tables, etc.)
   await initializeDatabase();
+  // 🔒 INVARIANTS: DB_PATH resolves to a readable SQLite file; defaults under ../db/portfolio.db
   const DATABASE_PATH: string =
     process.env.DB_PATH ?? path.resolve(__dirname, "../db/portfolio.db");
   try {
@@ -63,7 +92,8 @@ app.use(
 );
 
 // AI-LOGICAL-REGION: API_Routes
-app.get("/api/projects", async (req: Request, res: Response): Promise<void> => {
+// 🧪 CONTRACT: GET /api/projects -> Project[]
+app.get("/api/projects", async (_req: Request, res: Response): Promise<void> => {
   console.log("Received request for projects");
   try {
     const projects: DatabaseRow[] = await db.all("SELECT * FROM projects");
@@ -72,7 +102,7 @@ app.get("/api/projects", async (req: Request, res: Response): Promise<void> => {
         ({
           ...project,
           id: String(project.id),
-        } as Project)
+        }) as Project
     );
     res.json(projectsWithStringId);
   } catch (err: unknown) {
@@ -81,21 +111,17 @@ app.get("/api/projects", async (req: Request, res: Response): Promise<void> => {
   }
 });
 
-app.get(
-  "/api/certificates",
-  async (req: Request, res: Response): Promise<void> => {
-    console.log("Received request for certificates");
-    try {
-      const certificates: DatabaseRow[] = await db.all(
-        "SELECT * FROM certificates"
-      );
-      res.json(certificates);
-    } catch (err: unknown) {
-      console.error("Error executing query", err);
-      res.status(500).json({ error: "Internal server error" });
-    }
+// 🧪 CONTRACT: GET /api/certificates -> Certificate[]
+app.get("/api/certificates", async (_req: Request, res: Response): Promise<void> => {
+  console.log("Received request for certificates");
+  try {
+    const certificates: DatabaseRow[] = await db.all("SELECT * FROM certificates");
+    res.json(certificates as unknown as Certificate[]);
+  } catch (err: unknown) {
+    console.error("Error executing query", err);
+    res.status(500).json({ error: "Internal server error" });
   }
-);
+});
 
 // AI-LOGICAL-REGION: Server_Startup
 async function startServer(): Promise<void> {
@@ -110,3 +136,4 @@ async function startServer(): Promise<void> {
 startServer();
 
 // AI-NAVIGATION: EXPORT=None (Server Entry Point)
+// TODO(ai): [type=test] [impact=med] [rationale=Add contract tests for routes] [plan=Jest+supertest in Phase 1]

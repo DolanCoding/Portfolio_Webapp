@@ -1,3 +1,29 @@
+/*
+---
+agent:
+  file: apiClient.ts
+  role: API_Communication_Layer
+  purpose: HTTP_Requests_Error_Handling_Type_Safety
+owner: TBD
+stability: alpha
+dependencies:
+  - axios
+  - types.ApiError
+contracts:
+  responsibilities:
+    - Wrap HTTP requests
+    - Normalize errors to ApiError
+    - Provide typed responses
+security:
+  - XSS_PREVENTION
+  - INPUT_VALIDATION
+  - ERROR_SANITIZATION
+tags:
+  - frontend
+  - api
+---
+*/
+
 // AI-AGENT CONTEXT: FILE=apiClient | ROLE=API_Communication_Layer | PURPOSE=HTTP_Requests_Error_Handling_Type_Safety
 // AI-DEPENDENCY: axios,types.ApiError
 // AI-SECURITY: XSS_PREVENTION,INPUT_VALIDATION,ERROR_SANITIZATION
@@ -8,13 +34,6 @@ import { ApiError } from "../types";
 type HttpMethod = "get" | "post" | "put" | "delete";
 type LoadingSetter = (loading: boolean) => void;
 type ErrorSetter = (error: ApiError | null) => void;
-
-const methodMap: Record<HttpMethod, typeof axios.get> = {
-  get: axios.get,
-  post: axios.post,
-  put: axios.put,
-  delete: axios.delete,
-};
 
 // AI-LOGICAL-REGION: Generic_API_Function
 export async function fetchSomething<T>(
@@ -33,17 +52,7 @@ export async function fetchSomething<T>(
       throw new Error("Invalid URL provided");
     }
 
-    let response: AxiosResponse<T>;
-    const fn = methodMap[method];
-    if (!fn) {
-      throw new Error(`Unsupported HTTP method: ${method}`);
-    }
-    if (method === "get" || method === "delete") {
-      response = await fn<T>(url);
-    } else {
-      response = await fn<T>(url, data);
-    }
-
+    const response = await axios.request<T>({ method, url, data });
     return response;
   } catch (error) {
     const axiosError = error as AxiosError;
@@ -52,9 +61,7 @@ export async function fetchSomething<T>(
       message: axiosError.message || "An unknown error occurred",
       code: axiosError.code,
       // AI-SECURITY: SANITIZE - Remove potentially sensitive response data
-      details: axiosError.response?.status
-        ? { status: axiosError.response.status }
-        : undefined,
+      details: axiosError.response?.status ? { status: axiosError.response.status } : undefined,
     };
     setError?.(apiError);
     return null;

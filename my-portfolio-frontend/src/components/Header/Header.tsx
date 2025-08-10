@@ -15,36 +15,27 @@ const Header: React.FC<HeaderComponentProps> = (props) => {
       <nav>
         <ul>
           <li>
-            <Link to="/" onClick={(e) => props.changePageName("home")}>
+            <Link to="/" onClick={() => props.changePageName("home")}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" onClick={(e) => props.changePageName("about")}>
+            <Link to="/about" onClick={() => props.changePageName("about")}>
               About
             </Link>
           </li>
           <li>
-            <Link
-              to="/projects"
-              onClick={(e) => props.changePageName("projects")}
-            >
+            <Link to="/projects" onClick={() => props.changePageName("projects")}>
               Projects
             </Link>
           </li>
           <li>
-            <Link
-              to="/certificates"
-              onClick={(e) => props.changePageName("certificates")}
-            >
+            <Link to="/certificates" onClick={() => props.changePageName("certificates")}>
               Certificates
             </Link>
           </li>
           <li>
-            <Link
-              to="/contact"
-              onClick={(e) => props.changePageName("contact")}
-            >
+            <Link to="/contact" onClick={() => props.changePageName("contact")}>
               Contact
             </Link>
           </li>

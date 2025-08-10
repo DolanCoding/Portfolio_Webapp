@@ -56,7 +56,7 @@ const Certificates: React.FC<CertificatesPageProps> = () => {
           const cacheKey = `certificates_${JSON.stringify(response.data).slice(0, 50)}`;
           const isValid = memoizedValidation(
             response.data,
-            (data) => validateApiResponse(data, validateCertificate),
+            (data: unknown) => validateApiResponse<Certificate>(data, validateCertificate),
             cacheKey
           );
 
