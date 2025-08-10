@@ -15,3 +15,4 @@
 - Backend: `npm ci`, tests, typecheck, and lint all pass.
 - Frontend: `npm ci` succeeds, typecheck passes, but `test:ci` fails with a `RangeError` and lint fails due to a warning.
 - Next steps: fix frontend lint warning and investigate vitest `RangeError`.
+
