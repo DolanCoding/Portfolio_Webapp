@@ -1,5 +1,10 @@
 // AI-AGENT CONTEXT: FILE=types | ROLE=Type_Definitions_Hub | PURPOSE=Centralized_TypeScript_Interfaces_Error_Handling
+// AI-DEPENDENCY: ../../../shared-types
 // AI-API-CONTRACT: Project,Certificate,APIResponse,LoadingState,ApiError
+
+// AI-LOGICAL-REGION: Import_Dependencies
+import type { Project, Certificate } from "../../../shared-types";
+
 // AI-LOGICAL-REGION: Branded_Types
 declare const __brand: unique symbol;
 type Brand<T, TBrand> = T & { [__brand]: TBrand };
@@ -17,39 +22,7 @@ export const isCertificateId = (id: string): id is CertificateId => {
 };
 
 // AI-LOGICAL-REGION: Core_Data_Interfaces
-// AI-API-CONTRACT: PROJECT_SCHEMA
-export interface Project {
-  id: ProjectId;
-  title: string;
-  description: string;
-  image: string;
-  image2?: string;
-  image3?: string;
-  github_link: string;
-  live_link: string;
-  tags: string;
-  starting_date: string;
-  finished_date: string;
-  timespan: number;
-  hours_per_day: number;
-  reason: string;
-  learned_things: string;
-  key_features: string;
-  notes: string;
-}
-
-// AI-API-CONTRACT: CERTIFICATE_SCHEMA
-export interface Certificate {
-  id: CertificateId;
-  title: string;
-  type: string;
-  date: string;
-  issuer?: string;
-  image?: string;
-  link?: string;
-  description?: string;
-  skills?: string;
-}
+export type { Project, Certificate };
 
 // AI-LOGICAL-REGION: Utility_Types
 // AI-API-CONTRACT: RESPONSE_WRAPPER
