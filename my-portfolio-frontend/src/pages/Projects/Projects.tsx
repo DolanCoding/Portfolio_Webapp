@@ -1,10 +1,13 @@
 // AI-AGENT CONTEXT: FILE=Projects | ROLE=Portfolio_Project_Display | PURPOSE=Project_Showcase_Navigation
+// AI-DEPENDENCY: ProjectCard,ProjectDetails,apiClient,sharedTypes,types,config
 import React, { useState, useEffect, useMemo, useRef } from "react";
+import useIntersectionObserver from "../../hooks/useIntersectionObserver";
 import "./Projects.css";
 import ProjectCard from "./components/ProjectCard/ProjectCard";
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 import { fetchSomething } from "../../api/apiClient";
-import { Project, ApiError, handleApiError } from "../../types";
+import type { Project } from "../../../../shared-types";
+import { ApiError, handleApiError } from "../../types";
 import { API_BASE_URL, PROJECTS_ENDPOINT } from "../../config";
 
 // AI-LOGICAL-REGION: Component_Interface
@@ -25,6 +28,7 @@ const Projects: React.FC<ProjectsPageProps> = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [isProjectLoading, setIsProjectLoading] = useState<boolean>(true);
   const [projectError, setProjectError] = useState<ApiError | null>(null);
+  const [visibleProjectIds, setVisibleProjectIds] = useState<string[]>([]);
   const projectScrollContainerRef = useRef<HTMLDivElement>(null);
 
   // AI-LOGICAL-REGION: Data_Fetching
@@ -58,29 +62,21 @@ const Projects: React.FC<ProjectsPageProps> = () => {
 
   // AI-LOGICAL-REGION: Animation_Effects
   useEffect(() => {
-    const ProjectCardElements = document.querySelectorAll(".project-card");
-    ProjectCardElements.forEach((element) => {
-      element.classList.add("position-outside");
-      element.classList.remove("transition-fade-out");
-    });
-
+    const timeouts: ReturnType<typeof setTimeout>[] = [];
+    setVisibleProjectIds([]);
     const staggerDelayMs = 100;
 
-    ProjectCardElements.forEach((card, index) => {
-      const delay = index * staggerDelayMs;
-      if (index <= 3) {
-        setTimeout(() => {
-          card.classList.remove("position-outside");
-          card.classList.add("transition-fade-in");
-          setTimeout(() => {
-            card.classList.remove("transition-fade-in");
-          }, 300);
-        }, delay);
-      } else {
-        card.classList.remove("transition-fade-in");
-        card.classList.remove("position-outside");
-      }
+    projectList.forEach((project, index) => {
+      const delay = index <= 3 ? index * staggerDelayMs : 0;
+      const timeout = setTimeout(() => {
+        setVisibleProjectIds((prev) => [...prev, project.id]);
+      }, delay);
+      timeouts.push(timeout);
     });
+
+    return () => {
+      timeouts.forEach(clearTimeout);
+    };
   }, [projectList]);
 
   // AI-LOGICAL-REGION: Performance_Optimization
@@ -94,55 +90,19 @@ const Projects: React.FC<ProjectsPageProps> = () => {
     });
   }, [projectList]);
 
-  // AI-LOGICAL-REGION: Intersection_Observer
-  useEffect(() => {
-    const containerElement = projectScrollContainerRef.current;
-    if (!containerElement) {
-      console.warn("Project scroll container ref is null");
-      return;
-    }
-
-    let observer: IntersectionObserver | null = null;
-
-    const setupObserver = (): void => {
-      try {
-        if (observer) {
-          observer.disconnect();
-        }
-        const options = {
-          root: containerElement,
-          rootMargin: "0px",
-          threshold: 0.1,
-        };
-        const handleIntersection = (
-          entries: IntersectionObserverEntry[]
-        ): void => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add("is-visible-for-animation");
-            } else {
-              entry.target.classList.remove("is-visible-for-animation");
-            }
-          });
-        };
-        observer = new IntersectionObserver(handleIntersection, options);
-        const projectCardElements =
-          containerElement.querySelectorAll<HTMLDivElement>(".project-card");
-        projectCardElements.forEach((element) => {
-          observer!.observe(element);
-        });
-      } catch (error) {
-        console.error("Failed to setup intersection observer:", error);
-      }
-    };
-
-    setupObserver();
-    return () => {
-      if (observer) {
-        observer.disconnect();
-      }
-    };
-  }, [sortedFilteredProjectList]);
+  // AI-LOGICAL-REGION: Intersection_Observer_Hook
+  useIntersectionObserver<HTMLDivElement>({
+    containerRef: projectScrollContainerRef,
+    onIntersect: (entries) => {
+      entries.forEach((entry) => {
+        entry.target.classList.toggle(
+          "is-visible-for-animation",
+          entry.isIntersecting
+        );
+      });
+    },
+    deps: [sortedFilteredProjectList],
+  });
 
   // AI-LOGICAL-REGION: Event_Handlers
   const handleBackToList = (): void => {
@@ -224,6 +184,7 @@ const Projects: React.FC<ProjectsPageProps> = () => {
               learned_things={project.learned_things}
               key_features={project.key_features}
               notes={project.notes}
+              isVisible={visibleProjectIds.includes(project.id)}
             />
           ))
         )}

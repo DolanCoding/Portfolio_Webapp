@@ -1,33 +1,8 @@
 // AI-AGENT CONTEXT: FILE=server | ROLE=Express_Server | PURPOSE=Portfolio_Backend_API_SQLite_Database
-// AI-DEPENDENCY: express,cors,sqlite,sqlite3,path,dotenv
+// AI-DEPENDENCY: express,cors,sqlite,sqlite3,path,dotenv, sharedTypes
 // AI-SECURITY: CORS_CONFIGURATION,SQL_INJECTION_PREVENTION,ERROR_SANITIZATION
 
 // AI-LOGICAL-REGION: Type_Definitions
-interface Project {
-  id: string;
-  title: string;
-  description: string;
-  image: string;
-  github_link: string;
-  live_link: string;
-  tags: string;
-  starting_date: string;
-  finished_date: string;
-  timespan: number;
-  hours_per_day: number;
-  reason: string;
-  learned_things: string;
-  key_features: string;
-  notes: string;
-}
-
-interface Certificate {
-  id: string;
-  title: string;
-  type: string;
-  date: string;
-}
-
 interface DatabaseRow {
   id: number | string;
   [key: string]: string | number | undefined;
@@ -50,6 +25,7 @@ import { open, Database } from "sqlite";
 import sqlite3 from "sqlite3";
 import path from "path";
 import { initializeDatabase } from "./db/init_db";
+import { Project, Certificate } from "../shared-types";
 
 dotenv.config();
 const app = express();

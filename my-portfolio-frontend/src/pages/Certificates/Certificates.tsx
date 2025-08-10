@@ -1,5 +1,5 @@
 // AI-AGENT CONTEXT: FILE=Certificates | ROLE=Certificate_Display_Component | PURPOSE=Professional_Certifications_Gallery
-// AI-DEPENDENCY: CertificateCard,apiClient,types,config
+// AI-DEPENDENCY: CertificateCard,apiClient,sharedTypes,types,config
 // AI-ERROR-BOUNDARY: API_FAILURE,LOADING_STATE
 // AI-PERFORMANCE: OPTIMIZED_RENDERING,MEMOIZATION
 import React, { useEffect, useState, useMemo } from "react";
@@ -7,7 +7,8 @@ import "./Certificates.css";
 import { fetchSomething } from "../../api/apiClient";
 import CertificateCard from "./CertificateCard/CertificateCard";
 import { API_BASE_URL, CERTIFICATES_ENDPOINT } from "../../config";
-import { Certificate, ApiError, handleApiError } from "../../types";
+import type { Certificate } from "../../../../shared-types";
+import { ApiError, handleApiError } from "../../types";
 import {
   validateApiResponse,
   validateCertificate,
