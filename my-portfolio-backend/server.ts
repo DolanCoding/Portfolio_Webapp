@@ -28,12 +28,6 @@ interface Certificate {
   date: string;
 }
 
-interface User {
-  id: number;
-  username: string;
-  password: string;
-}
-
 interface DatabaseRow {
   id: number | string;
   [key: string]: string | number | undefined;
@@ -42,14 +36,8 @@ interface DatabaseRow {
 interface ApiResponse<T> {
   message?: string;
   error?: string;
-  user?: User;
   data?: T;
 }
-
-type LoginRequest = {
-  username: string;
-  password: string;
-};
 
 type ServerPort = number;
 type DatabasePath = string;
