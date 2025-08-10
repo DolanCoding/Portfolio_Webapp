@@ -114,30 +114,6 @@ app.get("/api/projects", async (req: Request, res: Response): Promise<void> => {
   }
 });
 
-app.post(
-  "/api/admin_login",
-  async (req: Request<{}, {}, LoginRequest>, res: Response): Promise<void> => {
-    const { username, password }: LoginRequest = req.body;
-    console.log("Username:", username);
-    console.log("Password:", password);
-    try {
-      const user: DatabaseRow | undefined = await db.get(
-        "SELECT * FROM users WHERE username = ? AND password = ?",
-        [username, password]
-      );
-      console.log("User found:", user);
-      if (user) {
-        res.json({ message: "Login successful", user });
-      } else {
-        res.status(401).json({ message: "Invalid username or password" });
-      }
-    } catch (err: unknown) {
-      console.error("Error executing query", err);
-      res.status(500).json({ error: "Internal server error" });
-    }
-  }
-);
-
 app.get(
   "/api/certificates",
   async (req: Request, res: Response): Promise<void> => {
