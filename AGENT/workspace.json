@@ -1,0 +1,25 @@
+{
+  "packages": {
+    "frontend": {
+      "cwd": "my-portfolio-frontend",
+      "scripts": ["dev", "build", "test", "typecheck", "lint"]
+    },
+    "backend": {
+      "cwd": "my-portfolio-backend",
+      "scripts": ["dev", "build", "test", "typecheck", "lint"]
+    },
+    "shared": { "cwd": "shared-types" }
+  },
+  "services": {
+    "api": { "url": "http://localhost:3001", "health": "/health" },
+    "frontend": { "url": "http://localhost:5173" }
+  },
+  "datasets": {
+    "db": { "path": "my-portfolio-backend/db/portfolio.db" }
+  },
+  "env": ["PORT", "DB_PATH", "VITE_API_BASE_URL"],
+  "owners": {
+    "backend": ["@you"],
+    "frontend": ["@you"]
+  }
+}
