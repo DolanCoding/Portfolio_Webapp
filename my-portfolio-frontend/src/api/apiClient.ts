@@ -9,6 +9,13 @@ type HttpMethod = "get" | "post" | "put" | "delete";
 type LoadingSetter = (loading: boolean) => void;
 type ErrorSetter = (error: ApiError | null) => void;
 
+const methodMap: Record<HttpMethod, typeof axios.get> = {
+  get: axios.get,
+  post: axios.post,
+  put: axios.put,
+  delete: axios.delete,
+};
+
 // AI-LOGICAL-REGION: Generic_API_Function
 export async function fetchSomething<T>(
   method: HttpMethod,
@@ -27,22 +34,14 @@ export async function fetchSomething<T>(
     }
 
     let response: AxiosResponse<T>;
-
-    switch (method) {
-      case "get":
-        response = await axios.get<T>(url);
-        break;
-      case "post":
-        response = await axios.post<T>(url, data);
-        break;
-      case "put":
-        response = await axios.put<T>(url, data);
-        break;
-      case "delete":
-        response = await axios.delete<T>(url);
-        break;
-      default:
-        throw new Error(`Unsupported HTTP method: ${method}`);
+    const fn = methodMap[method];
+    if (!fn) {
+      throw new Error(`Unsupported HTTP method: ${method}`);
+    }
+    if (method === "get" || method === "delete") {
+      response = await fn<T>(url);
+    } else {
+      response = await fn<T>(url, data);
     }
 
     return response;
