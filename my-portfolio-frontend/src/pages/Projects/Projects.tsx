@@ -1,5 +1,6 @@
 // AI-AGENT CONTEXT: FILE=Projects | ROLE=Portfolio_Project_Display | PURPOSE=Project_Showcase_Navigation
 import React, { useState, useEffect, useMemo, useRef } from "react";
+import useIntersectionObserver from "../../hooks/useIntersectionObserver";
 import "./Projects.css";
 import ProjectCard from "./components/ProjectCard/ProjectCard";
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
@@ -94,55 +95,19 @@ const Projects: React.FC<ProjectsPageProps> = () => {
     });
   }, [projectList]);
 
-  // AI-LOGICAL-REGION: Intersection_Observer
-  useEffect(() => {
-    const containerElement = projectScrollContainerRef.current;
-    if (!containerElement) {
-      console.warn("Project scroll container ref is null");
-      return;
-    }
-
-    let observer: IntersectionObserver | null = null;
-
-    const setupObserver = (): void => {
-      try {
-        if (observer) {
-          observer.disconnect();
-        }
-        const options = {
-          root: containerElement,
-          rootMargin: "0px",
-          threshold: 0.1,
-        };
-        const handleIntersection = (
-          entries: IntersectionObserverEntry[]
-        ): void => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add("is-visible-for-animation");
-            } else {
-              entry.target.classList.remove("is-visible-for-animation");
-            }
-          });
-        };
-        observer = new IntersectionObserver(handleIntersection, options);
-        const projectCardElements =
-          containerElement.querySelectorAll<HTMLDivElement>(".project-card");
-        projectCardElements.forEach((element) => {
-          observer!.observe(element);
-        });
-      } catch (error) {
-        console.error("Failed to setup intersection observer:", error);
-      }
-    };
-
-    setupObserver();
-    return () => {
-      if (observer) {
-        observer.disconnect();
-      }
-    };
-  }, [sortedFilteredProjectList]);
+  // AI-LOGICAL-REGION: Intersection_Observer_Hook
+  useIntersectionObserver<HTMLDivElement>({
+    containerRef: projectScrollContainerRef,
+    onIntersect: (entries) => {
+      entries.forEach((entry) => {
+        entry.target.classList.toggle(
+          "is-visible-for-animation",
+          entry.isIntersecting
+        );
+      });
+    },
+    deps: [sortedFilteredProjectList],
+  });
 
   // AI-LOGICAL-REGION: Event_Handlers
   const handleBackToList = (): void => {
