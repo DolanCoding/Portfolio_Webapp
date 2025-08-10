@@ -1,5 +1,5 @@
 // AI-AGENT CONTEXT: FILE=server | ROLE=Express_Server | PURPOSE=Portfolio_Backend_API_SQLite_Database
-// AI-DEPENDENCY: express,cors,sqlite,sqlite3,path
+// AI-DEPENDENCY: express,cors,sqlite,sqlite3,path,dotenv
 // AI-SECURITY: CORS_CONFIGURATION,SQL_INJECTION_PREVENTION,ERROR_SANITIZATION
 
 // AI-LOGICAL-REGION: Type_Definitions
@@ -43,6 +43,7 @@ type ServerPort = number;
 type DatabasePath = string;
 
 // AI-LOGICAL-REGION: Import_Dependencies
+import dotenv from "dotenv";
 import express, { Request, Response } from "express";
 import cors from "cors";
 import { open, Database } from "sqlite";
@@ -50,6 +51,7 @@ import sqlite3 from "sqlite3";
 import path from "path";
 import { initializeDatabase } from "./db/init_db";
 
+dotenv.config();
 const app = express();
 const port: number = parseInt(process.env.PORT || "3001");
 
@@ -59,7 +61,8 @@ let db: Database; // Variable to hold the database connection instance
 async function openDatabase(): Promise<void> {
   // Initialize the database (create tables, etc.)
   await initializeDatabase();
-  const DATABASE_PATH: string = path.resolve(__dirname, "../db/portfolio.db");
+  const DATABASE_PATH: string =
+    process.env.DB_PATH ?? path.resolve(__dirname, "../db/portfolio.db");
   try {
     db = await open({
       filename: DATABASE_PATH,
