@@ -1,10 +1,12 @@
 // AI-AGENT CONTEXT: FILE=Projects | ROLE=Portfolio_Project_Display | PURPOSE=Project_Showcase_Navigation
+// AI-DEPENDENCY: ProjectCard,ProjectDetails,apiClient,sharedTypes,types,config
 import React, { useState, useEffect, useMemo, useRef } from "react";
 import "./Projects.css";
 import ProjectCard from "./components/ProjectCard/ProjectCard";
 import ProjectDetails from "./components/ProjectDetails/ProjectDetails";
 import { fetchSomething } from "../../api/apiClient";
-import { Project, ApiError, handleApiError } from "../../types";
+import type { Project } from "../../../../shared-types";
+import { ApiError, handleApiError } from "../../types";
 import { API_BASE_URL, PROJECTS_ENDPOINT } from "../../config";
 
 // AI-LOGICAL-REGION: Component_Interface
