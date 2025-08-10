@@ -7,14 +7,11 @@ type ApiEndpoint = string;
 
 // AI-LOGICAL-REGION: Environment_Detection
 export const ENV: Environment =
-  process.env.NODE_ENV === "production" ? "production" : "development";
+  import.meta.env.MODE === "production" ? "production" : "development";
 
 // AI-LOGICAL-REGION: API_Configuration
-// AI-SECURITY: TRUSTED_ENDPOINTS - Only allow known production/development URLs
-export const API_BASE_URL: ApiEndpoint =
-  ENV === "production"
-    ? "https://portfolio-9qv4.onrender.com"
-    : "http://localhost:3001";
+// AI-SECURITY: TRUSTED_ENDPOINTS - Base URL sourced from environment
+export const API_BASE_URL: ApiEndpoint = import.meta.env.VITE_API_BASE_URL;
 
 // AI-LOGICAL-REGION: Endpoint_Definitions
 export const PROJECTS_ENDPOINT: ApiEndpoint = "/api/projects";
