@@ -2,19 +2,13 @@
 // AI-DEPENDENCY: CertificateCard,apiClient,sharedTypes,types,config
 // AI-ERROR-BOUNDARY: API_FAILURE,LOADING_STATE
 // AI-PERFORMANCE: OPTIMIZED_RENDERING,MEMOIZATION
-import React, { useEffect, useState, useMemo } from "react";
+import React, { useEffect, useState, useMemo, useCallback } from "react";
 import "./Certificates.css";
 import { fetchSomething } from "../../api/apiClient";
 import CertificateCard from "./CertificateCard/CertificateCard";
 import { API_BASE_URL, CERTIFICATES_ENDPOINT } from "../../config";
 import type { Certificate } from "../../../../shared-types";
 import { ApiError, handleApiError } from "../../types";
-import {
-  validateApiResponse,
-  validateCertificate,
-  debugLogValidation,
-  memoizedValidation,
-} from "../../utils/aiValidationHelpers";
 
 /**
  * @description AI-OPTIMIZED: Certificates page with performance monitoring and memoized components
@@ -31,11 +25,9 @@ interface CertificatesPageProps {}
 const Certificates: React.FC<CertificatesPageProps> = () => {
   // AI-LOGICAL-REGION: State_Management
   const [certificateList, setCertificateList] = useState<Certificate[]>([]);
-  const [isCertificateLoading, setIsCertificateLoading] =
-    useState<boolean>(true);
-  const [certificateError, setCertificateError] = useState<ApiError | null>(
-    null
-  );
+  const [isCertificateLoading, setIsCertificateLoading] = useState<boolean>(true);
+  const [certificateError, setCertificateError] = useState<ApiError | null>(null);
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
 
   // AI-LOGICAL-REGION: Data_Fetching
   useEffect(() => {
@@ -52,24 +44,8 @@ const Certificates: React.FC<CertificatesPageProps> = () => {
         );
 
         if (response && response.data) {
-          // AI-VALIDATION: RUNTIME_TYPE_CHECKING with caching
-          const cacheKey = `certificates_${JSON.stringify(response.data).slice(0, 50)}`;
-          const isValid = memoizedValidation(
-            response.data,
-            (data: unknown) => validateApiResponse<Certificate>(data, validateCertificate),
-            cacheKey
-          );
-
-          if (isValid) {
-            setCertificateList(response.data);
-            debugLogValidation(
-              response.data,
-              validateApiResponse,
-              "CertificateList"
-            );
-          } else {
-            throw new Error("Invalid certificate data received from API");
-          }
+          // Directly set the data without additional runtime validation
+          setCertificateList(response.data);
         }
       } catch (error) {
         const err = error as Error;
@@ -89,12 +65,38 @@ const Certificates: React.FC<CertificatesPageProps> = () => {
   const sortedCertificateList = useMemo(() => {
     return [...certificateList].sort((a, b) => {
       // Sort by date (newest first), then by title
-      const dateComparison =
-        new Date(b.date).getTime() - new Date(a.date).getTime();
+      const dateComparison = new Date(b.date).getTime() - new Date(a.date).getTime();
       if (dateComparison !== 0) return dateComparison;
       return a.title.localeCompare(b.title);
     });
   }, [certificateList]);
+
+  // Keep index in range if data changes
+  useEffect(() => {
+    if (sortedCertificateList.length === 0) {
+      setCurrentIndex(0);
+    } else if (currentIndex > sortedCertificateList.length - 1) {
+      setCurrentIndex(sortedCertificateList.length - 1);
+    }
+  }, [sortedCertificateList, currentIndex]);
+
+  const goPrev = useCallback(() => {
+    setCurrentIndex((prev) => (prev > 0 ? prev - 1 : 0));
+  }, []);
+
+  const goNext = useCallback(() => {
+    setCurrentIndex((prev) => (prev < sortedCertificateList.length - 1 ? prev + 1 : prev));
+  }, [sortedCertificateList.length]);
+
+  // Optional: keyboard navigation
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft") goPrev();
+      if (e.key === "ArrowRight") goNext();
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [goPrev, goNext]);
 
   // AI-LOGICAL-REGION: Loading_Error_States
   // AI-ERROR-BOUNDARY: UI_STATE_FALLBACKS
@@ -104,8 +106,8 @@ const Certificates: React.FC<CertificatesPageProps> = () => {
         <div className="loading-state">
           <h2>Loading Certificates...</h2>
           <p>
-            (This can take a few seconds due to free server endpoint. If the API
-            times out, try again!)
+            (This can take a few seconds due to free server endpoint. If the API times out, try
+            again!)
           </p>
         </div>
       </div>
@@ -118,9 +120,7 @@ const Certificates: React.FC<CertificatesPageProps> = () => {
         <div className="error-state">
           <h2>Unable to Load Certificates</h2>
           <p>Error: {certificateError.message}</p>
-          <button onClick={() => window.location.reload()}>
-            Retry Loading
-          </button>
+          <button onClick={() => window.location.reload()}>Retry Loading</button>
         </div>
       </div>
     );
@@ -128,23 +128,43 @@ const Certificates: React.FC<CertificatesPageProps> = () => {
 
   // AI-LOGICAL-REGION: Render_Logic
   return (
-    <div className="certificates-page-container">
-      <div className="certificates-header">
-        <h1>Professional Certificates</h1>
-        <p>My journey in continuous learning and professional development</p>
-      </div>
+    <div className="certificates-page">
+      <header className="certificates-header">
+        <h1 className="certificates-title">Professional Certificates</h1>
+        <p className="certificates-subtitle">One achievement at a time — focused view</p>
+      </header>
 
-      <div className="certificates-list">
-        {sortedCertificateList.map((certificate) => (
-          <CertificateCard key={certificate.id} {...certificate} />
-        ))}
-      </div>
-
-      {sortedCertificateList.length === 0 && (
-        <div className="no-certificates">
-          <p>No certificates available at the moment.</p>
+      <section className="certificates-stage">
+        <div className="stage-inner">
+          {sortedCertificateList[currentIndex] && (
+            <CertificateCard {...sortedCertificateList[currentIndex]} />
+          )}
         </div>
-      )}
+      </section>
+
+      <nav className="certificates-nav">
+        <button
+          type="button"
+          className="btn-primary"
+          onClick={goPrev}
+          disabled={currentIndex === 0}
+        >
+          ◀ Previous
+        </button>
+        <span className="certificates-counter">
+          {sortedCertificateList.length > 0
+            ? `${currentIndex + 1} / ${sortedCertificateList.length}`
+            : "0 / 0"}
+        </span>
+        <button
+          type="button"
+          className="btn-primary"
+          onClick={goNext}
+          disabled={currentIndex >= sortedCertificateList.length - 1}
+        >
+          Next ▶
+        </button>
+      </nav>
     </div>
   );
 };
