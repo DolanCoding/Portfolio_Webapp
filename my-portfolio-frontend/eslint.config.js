@@ -37,10 +37,14 @@ export default [
         "error",
         { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
       ],
+      "@typescript-eslint/explicit-function-return-type": "off",
+      "@typescript-eslint/no-explicit-any": "error",
       // React
       "react-hooks/rules-of-hooks": "error",
       // Disable to avoid warnings failing CI due to --max-warnings=0
       "react-hooks/exhaustive-deps": "off",
+      "react/prop-types": "off",
+      "react/react-in-jsx-scope": "off",
     },
     settings: { react: { version: "detect" } },
   },
