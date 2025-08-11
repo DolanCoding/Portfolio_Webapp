@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "path": "my-portfolio-backend/server.ts",
+      "purpose": "Express server entrypoint",
+      "anchors": ["AGENT-ENTRYPOINT", "routes", "PORT", "DB_PATH"]
+    },
+    {
+      "path": "my-portfolio-frontend/src/main.tsx",
+      "purpose": "Frontend SPA entrypoint",
+      "anchors": ["AGENT-ENTRYPOINT"]
+    },
+    {
+      "path": "shared-types/index.ts",
+      "purpose": "Shared type definitions",
+      "anchors": ["Project", "Certificate"]
+    }
+  ]
+}

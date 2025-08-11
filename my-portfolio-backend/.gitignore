@@ -2,7 +2,7 @@
 /node_modules
 npm-debug.log*
 yarn-error.log*
-package-lock.json
+# package-lock.json is tracked for reproducible installs
 yarn.lock
 
 # VS Code

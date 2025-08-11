@@ -31,6 +31,8 @@ Notes:
 - shared-types/: TypeScript interfaces shared across packages
 - .github/workflows/: CI pipeline (currently frontend-only)
 - AGENT/: Optimizer instructions, templates, outputs, logs
+- AGENT/workspace.json: repo manifest (packages, services)
+- repo_index.json: key file index for navigation
 
 4. Bounded Contexts
 

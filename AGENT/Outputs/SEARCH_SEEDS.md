@@ -10,6 +10,7 @@ Last Updated: 2025-08-10
 - shared types, DTO, contract, schema
 - entrypoint, bootstrap
 - env, configuration, DB_PATH, VITE_API_BASE_URL
+- workspace manifest, repo index
 
 ## Code Anchors & Patterns
 
@@ -20,21 +21,23 @@ Last Updated: 2025-08-10
 - // TODO(ai):
 - export interface Project | Certificate
 - app.get("/api/projects") | app.get("/api/certificates")
-- React.lazy(() => import("./pages/\*"))
+- React.lazy(() => import("./pages/*"))
 
 ## File/Path Seeds
 
 - my-portfolio-backend/server.ts
-- my-portfolio-backend/db/\*\*
+- my-portfolio-backend/db/**/*
 - my-portfolio-frontend/src/config.ts
-- my-portfolio-frontend/src/pages/\*\*
+- my-portfolio-frontend/src/pages/**/*
 - my-portfolio-frontend/src/api/apiClient.ts
 - shared-types/index.ts
-- .github/workflows/\*\*
+- .github/workflows/**/*
+- AGENT/workspace.json
+- repo_index.json
 
 ## Useful ripgrep snippets
 
-- rg "TODO\(ai\)" -n
+- rg "TODO(ai)" -n
 - rg "AGENT-ENTRYPOINT|INVARIANTS|CONTRACT|CONTEXT" -n
-- rg "GET \/api\/(projects|certificates)" -n my-portfolio-backend
+- rg "GET /api/(projects|certificates)" -n my-portfolio-backend
 - rg "VITE_API_BASE_URL|getImageUrl" -n my-portfolio-frontend
