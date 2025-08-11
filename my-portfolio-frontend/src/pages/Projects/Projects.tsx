@@ -33,7 +33,7 @@ const Projects: React.FC<ProjectsPageProps> = () => {
 
   // AI-LOGICAL-REGION: Data_Fetching
   useEffect(() => {
-    const fetchProjectList = async () => {
+    const fetchProjectList = async (): Promise<void> => {
       try {
         setIsProjectLoading(true);
         setProjectError(null);
