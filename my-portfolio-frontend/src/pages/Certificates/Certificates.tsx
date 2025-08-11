@@ -39,7 +39,7 @@ const Certificates: React.FC<CertificatesPageProps> = () => {
 
   // AI-LOGICAL-REGION: Data_Fetching
   useEffect(() => {
-    const fetchCertificateList = async () => {
+    const fetchCertificateList = async (): Promise<void> => {
       try {
         setIsCertificateLoading(true);
         setCertificateError(null);

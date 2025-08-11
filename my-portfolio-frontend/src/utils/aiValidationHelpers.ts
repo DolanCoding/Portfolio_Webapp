@@ -86,7 +86,6 @@ export function memoizedValidation(
 export function debugLogValidation(
   data: unknown,
   // accepts any validator signature used above
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   validator: (...args: any[]) => unknown,
   label = "Validation"
 ): void {
