@@ -8,3 +8,12 @@ export { buildShadowPaths, splitShadowPathsBySide } from "./shadowPaths";
 
 // Grid size management
 export { useGridSize } from "./useGridSize";
+
+// State management hook
+export { useSparkState } from "./useSparkState";
+
+// Avatar path utilities
+export { useAvatarPaths } from "./useAvatarPaths";
+
+// Bounding box utilities
+export { useBoundingBoxes } from "./useBoundingBoxes";
