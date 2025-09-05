@@ -11,10 +11,11 @@ interface TableColumn {
 // AI-LOGICAL-REGION: Import_Dependencies
 import { open, Database } from "sqlite";
 import sqlite3 from "sqlite3";
+import path from "path";
 import * as schema from "./db_schema";
 import { populateTables } from "./db_temp_pop";
 
-const DATABASE = "./db/portfolio.db";
+const DATABASE = path.resolve(__dirname, "../db/portfolio.db");
 
 // AI-LOGICAL-REGION: Database_Initialization
 export async function initializeDatabase(): Promise<void> {
