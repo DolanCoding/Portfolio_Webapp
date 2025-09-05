@@ -1,0 +1,196 @@
+/* src/styles/color-variables.css */
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600&display=swap");
+:root {
+  /* --- Primäre Farben --- */
+  --color-primary-dark: #001122; /* Sehr dunkles Blau (Hintergrund) */
+  --color-primary-medium-dark: #022c57; /* Etwas dunkleres Blau (Header, Footer, Abschnitte) */
+  --color-primary-medium: #003366; /* Mittleres Blau (z.B. Rahmen, Karten-Hintergrund) */
+  --color-primary-light: #004085; /* Etwas helleres Blau (z.B. Scrollbar Hover) */
+  --color-primary-accent: #0558b0; /* Akzent-Blau (z.B. Buttons) */
+  --color-primary-scrollbar-thumb: #0c5aa8; /* Blau für Scrollbar-Daumen */
+  --color-primary-scrollbar-track: #000c18; /* Sehr dunkles Blau für Scrollbar-Track */
+
+  /* --- Sekundäre Farben (für Akzente, Überschriften etc.) --- */
+  --color-secondary-light-blue: #98c1d9; /* Helles, kühles Blau (z.B. Überschriften, Header/Footer Links) */
+  --color-secondary-lighter-blue: #96b6cd; /* Noch helleres Blau (z.B. Karten-Überschriften) */
+  --color-secondary-link: #5e89d8bd; /* Cornflower Blue (z.B. Links in Karten) */
+
+  /* --- Textfarben --- */
+  --color-text-light: #71b8ff; /* Sehr helles Grau (Allgemeiner Text) - Behält einen sehr hellen Grauton für guten Kontrast auf dunklen Blautönen bei. */
+  --color-text-medium: #98c1d9; /* Helles Grau mit leichtem Blaustich (Ersetzt das mittlere Grau durch einen Ton, der sich mehr an den Sekundärfarben orientiert, gut für weniger wichtigen Text oder feine Hervorhebungen auf dunklen Hintergründen). */
+  --color-text-dark: #3679b8; /* Sehr dunkles Blau (Ersetzt das dunkle Grau durch ein sehr dunkles Blau aus der Primärpalette. Besser für Text auf helleren Hintergründen oder dort, wo starker Kontrast zu hellen Textfarben benötigt wird). */
+  --color-text-white: white; /* Weiß - Bleibt unverändert, da es hervorragenden Kontrast auf dunklen Blautönen bietet. */
+
+  /* --- Weitere Farben --- */
+  --color-switch-active: #5988b594;
+  --color-switch-active-hover: #3a6a9c; /* Dunklere Variante für Hover */
+
+  /* =============================================================
+     Blueprint Theme Core Variables (Global)
+     Components Using These:
+       - App / .app-content (background paper + grid)
+       - Header (border film, corner ticks, sheet info block)
+       - Footer (border film, stamp block, corner ticks)
+       - Navigation links (edge glow accent)
+     ============================================================= */
+
+  /* Layout & Rhythm */
+
+  /* Core Blueprint Paper Palette (deep to light direction) */
+  --bp-blue-4: #021a31; /* Deepest navy base (shadows) */
+  --bp-blue-3: #022445; /* Mid-deep tone (body field) */
+  --bp-blue-2: #042743; /* Mid tone (soft elevations / header-footer film) */
+  --bp-blue-1: #031e37; /* Highlighted paper lift / gradient start */
+  --bp-edge-glow: rgba(145, 235, 255, 0.55); /* Cyan luminous ink glow (borders, active states) */
+
+  /* Depth Accent Radiant Glows (radial soft color variance in paper) */
+  --bp-cyan-glow: rgba(0, 178, 255, 0.1); /* Cyan energy pockets */
+  --bp-indigo-glow: rgba(60, 90, 170, 0.12); /* Indigo depth bloom */
+  --bp-violet-glow: rgba(90, 75, 180, 0.1); /* Violet cool diffusion */
+
+  /* Grid Line Opacities (fine-tune clarity) */
+  --bp-line-soft: rgba(255, 255, 255, 0.055); /* Fine sub-grid lines */
+  --bp-line-strong: rgba(255, 255, 255, 0.09); /* Major grid division lines */
+  --bp-grid-major-color: rgba(120, 215, 255, 0.3); /* Prominent major grid overlay (after-layer) */
+  --bp-grid-fine-color: rgba(255, 255, 255, 0.09); /* Fine grid overlay lines */
+  --bp-grid-fine-accent: rgba(145, 235, 255, 0.16); /* Subtle luminous accent pass on fine grid */
+
+  /* Paper Texture & Artefacts */
+  --bp-fold-line: rgba(255, 255, 255, 0.018); /* Horizontal fold / handling line repetition */
+  --bp-paper-fiber-strength: 0.22; /* Scalar (conceptual) for fiber noise opacity (kept for reference) */
+  --bp-crosshatch-a: rgba(255, 255, 255, 0.014); /* Crosshatch pass A (28deg) */
+  --bp-crosshatch-b: rgba(255, 255, 255, 0.011); /* Crosshatch pass B (118deg) */
+
+  /* Interactive / Component Accent Hooks */
+  --bp-nav-accent-hover: var(--bp-edge-glow); /* Nav underline & hover glow */
+  --bp-stamp-border: color-mix(
+    in srgb,
+    var(--bp-edge-glow) 55%,
+    transparent
+  ); /* Footer stamp border */
+  --bp-stamp-bg-top: color-mix(
+    in srgb,
+    var(--bp-blue-2) 88%,
+    var(--bp-blue-1)
+  ); /* Footer/Header stamp gradient start */
+  --bp-stamp-bg-bottom: color-mix(
+    in srgb,
+    var(--bp-blue-3) 65%,
+    var(--bp-blue-2)
+  ); /* Footer/Header stamp gradient end */
+
+  /* Accessibility Tweaks (reserved for future overrides) */
+  --bp-grid-contrast-boost: 0; /* Increase (0→1) to globally amplify grid visibility */
+  --bp-noise-visibility: 1; /* 0 disables decorative noise layers (user preference) */
+}
+ul,
+ol {
+  list-style-position: inside;
+}
+/* src/index.css */
+html {
+  /* Compute font-size from weighted vw/vh so it matches JS-set --vwWeight / --vhWeight.
+     Fallback to 0.5 each (equivalent to (1vw+1vh)/2) when variables are not yet set. */
+  font-size: calc(var(--vwWeight, 0.5) * 1vw + var(--vhWeight, 0.5) * 1vh);
+  font-family: "Source Code Pro", monospace;
+}
+foreignObject {
+  overflow: unset !important;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  font-family: "Source Code Pro", monospace;
+  font-variant-numeric: tabular-nums; /* consistent digit width */
+  font-feature-settings:
+    "liga" 0,
+    "calt" 0; /* optional: disable ligatures */
+  letter-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+*::-webkit-scrollbar {
+  width: 0.5vw;
+  border-radius: 0.8vmin;
+  transition: all 0.3s ease-in-out;
+  overflow: visible;
+}
+
+/* Style the scrollbar track (the background) with an outset shadow for a 3D effect */
+*::-webkit-scrollbar-track {
+  background: rgba(18, 43, 67, 0.5);
+  border: 0.1vmin solid rgba(0, 191, 255, 0.2);
+  border-radius: 1vmin;
+  /* Use an outset shadow to make the track appear raised */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  overflow: visible;
+  position: relative;
+}
+
+/* Style the scrollbar thumb (the draggable part) with an elliptical gradient for a better 3D outset effect */
+*::-webkit-scrollbar-thumb {
+  /* A linear gradient rotated 90 degrees to create a sharp, horizontal highlight for a 3D outset effect */
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(164, 237, 249) 3%,
+    rgb(45, 172, 207) 25%,
+    transparent 100%
+  );
+  background-repeat: no-repeat;
+  border-radius: 0.8vmin;
+  border: 0.1vmin solid rgba(0, 191, 255, 0.3);
+  transition: all 0.3s ease-in-out;
+  /* Outset shadow to make the thumb appear to "pop" out and look wider than the track */
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+/* Style the scrollbar thumb on hover and while being dragged */
+*::-webkit-scrollbar-thumb:hover {
+  /* A brighter gradient and stronger shadow on hover */
+  background-image: linear-gradient(
+    90deg,
+    rgba(18, 43, 67, 0.7) 0%,
+    rgba(135, 206, 235, 1) 45%,
+    rgba(135, 206, 235, 1) 55%,
+    rgba(18, 43, 67, 0.7) 100%
+  );
+  box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Add an even stronger glow when the thumb is "active" (being clicked or dragged) */
+*::-webkit-scrollbar-thumb:active {
+  background-image: linear-gradient(
+    90deg,
+    rgba(18, 43, 67, 0.8) 0%,
+    #87ceeb 45%,
+    #87ceeb 55%,
+    rgba(18, 43, 67, 0.8) 100%
+  );
+  box-shadow:
+    0 0 20px rgba(135, 206, 235, 0.8),
+    inset 0 0 10px rgba(135, 206, 235, 0.5);
+}
+
+/* Styling for the new preview box */
+.scrollable-content {
+  width: 80%;
+  max-width: 600px;
+  height: 70vh;
+  padding: 1.5rem;
+  background-color: #122b43;
+  border: 1px solid rgba(0, 191, 255, 0.3);
+  border-radius: 1vmin;
+  box-shadow:
+    0 0.2rem 0.5rem rgba(0, 0, 0, 0.5),
+    0 0 0.5rem rgba(0, 191, 255, 0.1);
+  overflow-y: scroll; /* Enable vertical scrolling */
+}

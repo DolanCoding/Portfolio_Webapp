@@ -1,0 +1,45 @@
+/* src/components/Footer/Footer.css */
+.App > footer {
+  background: transparent;
+  width: 100%;
+  height: var(--padBottom);
+  padding-left: var(--padLeft);
+  padding-right: var(--padRight);
+  z-index: 1000;
+  grid-row: 3;
+  grid-column: 1/4;
+  position: relative;
+  box-shadow: none;
+  isolation: isolate;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: rgba(180, 220, 240, 0.75);
+}
+
+/* Corner brackets around copyright */
+footer p {
+  position: relative;
+  font-size: 0.75rem;
+  color: rgba(180, 220, 240, 0.75);
+  letter-spacing: 0.1em;
+  padding-right: calc(2 * var(--bp-grid-size));
+  padding-left: calc(2 * var(--bp-grid-size));
+}
+footer p::before,
+footer p::after {
+  content: "";
+  position: absolute;
+  width: calc(0.75 * var(--bp-grid-size));
+  height: calc(0.75 * var(--bp-grid-size));
+  border: 1px solid rgba(145, 235, 255, 0.7);
+  top: 50%;
+  transform: translateY(-50%);
+  filter: drop-shadow(0 0 4px rgba(0, 180, 255, 0.35));
+}
+footer p::before {
+  left: 0;
+}
+footer p::after {
+  right: 0;
+}

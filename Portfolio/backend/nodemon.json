@@ -1,0 +1,9 @@
+{
+  "watch": ["server.ts", "db/**/*.ts", "../shared-types/**/*.ts"],
+  "ext": "ts,json",
+  "ignore": ["dist", "node_modules"],
+  "exec": "ts-node server.ts",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}

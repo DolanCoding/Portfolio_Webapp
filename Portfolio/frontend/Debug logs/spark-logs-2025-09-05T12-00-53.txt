@@ -1,0 +1,1080 @@
+[2025-09-05T12:00:57.336Z] Upper Spark: pos(308.0,77.0) center(385.0,110.0) dx=-77.0 dy=0.0 angle=180.0°
+[2025-09-05T12:00:57.337Z] Upper Angle: svg=-90.0° normalized=270.0°
+[2025-09-05T12:00:57.337Z] Upper Arc: start=270.0° end=270.0° length=0.0 offset=-121.0 circ=483.8
+[2025-09-05T12:00:57.337Z] Lower Spark: pos(462.0,77.0) center(385.0,110.0) dx=77.0 dy=0.0 angle=0.0°
+[2025-09-05T12:00:57.338Z] Lower Angle: svg=90.0° normalized=90.0°
+[2025-09-05T12:00:57.338Z] Lower Arc: start=90.0° end=90.0° length=0.0 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.339Z] Upper Spark: pos(308.0,77.0) center(385.0,110.0) dx=-77.0 dy=0.0 angle=180.0°
+[2025-09-05T12:00:57.339Z] Upper Angle: svg=-90.0° normalized=270.0°
+[2025-09-05T12:00:57.340Z] Upper Arc: start=270.0° end=270.0° length=0.0 offset=-121.0 circ=483.8
+[2025-09-05T12:00:57.340Z] Lower Spark: pos(462.0,77.0) center(385.0,110.0) dx=77.0 dy=0.0 angle=0.0°
+[2025-09-05T12:00:57.340Z] Lower Angle: svg=90.0° normalized=90.0°
+[2025-09-05T12:00:57.340Z] Lower Arc: start=90.0° end=90.0° length=0.0 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.353Z] Upper Spark: pos(308.0,74.3) center(385.0,110.0) dx=-77.0 dy=-2.7 angle=-178.0°
+[2025-09-05T12:00:57.354Z] Upper Angle: svg=268.0° normalized=268.0°
+[2025-09-05T12:00:57.354Z] Upper Arc: start=268.0° end=270.0° length=0.1 offset=-123.7 circ=483.8
+[2025-09-05T12:00:57.354Z] Lower Spark: pos(462.0,79.7) center(385.0,110.0) dx=77.0 dy=2.7 angle=2.0°
+[2025-09-05T12:00:57.354Z] Lower Angle: svg=88.0° normalized=88.0°
+[2025-09-05T12:00:57.355Z] Lower Arc: start=90.0° end=88.0° length=10.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.356Z] Upper Spark: pos(308.0,74.3) center(385.0,110.0) dx=-77.0 dy=-2.7 angle=-178.0°
+[2025-09-05T12:00:57.357Z] Upper Angle: svg=268.0° normalized=268.0°
+[2025-09-05T12:00:57.357Z] Upper Arc: start=268.0° end=270.0° length=0.1 offset=-123.7 circ=483.8
+[2025-09-05T12:00:57.357Z] Lower Spark: pos(462.0,79.7) center(385.0,110.0) dx=77.0 dy=2.7 angle=2.0°
+[2025-09-05T12:00:57.358Z] Lower Angle: svg=88.0° normalized=88.0°
+[2025-09-05T12:00:57.358Z] Lower Arc: start=90.0° end=88.0° length=10.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.370Z] Upper Spark: pos(308.2,71.6) center(385.0,110.0) dx=-76.8 dy=-5.4 angle=-176.0°
+[2025-09-05T12:00:57.370Z] Upper Angle: svg=266.0° normalized=266.0°
+[2025-09-05T12:00:57.371Z] Upper Arc: start=266.0° end=270.0° length=0.2 offset=-126.3 circ=483.8
+[2025-09-05T12:00:57.371Z] Lower Spark: pos(461.8,82.4) center(385.0,110.0) dx=76.8 dy=5.4 angle=4.0°
+[2025-09-05T12:00:57.371Z] Lower Angle: svg=86.0° normalized=86.0°
+[2025-09-05T12:00:57.371Z] Lower Arc: start=90.0° end=86.0° length=21.3 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.373Z] Upper Spark: pos(308.2,71.6) center(385.0,110.0) dx=-76.8 dy=-5.4 angle=-176.0°
+[2025-09-05T12:00:57.373Z] Upper Angle: svg=266.0° normalized=266.0°
+[2025-09-05T12:00:57.373Z] Upper Arc: start=266.0° end=270.0° length=0.2 offset=-126.3 circ=483.8
+[2025-09-05T12:00:57.373Z] Lower Spark: pos(461.8,82.4) center(385.0,110.0) dx=76.8 dy=5.4 angle=4.0°
+[2025-09-05T12:00:57.373Z] Lower Angle: svg=86.0° normalized=86.0°
+[2025-09-05T12:00:57.374Z] Lower Arc: start=90.0° end=86.0° length=21.3 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.387Z] Upper Spark: pos(308.4,68.9) center(385.0,110.0) dx=-76.6 dy=-8.1 angle=-174.0°
+[2025-09-05T12:00:57.387Z] Upper Angle: svg=264.0° normalized=264.0°
+[2025-09-05T12:00:57.387Z] Upper Arc: start=264.0° end=270.0° length=0.5 offset=-129.0 circ=483.8
+[2025-09-05T12:00:57.387Z] Lower Spark: pos(461.6,85.1) center(385.0,110.0) dx=76.6 dy=8.1 angle=6.0°
+[2025-09-05T12:00:57.388Z] Lower Angle: svg=84.0° normalized=84.0°
+[2025-09-05T12:00:57.388Z] Lower Arc: start=90.0° end=84.0° length=31.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.389Z] Upper Spark: pos(308.4,68.9) center(385.0,110.0) dx=-76.6 dy=-8.1 angle=-174.0°
+[2025-09-05T12:00:57.389Z] Upper Angle: svg=264.0° normalized=264.0°
+[2025-09-05T12:00:57.389Z] Upper Arc: start=264.0° end=270.0° length=0.5 offset=-129.0 circ=483.8
+[2025-09-05T12:00:57.390Z] Lower Spark: pos(461.6,85.1) center(385.0,110.0) dx=76.6 dy=8.1 angle=6.0°
+[2025-09-05T12:00:57.390Z] Lower Angle: svg=84.0° normalized=84.0°
+[2025-09-05T12:00:57.390Z] Lower Arc: start=90.0° end=84.0° length=31.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.404Z] Upper Spark: pos(308.7,66.3) center(385.0,110.0) dx=-76.3 dy=-10.7 angle=-172.0°
+[2025-09-05T12:00:57.405Z] Upper Angle: svg=262.0° normalized=262.0°
+[2025-09-05T12:00:57.405Z] Upper Arc: start=262.0° end=270.0° length=1.0 offset=-131.7 circ=483.8
+[2025-09-05T12:00:57.405Z] Lower Spark: pos(461.3,87.7) center(385.0,110.0) dx=76.3 dy=10.7 angle=8.0°
+[2025-09-05T12:00:57.405Z] Lower Angle: svg=82.0° normalized=82.0°
+[2025-09-05T12:00:57.405Z] Lower Arc: start=90.0° end=82.0° length=42.1 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.406Z] Upper Spark: pos(308.7,66.3) center(385.0,110.0) dx=-76.3 dy=-10.7 angle=-172.0°
+[2025-09-05T12:00:57.407Z] Upper Angle: svg=262.0° normalized=262.0°
+[2025-09-05T12:00:57.407Z] Upper Arc: start=262.0° end=270.0° length=1.0 offset=-131.7 circ=483.8
+[2025-09-05T12:00:57.407Z] Lower Spark: pos(461.3,87.7) center(385.0,110.0) dx=76.3 dy=10.7 angle=8.0°
+[2025-09-05T12:00:57.407Z] Lower Angle: svg=82.0° normalized=82.0°
+[2025-09-05T12:00:57.407Z] Lower Arc: start=90.0° end=82.0° length=42.1 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.420Z] Upper Spark: pos(309.2,63.6) center(385.0,110.0) dx=-75.8 dy=-13.4 angle=-170.0°
+[2025-09-05T12:00:57.420Z] Upper Angle: svg=260.0° normalized=260.0°
+[2025-09-05T12:00:57.420Z] Upper Arc: start=260.0° end=270.0° length=1.5 offset=-134.4 circ=483.8
+[2025-09-05T12:00:57.421Z] Lower Spark: pos(460.8,90.4) center(385.0,110.0) dx=75.8 dy=13.4 angle=10.0°
+[2025-09-05T12:00:57.421Z] Lower Angle: svg=80.0° normalized=80.0°
+[2025-09-05T12:00:57.421Z] Lower Arc: start=90.0° end=80.0° length=52.3 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.422Z] Upper Spark: pos(309.2,63.6) center(385.0,110.0) dx=-75.8 dy=-13.4 angle=-170.0°
+[2025-09-05T12:00:57.423Z] Upper Angle: svg=260.0° normalized=260.0°
+[2025-09-05T12:00:57.423Z] Upper Arc: start=260.0° end=270.0° length=1.5 offset=-134.4 circ=483.8
+[2025-09-05T12:00:57.423Z] Lower Spark: pos(460.8,90.4) center(385.0,110.0) dx=75.8 dy=13.4 angle=10.0°
+[2025-09-05T12:00:57.423Z] Lower Angle: svg=80.0° normalized=80.0°
+[2025-09-05T12:00:57.424Z] Lower Arc: start=90.0° end=80.0° length=52.3 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.438Z] Upper Spark: pos(309.7,61.0) center(385.0,110.0) dx=-75.3 dy=-16.0 angle=-168.0°
+[2025-09-05T12:00:57.438Z] Upper Angle: svg=258.0° normalized=258.0°
+[2025-09-05T12:00:57.438Z] Upper Arc: start=258.0° end=270.0° length=2.2 offset=-137.1 circ=483.8
+[2025-09-05T12:00:57.438Z] Lower Spark: pos(460.3,93.0) center(385.0,110.0) dx=75.3 dy=16.0 angle=12.0°
+[2025-09-05T12:00:57.438Z] Lower Angle: svg=78.0° normalized=78.0°
+[2025-09-05T12:00:57.439Z] Lower Arc: start=90.0° end=78.0° length=62.4 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.440Z] Upper Spark: pos(309.7,61.0) center(385.0,110.0) dx=-75.3 dy=-16.0 angle=-168.0°
+[2025-09-05T12:00:57.440Z] Upper Angle: svg=258.0° normalized=258.0°
+[2025-09-05T12:00:57.441Z] Upper Arc: start=258.0° end=270.0° length=2.2 offset=-137.1 circ=483.8
+[2025-09-05T12:00:57.441Z] Lower Spark: pos(460.3,93.0) center(385.0,110.0) dx=75.3 dy=16.0 angle=12.0°
+[2025-09-05T12:00:57.441Z] Lower Angle: svg=78.0° normalized=78.0°
+[2025-09-05T12:00:57.441Z] Lower Arc: start=90.0° end=78.0° length=62.4 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.453Z] Upper Spark: pos(310.3,58.4) center(385.0,110.0) dx=-74.7 dy=-18.6 angle=-166.0°
+[2025-09-05T12:00:57.453Z] Upper Angle: svg=256.0° normalized=256.0°
+[2025-09-05T12:00:57.454Z] Upper Arc: start=256.0° end=270.0° length=2.9 offset=-139.8 circ=483.8
+[2025-09-05T12:00:57.454Z] Lower Spark: pos(459.7,95.6) center(385.0,110.0) dx=74.7 dy=18.6 angle=14.0°
+[2025-09-05T12:00:57.454Z] Lower Angle: svg=76.0° normalized=76.0°
+[2025-09-05T12:00:57.454Z] Lower Arc: start=90.0° end=76.0° length=72.4 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.455Z] Upper Spark: pos(310.3,58.4) center(385.0,110.0) dx=-74.7 dy=-18.6 angle=-166.0°
+[2025-09-05T12:00:57.456Z] Upper Angle: svg=256.0° normalized=256.0°
+[2025-09-05T12:00:57.456Z] Upper Arc: start=256.0° end=270.0° length=2.9 offset=-139.8 circ=483.8
+[2025-09-05T12:00:57.456Z] Lower Spark: pos(459.7,95.6) center(385.0,110.0) dx=74.7 dy=18.6 angle=14.0°
+[2025-09-05T12:00:57.456Z] Lower Angle: svg=76.0° normalized=76.0°
+[2025-09-05T12:00:57.456Z] Lower Arc: start=90.0° end=76.0° length=72.4 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.470Z] Upper Spark: pos(311.0,55.8) center(385.0,110.0) dx=-74.0 dy=-21.2 angle=-164.0°
+[2025-09-05T12:00:57.470Z] Upper Angle: svg=254.0° normalized=254.0°
+[2025-09-05T12:00:57.470Z] Upper Arc: start=254.0° end=270.0° length=3.8 offset=-142.5 circ=483.8
+[2025-09-05T12:00:57.471Z] Lower Spark: pos(459.0,98.2) center(385.0,110.0) dx=74.0 dy=21.2 angle=16.0°
+[2025-09-05T12:00:57.471Z] Lower Angle: svg=74.0° normalized=74.0°
+[2025-09-05T12:00:57.471Z] Lower Arc: start=90.0° end=74.0° length=82.2 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.472Z] Upper Spark: pos(311.0,55.8) center(385.0,110.0) dx=-74.0 dy=-21.2 angle=-164.0°
+[2025-09-05T12:00:57.472Z] Upper Angle: svg=254.0° normalized=254.0°
+[2025-09-05T12:00:57.472Z] Upper Arc: start=254.0° end=270.0° length=3.8 offset=-142.5 circ=483.8
+[2025-09-05T12:00:57.473Z] Lower Spark: pos(459.0,98.2) center(385.0,110.0) dx=74.0 dy=21.2 angle=16.0°
+[2025-09-05T12:00:57.473Z] Lower Angle: svg=74.0° normalized=74.0°
+[2025-09-05T12:00:57.473Z] Lower Arc: start=90.0° end=74.0° length=82.2 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.487Z] Upper Spark: pos(311.7,53.2) center(385.0,110.0) dx=-73.3 dy=-23.8 angle=-162.0°
+[2025-09-05T12:00:57.487Z] Upper Angle: svg=252.0° normalized=252.0°
+[2025-09-05T12:00:57.488Z] Upper Arc: start=252.0° end=270.0° length=4.8 offset=-145.1 circ=483.8
+[2025-09-05T12:00:57.488Z] Lower Spark: pos(458.3,100.8) center(385.0,110.0) dx=73.3 dy=23.8 angle=18.0°
+[2025-09-05T12:00:57.488Z] Lower Angle: svg=72.0° normalized=72.0°
+[2025-09-05T12:00:57.488Z] Lower Arc: start=90.0° end=72.0° length=91.9 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.489Z] Upper Spark: pos(311.7,53.2) center(385.0,110.0) dx=-73.3 dy=-23.8 angle=-162.0°
+[2025-09-05T12:00:57.489Z] Upper Angle: svg=252.0° normalized=252.0°
+[2025-09-05T12:00:57.489Z] Upper Arc: start=252.0° end=270.0° length=4.8 offset=-145.1 circ=483.8
+[2025-09-05T12:00:57.490Z] Lower Spark: pos(458.3,100.8) center(385.0,110.0) dx=73.3 dy=23.8 angle=18.0°
+[2025-09-05T12:00:57.490Z] Lower Angle: svg=72.0° normalized=72.0°
+[2025-09-05T12:00:57.490Z] Lower Arc: start=90.0° end=72.0° length=91.9 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.504Z] Upper Spark: pos(312.6,50.6) center(385.0,110.0) dx=-72.4 dy=-26.4 angle=-160.0°
+[2025-09-05T12:00:57.504Z] Upper Angle: svg=250.0° normalized=250.0°
+[2025-09-05T12:00:57.504Z] Upper Arc: start=250.0° end=270.0° length=6.0 offset=-147.9 circ=483.8
+[2025-09-05T12:00:57.505Z] Lower Spark: pos(457.4,103.4) center(385.0,110.0) dx=72.4 dy=26.4 angle=20.0°
+[2025-09-05T12:00:57.505Z] Lower Angle: svg=70.0° normalized=70.0°
+[2025-09-05T12:00:57.505Z] Lower Arc: start=90.0° end=70.0° length=101.6 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.507Z] Upper Spark: pos(312.6,50.6) center(385.0,110.0) dx=-72.4 dy=-26.4 angle=-160.0°
+[2025-09-05T12:00:57.508Z] Upper Angle: svg=250.0° normalized=250.0°
+[2025-09-05T12:00:57.508Z] Upper Arc: start=250.0° end=270.0° length=6.0 offset=-147.9 circ=483.8
+[2025-09-05T12:00:57.508Z] Lower Spark: pos(457.4,103.4) center(385.0,110.0) dx=72.4 dy=26.4 angle=20.0°
+[2025-09-05T12:00:57.508Z] Lower Angle: svg=70.0° normalized=70.0°
+[2025-09-05T12:00:57.508Z] Lower Arc: start=90.0° end=70.0° length=101.6 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.520Z] Upper Spark: pos(313.6,48.1) center(385.0,110.0) dx=-71.4 dy=-28.9 angle=-158.0°
+[2025-09-05T12:00:57.520Z] Upper Angle: svg=248.0° normalized=248.0°
+[2025-09-05T12:00:57.520Z] Upper Arc: start=248.0° end=270.0° length=7.2 offset=-150.5 circ=483.8
+[2025-09-05T12:00:57.520Z] Lower Spark: pos(456.4,105.9) center(385.0,110.0) dx=71.4 dy=28.9 angle=22.0°
+[2025-09-05T12:00:57.521Z] Lower Angle: svg=68.0° normalized=68.0°
+[2025-09-05T12:00:57.521Z] Lower Arc: start=90.0° end=68.0° length=111.1 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.522Z] Upper Spark: pos(313.6,48.1) center(385.0,110.0) dx=-71.4 dy=-28.9 angle=-158.0°
+[2025-09-05T12:00:57.522Z] Upper Angle: svg=248.0° normalized=248.0°
+[2025-09-05T12:00:57.522Z] Upper Arc: start=248.0° end=270.0° length=7.2 offset=-150.5 circ=483.8
+[2025-09-05T12:00:57.522Z] Lower Spark: pos(456.4,105.9) center(385.0,110.0) dx=71.4 dy=28.9 angle=22.0°
+[2025-09-05T12:00:57.523Z] Lower Angle: svg=68.0° normalized=68.0°
+[2025-09-05T12:00:57.523Z] Lower Arc: start=90.0° end=68.0° length=111.1 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.537Z] Upper Spark: pos(314.6,45.7) center(385.0,110.0) dx=-70.4 dy=-31.3 angle=-156.0°
+[2025-09-05T12:00:57.537Z] Upper Angle: svg=246.0° normalized=246.0°
+[2025-09-05T12:00:57.538Z] Upper Arc: start=246.0° end=270.0° length=8.6 offset=-153.2 circ=483.8
+[2025-09-05T12:00:57.538Z] Lower Spark: pos(455.4,108.3) center(385.0,110.0) dx=70.4 dy=31.3 angle=24.0°
+[2025-09-05T12:00:57.538Z] Lower Angle: svg=66.0° normalized=66.0°
+[2025-09-05T12:00:57.538Z] Lower Arc: start=90.0° end=66.0° length=120.5 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.540Z] Upper Spark: pos(314.6,45.7) center(385.0,110.0) dx=-70.4 dy=-31.3 angle=-156.0°
+[2025-09-05T12:00:57.540Z] Upper Angle: svg=246.0° normalized=246.0°
+[2025-09-05T12:00:57.540Z] Upper Arc: start=246.0° end=270.0° length=8.6 offset=-153.2 circ=483.8
+[2025-09-05T12:00:57.540Z] Lower Spark: pos(455.4,108.3) center(385.0,110.0) dx=70.4 dy=31.3 angle=24.0°
+[2025-09-05T12:00:57.541Z] Lower Angle: svg=66.0° normalized=66.0°
+[2025-09-05T12:00:57.541Z] Lower Arc: start=90.0° end=66.0° length=120.5 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.554Z] Upper Spark: pos(315.8,43.2) center(385.0,110.0) dx=-69.2 dy=-33.8 angle=-154.0°
+[2025-09-05T12:00:57.554Z] Upper Angle: svg=244.0° normalized=244.0°
+[2025-09-05T12:00:57.554Z] Upper Arc: start=244.0° end=270.0° length=10.1 offset=-155.9 circ=483.8
+[2025-09-05T12:00:57.554Z] Lower Spark: pos(454.2,110.8) center(385.0,110.0) dx=69.2 dy=33.8 angle=26.0°
+[2025-09-05T12:00:57.555Z] Lower Angle: svg=64.0° normalized=64.0°
+[2025-09-05T12:00:57.555Z] Lower Arc: start=90.0° end=64.0° length=129.7 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.556Z] Upper Spark: pos(315.8,43.2) center(385.0,110.0) dx=-69.2 dy=-33.8 angle=-154.0°
+[2025-09-05T12:00:57.556Z] Upper Angle: svg=244.0° normalized=244.0°
+[2025-09-05T12:00:57.557Z] Upper Arc: start=244.0° end=270.0° length=10.1 offset=-155.9 circ=483.8
+[2025-09-05T12:00:57.557Z] Lower Spark: pos(454.2,110.8) center(385.0,110.0) dx=69.2 dy=33.8 angle=26.0°
+[2025-09-05T12:00:57.557Z] Lower Angle: svg=64.0° normalized=64.0°
+[2025-09-05T12:00:57.557Z] Lower Arc: start=90.0° end=64.0° length=129.7 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.570Z] Upper Spark: pos(317.0,40.8) center(385.0,110.0) dx=-68.0 dy=-36.2 angle=-152.0°
+[2025-09-05T12:00:57.570Z] Upper Angle: svg=242.0° normalized=242.0°
+[2025-09-05T12:00:57.571Z] Upper Arc: start=242.0° end=270.0° length=11.7 offset=-158.6 circ=483.8
+[2025-09-05T12:00:57.571Z] Lower Spark: pos(453.0,113.2) center(385.0,110.0) dx=68.0 dy=36.2 angle=28.0°
+[2025-09-05T12:00:57.571Z] Lower Angle: svg=62.0° normalized=62.0°
+[2025-09-05T12:00:57.571Z] Lower Arc: start=90.0° end=62.0° length=138.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.572Z] Upper Spark: pos(317.0,40.8) center(385.0,110.0) dx=-68.0 dy=-36.2 angle=-152.0°
+[2025-09-05T12:00:57.573Z] Upper Angle: svg=242.0° normalized=242.0°
+[2025-09-05T12:00:57.573Z] Upper Arc: start=242.0° end=270.0° length=11.7 offset=-158.6 circ=483.8
+[2025-09-05T12:00:57.573Z] Lower Spark: pos(453.0,113.2) center(385.0,110.0) dx=68.0 dy=36.2 angle=28.0°
+[2025-09-05T12:00:57.573Z] Lower Angle: svg=62.0° normalized=62.0°
+[2025-09-05T12:00:57.573Z] Lower Arc: start=90.0° end=62.0° length=138.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.587Z] Upper Spark: pos(318.3,38.5) center(385.0,110.0) dx=-66.7 dy=-38.5 angle=-150.0°
+[2025-09-05T12:00:57.587Z] Upper Angle: svg=240.0° normalized=240.0°
+[2025-09-05T12:00:57.587Z] Upper Arc: start=240.0° end=270.0° length=13.4 offset=-161.3 circ=483.8
+[2025-09-05T12:00:57.587Z] Lower Spark: pos(451.7,115.5) center(385.0,110.0) dx=66.7 dy=38.5 angle=30.0°
+[2025-09-05T12:00:57.588Z] Lower Angle: svg=60.0° normalized=60.0°
+[2025-09-05T12:00:57.588Z] Lower Arc: start=90.0° end=60.0° length=147.9 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.589Z] Upper Spark: pos(318.3,38.5) center(385.0,110.0) dx=-66.7 dy=-38.5 angle=-150.0°
+[2025-09-05T12:00:57.589Z] Upper Angle: svg=240.0° normalized=240.0°
+[2025-09-05T12:00:57.589Z] Upper Arc: start=240.0° end=270.0° length=13.4 offset=-161.3 circ=483.8
+[2025-09-05T12:00:57.590Z] Lower Spark: pos(451.7,115.5) center(385.0,110.0) dx=66.7 dy=38.5 angle=30.0°
+[2025-09-05T12:00:57.590Z] Lower Angle: svg=60.0° normalized=60.0°
+[2025-09-05T12:00:57.590Z] Lower Arc: start=90.0° end=60.0° length=147.9 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.604Z] Upper Spark: pos(319.7,36.2) center(385.0,110.0) dx=-65.3 dy=-40.8 angle=-148.0°
+[2025-09-05T12:00:57.604Z] Upper Angle: svg=238.0° normalized=238.0°
+[2025-09-05T12:00:57.605Z] Upper Arc: start=238.0° end=270.0° length=15.3 offset=-164.0 circ=483.8
+[2025-09-05T12:00:57.605Z] Lower Spark: pos(450.3,117.8) center(385.0,110.0) dx=65.3 dy=40.8 angle=32.0°
+[2025-09-05T12:00:57.605Z] Lower Angle: svg=58.0° normalized=58.0°
+[2025-09-05T12:00:57.605Z] Lower Arc: start=90.0° end=58.0° length=156.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.606Z] Upper Spark: pos(319.7,36.2) center(385.0,110.0) dx=-65.3 dy=-40.8 angle=-148.0°
+[2025-09-05T12:00:57.606Z] Upper Angle: svg=238.0° normalized=238.0°
+[2025-09-05T12:00:57.606Z] Upper Arc: start=238.0° end=270.0° length=15.3 offset=-164.0 circ=483.8
+[2025-09-05T12:00:57.606Z] Lower Spark: pos(450.3,117.8) center(385.0,110.0) dx=65.3 dy=40.8 angle=32.0°
+[2025-09-05T12:00:57.606Z] Lower Angle: svg=58.0° normalized=58.0°
+[2025-09-05T12:00:57.606Z] Lower Arc: start=90.0° end=58.0° length=156.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.619Z] Upper Spark: pos(321.2,33.9) center(385.0,110.0) dx=-63.8 dy=-43.1 angle=-146.0°
+[2025-09-05T12:00:57.620Z] Upper Angle: svg=236.0° normalized=236.0°
+[2025-09-05T12:00:57.621Z] Upper Arc: start=236.0° end=270.0° length=17.3 offset=-166.7 circ=483.8
+[2025-09-05T12:00:57.621Z] Lower Spark: pos(448.8,120.1) center(385.0,110.0) dx=63.8 dy=43.1 angle=34.0°
+[2025-09-05T12:00:57.621Z] Lower Angle: svg=56.0° normalized=56.0°
+[2025-09-05T12:00:57.621Z] Lower Arc: start=90.0° end=56.0° length=165.5 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.622Z] Upper Spark: pos(321.2,33.9) center(385.0,110.0) dx=-63.8 dy=-43.1 angle=-146.0°
+[2025-09-05T12:00:57.622Z] Upper Angle: svg=236.0° normalized=236.0°
+[2025-09-05T12:00:57.622Z] Upper Arc: start=236.0° end=270.0° length=17.3 offset=-166.7 circ=483.8
+[2025-09-05T12:00:57.622Z] Lower Spark: pos(448.8,120.1) center(385.0,110.0) dx=63.8 dy=43.1 angle=34.0°
+[2025-09-05T12:00:57.622Z] Lower Angle: svg=56.0° normalized=56.0°
+[2025-09-05T12:00:57.622Z] Lower Arc: start=90.0° end=56.0° length=165.5 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.637Z] Upper Spark: pos(322.7,31.7) center(385.0,110.0) dx=-62.3 dy=-45.3 angle=-144.0°
+[2025-09-05T12:00:57.638Z] Upper Angle: svg=234.0° normalized=234.0°
+[2025-09-05T12:00:57.638Z] Upper Arc: start=234.0° end=270.0° length=19.4 offset=-169.3 circ=483.8
+[2025-09-05T12:00:57.638Z] Lower Spark: pos(447.3,122.3) center(385.0,110.0) dx=62.3 dy=45.3 angle=36.0°
+[2025-09-05T12:00:57.639Z] Lower Angle: svg=54.0° normalized=54.0°
+[2025-09-05T12:00:57.639Z] Lower Arc: start=90.0° end=54.0° length=174.2 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.639Z] Upper Spark: pos(322.7,31.7) center(385.0,110.0) dx=-62.3 dy=-45.3 angle=-144.0°
+[2025-09-05T12:00:57.639Z] Upper Angle: svg=234.0° normalized=234.0°
+[2025-09-05T12:00:57.639Z] Upper Arc: start=234.0° end=270.0° length=19.4 offset=-169.3 circ=483.8
+[2025-09-05T12:00:57.639Z] Lower Spark: pos(447.3,122.3) center(385.0,110.0) dx=62.3 dy=45.3 angle=36.0°
+[2025-09-05T12:00:57.639Z] Lower Angle: svg=54.0° normalized=54.0°
+[2025-09-05T12:00:57.640Z] Lower Arc: start=90.0° end=54.0° length=174.2 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.653Z] Upper Spark: pos(324.3,29.6) center(385.0,110.0) dx=-60.7 dy=-47.4 angle=-142.0°
+[2025-09-05T12:00:57.654Z] Upper Angle: svg=232.0° normalized=232.0°
+[2025-09-05T12:00:57.654Z] Upper Arc: start=232.0° end=270.0° length=21.6 offset=-172.0 circ=483.8
+[2025-09-05T12:00:57.654Z] Lower Spark: pos(445.7,124.4) center(385.0,110.0) dx=60.7 dy=47.4 angle=38.0°
+[2025-09-05T12:00:57.654Z] Lower Angle: svg=52.0° normalized=52.0°
+[2025-09-05T12:00:57.655Z] Lower Arc: start=90.0° end=52.0° length=182.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.655Z] Upper Spark: pos(324.3,29.6) center(385.0,110.0) dx=-60.7 dy=-47.4 angle=-142.0°
+[2025-09-05T12:00:57.655Z] Upper Angle: svg=232.0° normalized=232.0°
+[2025-09-05T12:00:57.655Z] Upper Arc: start=232.0° end=270.0° length=21.6 offset=-172.0 circ=483.8
+[2025-09-05T12:00:57.655Z] Lower Spark: pos(445.7,124.4) center(385.0,110.0) dx=60.7 dy=47.4 angle=38.0°
+[2025-09-05T12:00:57.655Z] Lower Angle: svg=52.0° normalized=52.0°
+[2025-09-05T12:00:57.655Z] Lower Arc: start=90.0° end=52.0° length=182.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.669Z] Upper Spark: pos(326.0,27.5) center(385.0,110.0) dx=-59.0 dy=-49.5 angle=-140.0°
+[2025-09-05T12:00:57.670Z] Upper Angle: svg=230.0° normalized=230.0°
+[2025-09-05T12:00:57.670Z] Upper Arc: start=230.0° end=270.0° length=23.9 offset=-174.7 circ=483.8
+[2025-09-05T12:00:57.670Z] Lower Spark: pos(444.0,126.5) center(385.0,110.0) dx=59.0 dy=49.5 angle=40.0°
+[2025-09-05T12:00:57.671Z] Lower Angle: svg=50.0° normalized=50.0°
+[2025-09-05T12:00:57.671Z] Lower Arc: start=90.0° end=50.0° length=191.2 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.671Z] Upper Spark: pos(326.0,27.5) center(385.0,110.0) dx=-59.0 dy=-49.5 angle=-140.0°
+[2025-09-05T12:00:57.671Z] Upper Angle: svg=230.0° normalized=230.0°
+[2025-09-05T12:00:57.671Z] Upper Arc: start=230.0° end=270.0° length=23.9 offset=-174.7 circ=483.8
+[2025-09-05T12:00:57.672Z] Lower Spark: pos(444.0,126.5) center(385.0,110.0) dx=59.0 dy=49.5 angle=40.0°
+[2025-09-05T12:00:57.672Z] Lower Angle: svg=50.0° normalized=50.0°
+[2025-09-05T12:00:57.672Z] Lower Arc: start=90.0° end=50.0° length=191.2 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.686Z] Upper Spark: pos(327.8,25.5) center(385.0,110.0) dx=-57.2 dy=-51.5 angle=-138.0°
+[2025-09-05T12:00:57.687Z] Upper Angle: svg=228.0° normalized=228.0°
+[2025-09-05T12:00:57.688Z] Upper Arc: start=228.0° end=270.0° length=26.4 offset=-177.4 circ=483.8
+[2025-09-05T12:00:57.688Z] Lower Spark: pos(442.2,128.5) center(385.0,110.0) dx=57.2 dy=51.5 angle=42.0°
+[2025-09-05T12:00:57.688Z] Lower Angle: svg=48.0° normalized=48.0°
+[2025-09-05T12:00:57.688Z] Lower Arc: start=90.0° end=48.0° length=199.5 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.688Z] Upper Spark: pos(327.8,25.5) center(385.0,110.0) dx=-57.2 dy=-51.5 angle=-138.0°
+[2025-09-05T12:00:57.689Z] Upper Angle: svg=228.0° normalized=228.0°
+[2025-09-05T12:00:57.689Z] Upper Arc: start=228.0° end=270.0° length=26.4 offset=-177.4 circ=483.8
+[2025-09-05T12:00:57.689Z] Lower Spark: pos(442.2,128.5) center(385.0,110.0) dx=57.2 dy=51.5 angle=42.0°
+[2025-09-05T12:00:57.689Z] Lower Angle: svg=48.0° normalized=48.0°
+[2025-09-05T12:00:57.689Z] Lower Arc: start=90.0° end=48.0° length=199.5 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.703Z] Upper Spark: pos(329.6,23.5) center(385.0,110.0) dx=-55.4 dy=-53.5 angle=-136.0°
+[2025-09-05T12:00:57.704Z] Upper Angle: svg=226.0° normalized=226.0°
+[2025-09-05T12:00:57.704Z] Upper Arc: start=226.0° end=270.0° length=28.9 offset=-180.1 circ=483.8
+[2025-09-05T12:00:57.704Z] Lower Spark: pos(440.4,130.5) center(385.0,110.0) dx=55.4 dy=53.5 angle=44.0°
+[2025-09-05T12:00:57.705Z] Lower Angle: svg=46.0° normalized=46.0°
+[2025-09-05T12:00:57.705Z] Lower Arc: start=90.0° end=46.0° length=207.6 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.706Z] Upper Spark: pos(329.6,23.5) center(385.0,110.0) dx=-55.4 dy=-53.5 angle=-136.0°
+[2025-09-05T12:00:57.706Z] Upper Angle: svg=226.0° normalized=226.0°
+[2025-09-05T12:00:57.706Z] Upper Arc: start=226.0° end=270.0° length=28.9 offset=-180.1 circ=483.8
+[2025-09-05T12:00:57.706Z] Lower Spark: pos(440.4,130.5) center(385.0,110.0) dx=55.4 dy=53.5 angle=44.0°
+[2025-09-05T12:00:57.706Z] Lower Angle: svg=46.0° normalized=46.0°
+[2025-09-05T12:00:57.706Z] Lower Arc: start=90.0° end=46.0° length=207.6 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.719Z] Upper Spark: pos(331.5,21.6) center(385.0,110.0) dx=-53.5 dy=-55.4 angle=-134.0°
+[2025-09-05T12:00:57.720Z] Upper Angle: svg=224.0° normalized=224.0°
+[2025-09-05T12:00:57.720Z] Upper Arc: start=224.0° end=270.0° length=31.6 offset=-182.8 circ=483.8
+[2025-09-05T12:00:57.720Z] Lower Spark: pos(438.5,132.4) center(385.0,110.0) dx=53.5 dy=55.4 angle=46.0°
+[2025-09-05T12:00:57.721Z] Lower Angle: svg=44.0° normalized=44.0°
+[2025-09-05T12:00:57.721Z] Lower Arc: start=90.0° end=44.0° length=215.7 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.721Z] Upper Spark: pos(331.5,21.6) center(385.0,110.0) dx=-53.5 dy=-55.4 angle=-134.0°
+[2025-09-05T12:00:57.721Z] Upper Angle: svg=224.0° normalized=224.0°
+[2025-09-05T12:00:57.721Z] Upper Arc: start=224.0° end=270.0° length=31.6 offset=-182.8 circ=483.8
+[2025-09-05T12:00:57.721Z] Lower Spark: pos(438.5,132.4) center(385.0,110.0) dx=53.5 dy=55.4 angle=46.0°
+[2025-09-05T12:00:57.722Z] Lower Angle: svg=44.0° normalized=44.0°
+[2025-09-05T12:00:57.722Z] Lower Arc: start=90.0° end=44.0° length=215.7 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.736Z] Upper Spark: pos(333.5,19.8) center(385.0,110.0) dx=-51.5 dy=-57.2 angle=-132.0°
+[2025-09-05T12:00:57.737Z] Upper Angle: svg=222.0° normalized=222.0°
+[2025-09-05T12:00:57.737Z] Upper Arc: start=222.0° end=270.0° length=34.4 offset=-185.5 circ=483.8
+[2025-09-05T12:00:57.737Z] Lower Spark: pos(436.5,134.2) center(385.0,110.0) dx=51.5 dy=57.2 angle=48.0°
+[2025-09-05T12:00:57.737Z] Lower Angle: svg=42.0° normalized=42.0°
+[2025-09-05T12:00:57.737Z] Lower Arc: start=90.0° end=42.0° length=223.7 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.738Z] Upper Spark: pos(333.5,19.8) center(385.0,110.0) dx=-51.5 dy=-57.2 angle=-132.0°
+[2025-09-05T12:00:57.738Z] Upper Angle: svg=222.0° normalized=222.0°
+[2025-09-05T12:00:57.738Z] Upper Arc: start=222.0° end=270.0° length=34.4 offset=-185.5 circ=483.8
+[2025-09-05T12:00:57.738Z] Lower Spark: pos(436.5,134.2) center(385.0,110.0) dx=51.5 dy=57.2 angle=48.0°
+[2025-09-05T12:00:57.738Z] Lower Angle: svg=42.0° normalized=42.0°
+[2025-09-05T12:00:57.739Z] Lower Arc: start=90.0° end=42.0° length=223.7 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.753Z] Upper Spark: pos(335.5,18.0) center(385.0,110.0) dx=-49.5 dy=-59.0 angle=-130.0°
+[2025-09-05T12:00:57.754Z] Upper Angle: svg=220.0° normalized=220.0°
+[2025-09-05T12:00:57.754Z] Upper Arc: start=220.0° end=270.0° length=37.4 offset=-188.2 circ=483.8
+[2025-09-05T12:00:57.754Z] Lower Spark: pos(434.5,136.0) center(385.0,110.0) dx=49.5 dy=59.0 angle=50.0°
+[2025-09-05T12:00:57.754Z] Lower Angle: svg=40.0° normalized=40.0°
+[2025-09-05T12:00:57.755Z] Lower Arc: start=90.0° end=40.0° length=231.5 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.755Z] Upper Spark: pos(335.5,18.0) center(385.0,110.0) dx=-49.5 dy=-59.0 angle=-130.0°
+[2025-09-05T12:00:57.755Z] Upper Angle: svg=220.0° normalized=220.0°
+[2025-09-05T12:00:57.755Z] Upper Arc: start=220.0° end=270.0° length=37.4 offset=-188.2 circ=483.8
+[2025-09-05T12:00:57.755Z] Lower Spark: pos(434.5,136.0) center(385.0,110.0) dx=49.5 dy=59.0 angle=50.0°
+[2025-09-05T12:00:57.755Z] Lower Angle: svg=40.0° normalized=40.0°
+[2025-09-05T12:00:57.756Z] Lower Arc: start=90.0° end=40.0° length=231.5 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.769Z] Upper Spark: pos(337.6,16.3) center(385.0,110.0) dx=-47.4 dy=-60.7 angle=-128.0°
+[2025-09-05T12:00:57.770Z] Upper Angle: svg=218.0° normalized=218.0°
+[2025-09-05T12:00:57.770Z] Upper Arc: start=218.0° end=270.0° length=40.4 offset=-190.8 circ=483.8
+[2025-09-05T12:00:57.770Z] Lower Spark: pos(432.4,137.7) center(385.0,110.0) dx=47.4 dy=60.7 angle=52.0°
+[2025-09-05T12:00:57.770Z] Lower Angle: svg=38.0° normalized=38.0°
+[2025-09-05T12:00:57.771Z] Lower Arc: start=90.0° end=38.0° length=239.2 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.771Z] Upper Spark: pos(337.6,16.3) center(385.0,110.0) dx=-47.4 dy=-60.7 angle=-128.0°
+[2025-09-05T12:00:57.771Z] Upper Angle: svg=218.0° normalized=218.0°
+[2025-09-05T12:00:57.771Z] Upper Arc: start=218.0° end=270.0° length=40.4 offset=-190.8 circ=483.8
+[2025-09-05T12:00:57.771Z] Lower Spark: pos(432.4,137.7) center(385.0,110.0) dx=47.4 dy=60.7 angle=52.0°
+[2025-09-05T12:00:57.771Z] Lower Angle: svg=38.0° normalized=38.0°
+[2025-09-05T12:00:57.771Z] Lower Arc: start=90.0° end=38.0° length=239.2 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.786Z] Upper Spark: pos(339.8,14.7) center(385.0,110.0) dx=-45.2 dy=-62.3 angle=-126.0°
+[2025-09-05T12:00:57.786Z] Upper Angle: svg=216.0° normalized=216.0°
+[2025-09-05T12:00:57.787Z] Upper Arc: start=216.0° end=270.0° length=43.6 offset=-193.5 circ=483.8
+[2025-09-05T12:00:57.787Z] Lower Spark: pos(430.2,139.3) center(385.0,110.0) dx=45.2 dy=62.3 angle=54.0°
+[2025-09-05T12:00:57.787Z] Lower Angle: svg=36.0° normalized=36.0°
+[2025-09-05T12:00:57.787Z] Lower Arc: start=90.0° end=36.0° length=246.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.789Z] Upper Spark: pos(339.8,14.7) center(385.0,110.0) dx=-45.2 dy=-62.3 angle=-126.0°
+[2025-09-05T12:00:57.789Z] Upper Angle: svg=216.0° normalized=216.0°
+[2025-09-05T12:00:57.789Z] Upper Arc: start=216.0° end=270.0° length=43.6 offset=-193.5 circ=483.8
+[2025-09-05T12:00:57.790Z] Lower Spark: pos(430.2,139.3) center(385.0,110.0) dx=45.2 dy=62.3 angle=54.0°
+[2025-09-05T12:00:57.790Z] Lower Angle: svg=36.0° normalized=36.0°
+[2025-09-05T12:00:57.790Z] Lower Arc: start=90.0° end=36.0° length=246.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.803Z] Upper Spark: pos(341.9,13.2) center(385.0,110.0) dx=-43.1 dy=-63.8 angle=-124.0°
+[2025-09-05T12:00:57.804Z] Upper Angle: svg=214.0° normalized=214.0°
+[2025-09-05T12:00:57.804Z] Upper Arc: start=214.0° end=270.0° length=46.8 offset=-196.2 circ=483.8
+[2025-09-05T12:00:57.804Z] Lower Spark: pos(428.1,140.8) center(385.0,110.0) dx=43.1 dy=63.8 angle=56.0°
+[2025-09-05T12:00:57.804Z] Lower Angle: svg=34.0° normalized=34.0°
+[2025-09-05T12:00:57.805Z] Lower Arc: start=90.0° end=34.0° length=254.2 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.806Z] Upper Spark: pos(341.9,13.2) center(385.0,110.0) dx=-43.1 dy=-63.8 angle=-124.0°
+[2025-09-05T12:00:57.807Z] Upper Angle: svg=214.0° normalized=214.0°
+[2025-09-05T12:00:57.807Z] Upper Arc: start=214.0° end=270.0° length=46.8 offset=-196.2 circ=483.8
+[2025-09-05T12:00:57.807Z] Lower Spark: pos(428.1,140.8) center(385.0,110.0) dx=43.1 dy=63.8 angle=56.0°
+[2025-09-05T12:00:57.807Z] Lower Angle: svg=34.0° normalized=34.0°
+[2025-09-05T12:00:57.807Z] Lower Arc: start=90.0° end=34.0° length=254.2 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.820Z] Upper Spark: pos(344.2,11.7) center(385.0,110.0) dx=-40.8 dy=-65.3 angle=-122.0°
+[2025-09-05T12:00:57.820Z] Upper Angle: svg=212.0° normalized=212.0°
+[2025-09-05T12:00:57.821Z] Upper Arc: start=212.0° end=270.0° length=50.2 offset=-198.9 circ=483.8
+[2025-09-05T12:00:57.821Z] Lower Spark: pos(425.8,142.3) center(385.0,110.0) dx=40.8 dy=65.3 angle=58.0°
+[2025-09-05T12:00:57.821Z] Lower Angle: svg=32.0° normalized=32.0°
+[2025-09-05T12:00:57.821Z] Lower Arc: start=90.0° end=32.0° length=261.6 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.823Z] Upper Spark: pos(344.2,11.7) center(385.0,110.0) dx=-40.8 dy=-65.3 angle=-122.0°
+[2025-09-05T12:00:57.823Z] Upper Angle: svg=212.0° normalized=212.0°
+[2025-09-05T12:00:57.823Z] Upper Arc: start=212.0° end=270.0° length=50.2 offset=-198.9 circ=483.8
+[2025-09-05T12:00:57.823Z] Lower Spark: pos(425.8,142.3) center(385.0,110.0) dx=40.8 dy=65.3 angle=58.0°
+[2025-09-05T12:00:57.824Z] Lower Angle: svg=32.0° normalized=32.0°
+[2025-09-05T12:00:57.824Z] Lower Arc: start=90.0° end=32.0° length=261.6 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.837Z] Upper Spark: pos(346.5,10.3) center(385.0,110.0) dx=-38.5 dy=-66.7 angle=-120.0°
+[2025-09-05T12:00:57.837Z] Upper Angle: svg=210.0° normalized=210.0°
+[2025-09-05T12:00:57.837Z] Upper Arc: start=210.0° end=270.0° length=53.8 offset=-201.6 circ=483.8
+[2025-09-05T12:00:57.837Z] Lower Spark: pos(423.5,143.7) center(385.0,110.0) dx=38.5 dy=66.7 angle=60.0°
+[2025-09-05T12:00:57.838Z] Lower Angle: svg=30.0° normalized=30.0°
+[2025-09-05T12:00:57.838Z] Lower Arc: start=90.0° end=30.0° length=268.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.839Z] Upper Spark: pos(346.5,10.3) center(385.0,110.0) dx=-38.5 dy=-66.7 angle=-120.0°
+[2025-09-05T12:00:57.840Z] Upper Angle: svg=210.0° normalized=210.0°
+[2025-09-05T12:00:57.840Z] Upper Arc: start=210.0° end=270.0° length=53.8 offset=-201.6 circ=483.8
+[2025-09-05T12:00:57.840Z] Lower Spark: pos(423.5,143.7) center(385.0,110.0) dx=38.5 dy=66.7 angle=60.0°
+[2025-09-05T12:00:57.840Z] Lower Angle: svg=30.0° normalized=30.0°
+[2025-09-05T12:00:57.841Z] Lower Arc: start=90.0° end=30.0° length=268.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.854Z] Upper Spark: pos(348.9,9.0) center(385.0,110.0) dx=-36.1 dy=-68.0 angle=-118.0°
+[2025-09-05T12:00:57.854Z] Upper Angle: svg=208.0° normalized=208.0°
+[2025-09-05T12:00:57.854Z] Upper Arc: start=208.0° end=270.0° length=57.4 offset=-204.3 circ=483.8
+[2025-09-05T12:00:57.854Z] Lower Spark: pos(421.1,145.0) center(385.0,110.0) dx=36.1 dy=68.0 angle=62.0°
+[2025-09-05T12:00:57.856Z] Lower Angle: svg=28.0° normalized=28.0°
+[2025-09-05T12:00:57.856Z] Lower Arc: start=90.0° end=28.0° length=275.9 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.857Z] Upper Spark: pos(348.9,9.0) center(385.0,110.0) dx=-36.1 dy=-68.0 angle=-118.0°
+[2025-09-05T12:00:57.857Z] Upper Angle: svg=208.0° normalized=208.0°
+[2025-09-05T12:00:57.857Z] Upper Arc: start=208.0° end=270.0° length=57.4 offset=-204.3 circ=483.8
+[2025-09-05T12:00:57.857Z] Lower Spark: pos(421.1,145.0) center(385.0,110.0) dx=36.1 dy=68.0 angle=62.0°
+[2025-09-05T12:00:57.857Z] Lower Angle: svg=28.0° normalized=28.0°
+[2025-09-05T12:00:57.857Z] Lower Arc: start=90.0° end=28.0° length=275.9 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.871Z] Upper Spark: pos(351.2,7.8) center(385.0,110.0) dx=-33.8 dy=-69.2 angle=-116.0°
+[2025-09-05T12:00:57.871Z] Upper Angle: svg=206.0° normalized=206.0°
+[2025-09-05T12:00:57.871Z] Upper Arc: start=206.0° end=270.0° length=61.2 offset=-207.0 circ=483.8
+[2025-09-05T12:00:57.871Z] Lower Spark: pos(418.8,146.2) center(385.0,110.0) dx=33.8 dy=69.2 angle=64.0°
+[2025-09-05T12:00:57.871Z] Lower Angle: svg=26.0° normalized=26.0°
+[2025-09-05T12:00:57.872Z] Lower Arc: start=90.0° end=26.0° length=282.9 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.873Z] Upper Spark: pos(351.2,7.8) center(385.0,110.0) dx=-33.8 dy=-69.2 angle=-116.0°
+[2025-09-05T12:00:57.873Z] Upper Angle: svg=206.0° normalized=206.0°
+[2025-09-05T12:00:57.873Z] Upper Arc: start=206.0° end=270.0° length=61.2 offset=-207.0 circ=483.8
+[2025-09-05T12:00:57.874Z] Lower Spark: pos(418.8,146.2) center(385.0,110.0) dx=33.8 dy=69.2 angle=64.0°
+[2025-09-05T12:00:57.874Z] Lower Angle: svg=26.0° normalized=26.0°
+[2025-09-05T12:00:57.874Z] Lower Arc: start=90.0° end=26.0° length=282.9 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.887Z] Upper Spark: pos(353.7,6.6) center(385.0,110.0) dx=-31.3 dy=-70.4 angle=-114.0°
+[2025-09-05T12:00:57.887Z] Upper Angle: svg=204.0° normalized=204.0°
+[2025-09-05T12:00:57.887Z] Upper Arc: start=204.0° end=270.0° length=65.1 offset=-209.7 circ=483.8
+[2025-09-05T12:00:57.887Z] Lower Spark: pos(416.3,147.4) center(385.0,110.0) dx=31.3 dy=70.4 angle=66.0°
+[2025-09-05T12:00:57.887Z] Lower Angle: svg=24.0° normalized=24.0°
+[2025-09-05T12:00:57.888Z] Lower Arc: start=90.0° end=24.0° length=289.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.889Z] Upper Spark: pos(353.7,6.6) center(385.0,110.0) dx=-31.3 dy=-70.4 angle=-114.0°
+[2025-09-05T12:00:57.890Z] Upper Angle: svg=204.0° normalized=204.0°
+[2025-09-05T12:00:57.890Z] Upper Arc: start=204.0° end=270.0° length=65.1 offset=-209.7 circ=483.8
+[2025-09-05T12:00:57.890Z] Lower Spark: pos(416.3,147.4) center(385.0,110.0) dx=31.3 dy=70.4 angle=66.0°
+[2025-09-05T12:00:57.890Z] Lower Angle: svg=24.0° normalized=24.0°
+[2025-09-05T12:00:57.890Z] Lower Arc: start=90.0° end=24.0° length=289.8 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.902Z] Upper Spark: pos(356.2,5.6) center(385.0,110.0) dx=-28.8 dy=-71.4 angle=-112.0°
+[2025-09-05T12:00:57.903Z] Upper Angle: svg=202.0° normalized=202.0°
+[2025-09-05T12:00:57.903Z] Upper Arc: start=202.0° end=270.0° length=69.1 offset=-212.3 circ=483.8
+[2025-09-05T12:00:57.903Z] Lower Spark: pos(413.8,148.4) center(385.0,110.0) dx=28.8 dy=71.4 angle=68.0°
+[2025-09-05T12:00:57.903Z] Lower Angle: svg=22.0° normalized=22.0°
+[2025-09-05T12:00:57.903Z] Lower Arc: start=90.0° end=22.0° length=296.5 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.905Z] Upper Spark: pos(356.2,5.6) center(385.0,110.0) dx=-28.8 dy=-71.4 angle=-112.0°
+[2025-09-05T12:00:57.906Z] Upper Angle: svg=202.0° normalized=202.0°
+[2025-09-05T12:00:57.906Z] Upper Arc: start=202.0° end=270.0° length=69.1 offset=-212.3 circ=483.8
+[2025-09-05T12:00:57.906Z] Lower Spark: pos(413.8,148.4) center(385.0,110.0) dx=28.8 dy=71.4 angle=68.0°
+[2025-09-05T12:00:57.906Z] Lower Angle: svg=22.0° normalized=22.0°
+[2025-09-05T12:00:57.906Z] Lower Arc: start=90.0° end=22.0° length=296.5 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.920Z] Upper Spark: pos(358.7,4.6) center(385.0,110.0) dx=-26.3 dy=-72.4 angle=-110.0°
+[2025-09-05T12:00:57.920Z] Upper Angle: svg=200.0° normalized=200.0°
+[2025-09-05T12:00:57.921Z] Upper Arc: start=200.0° end=270.0° length=73.2 offset=-215.0 circ=483.8
+[2025-09-05T12:00:57.921Z] Lower Spark: pos(411.3,149.4) center(385.0,110.0) dx=26.3 dy=72.4 angle=70.0°
+[2025-09-05T12:00:57.921Z] Lower Angle: svg=20.0° normalized=20.0°
+[2025-09-05T12:00:57.921Z] Lower Arc: start=90.0° end=20.0° length=303.2 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.922Z] Upper Spark: pos(358.7,4.6) center(385.0,110.0) dx=-26.3 dy=-72.4 angle=-110.0°
+[2025-09-05T12:00:57.923Z] Upper Angle: svg=200.0° normalized=200.0°
+[2025-09-05T12:00:57.923Z] Upper Arc: start=200.0° end=270.0° length=73.2 offset=-215.0 circ=483.8
+[2025-09-05T12:00:57.923Z] Lower Spark: pos(411.3,149.4) center(385.0,110.0) dx=26.3 dy=72.4 angle=70.0°
+[2025-09-05T12:00:57.923Z] Lower Angle: svg=20.0° normalized=20.0°
+[2025-09-05T12:00:57.923Z] Lower Arc: start=90.0° end=20.0° length=303.2 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.937Z] Upper Spark: pos(361.2,3.7) center(385.0,110.0) dx=-23.8 dy=-73.3 angle=-108.0°
+[2025-09-05T12:00:57.937Z] Upper Angle: svg=198.0° normalized=198.0°
+[2025-09-05T12:00:57.937Z] Upper Arc: start=198.0° end=270.0° length=77.4 offset=-217.7 circ=483.8
+[2025-09-05T12:00:57.937Z] Lower Spark: pos(408.8,150.3) center(385.0,110.0) dx=23.8 dy=73.3 angle=72.0°
+[2025-09-05T12:00:57.938Z] Lower Angle: svg=18.0° normalized=18.0°
+[2025-09-05T12:00:57.938Z] Lower Arc: start=90.0° end=18.0° length=309.7 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.939Z] Upper Spark: pos(361.2,3.7) center(385.0,110.0) dx=-23.8 dy=-73.3 angle=-108.0°
+[2025-09-05T12:00:57.939Z] Upper Angle: svg=198.0° normalized=198.0°
+[2025-09-05T12:00:57.940Z] Upper Arc: start=198.0° end=270.0° length=77.4 offset=-217.7 circ=483.8
+[2025-09-05T12:00:57.940Z] Lower Spark: pos(408.8,150.3) center(385.0,110.0) dx=23.8 dy=73.3 angle=72.0°
+[2025-09-05T12:00:57.940Z] Lower Angle: svg=18.0° normalized=18.0°
+[2025-09-05T12:00:57.940Z] Lower Arc: start=90.0° end=18.0° length=309.7 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.954Z] Upper Spark: pos(363.8,3.0) center(385.0,110.0) dx=-21.2 dy=-74.0 angle=-106.0°
+[2025-09-05T12:00:57.955Z] Upper Angle: svg=196.0° normalized=196.0°
+[2025-09-05T12:00:57.955Z] Upper Arc: start=196.0° end=270.0° length=81.8 offset=-220.4 circ=483.8
+[2025-09-05T12:00:57.955Z] Lower Spark: pos(406.2,151.0) center(385.0,110.0) dx=21.2 dy=74.0 angle=74.0°
+[2025-09-05T12:00:57.955Z] Lower Angle: svg=16.0° normalized=16.0°
+[2025-09-05T12:00:57.955Z] Lower Arc: start=90.0° end=16.0° length=316.0 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.956Z] Upper Spark: pos(363.8,3.0) center(385.0,110.0) dx=-21.2 dy=-74.0 angle=-106.0°
+[2025-09-05T12:00:57.956Z] Upper Angle: svg=196.0° normalized=196.0°
+[2025-09-05T12:00:57.957Z] Upper Arc: start=196.0° end=270.0° length=81.8 offset=-220.4 circ=483.8
+[2025-09-05T12:00:57.957Z] Lower Spark: pos(406.2,151.0) center(385.0,110.0) dx=21.2 dy=74.0 angle=74.0°
+[2025-09-05T12:00:57.957Z] Lower Angle: svg=16.0° normalized=16.0°
+[2025-09-05T12:00:57.957Z] Lower Arc: start=90.0° end=16.0° length=316.0 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.970Z] Upper Spark: pos(366.4,2.3) center(385.0,110.0) dx=-18.6 dy=-74.7 angle=-104.0°
+[2025-09-05T12:00:57.970Z] Upper Angle: svg=194.0° normalized=194.0°
+[2025-09-05T12:00:57.971Z] Upper Arc: start=194.0° end=270.0° length=86.3 offset=-223.1 circ=483.8
+[2025-09-05T12:00:57.971Z] Lower Spark: pos(403.6,151.7) center(385.0,110.0) dx=18.6 dy=74.7 angle=76.0°
+[2025-09-05T12:00:57.971Z] Lower Angle: svg=14.0° normalized=14.0°
+[2025-09-05T12:00:57.971Z] Lower Arc: start=90.0° end=14.0° length=322.3 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.972Z] Upper Spark: pos(366.4,2.3) center(385.0,110.0) dx=-18.6 dy=-74.7 angle=-104.0°
+[2025-09-05T12:00:57.973Z] Upper Angle: svg=194.0° normalized=194.0°
+[2025-09-05T12:00:57.973Z] Upper Arc: start=194.0° end=270.0° length=86.3 offset=-223.1 circ=483.8
+[2025-09-05T12:00:57.973Z] Lower Spark: pos(403.6,151.7) center(385.0,110.0) dx=18.6 dy=74.7 angle=76.0°
+[2025-09-05T12:00:57.973Z] Lower Angle: svg=14.0° normalized=14.0°
+[2025-09-05T12:00:57.973Z] Lower Arc: start=90.0° end=14.0° length=322.3 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.987Z] Upper Spark: pos(369.0,1.7) center(385.0,110.0) dx=-16.0 dy=-75.3 angle=-102.0°
+[2025-09-05T12:00:57.987Z] Upper Angle: svg=192.0° normalized=192.0°
+[2025-09-05T12:00:57.988Z] Upper Arc: start=192.0° end=270.0° length=90.8 offset=-225.8 circ=483.8
+[2025-09-05T12:00:57.988Z] Lower Spark: pos(401.0,152.3) center(385.0,110.0) dx=16.0 dy=75.3 angle=78.0°
+[2025-09-05T12:00:57.988Z] Lower Angle: svg=12.0° normalized=12.0°
+[2025-09-05T12:00:57.988Z] Lower Arc: start=90.0° end=12.0° length=328.5 offset=-362.9 circ=483.8
+[2025-09-05T12:00:57.989Z] Upper Spark: pos(369.0,1.7) center(385.0,110.0) dx=-16.0 dy=-75.3 angle=-102.0°
+[2025-09-05T12:00:57.989Z] Upper Angle: svg=192.0° normalized=192.0°
+[2025-09-05T12:00:57.990Z] Upper Arc: start=192.0° end=270.0° length=90.8 offset=-225.8 circ=483.8
+[2025-09-05T12:00:57.990Z] Lower Spark: pos(401.0,152.3) center(385.0,110.0) dx=16.0 dy=75.3 angle=78.0°
+[2025-09-05T12:00:57.990Z] Lower Angle: svg=12.0° normalized=12.0°
+[2025-09-05T12:00:57.990Z] Lower Arc: start=90.0° end=12.0° length=328.5 offset=-362.9 circ=483.8
+[2025-09-05T12:00:58.004Z] Upper Spark: pos(371.6,1.2) center(385.0,110.0) dx=-13.4 dy=-75.8 angle=-100.0°
+[2025-09-05T12:00:58.004Z] Upper Angle: svg=190.0° normalized=190.0°
+[2025-09-05T12:00:58.004Z] Upper Arc: start=190.0° end=270.0° length=95.6 offset=-228.5 circ=483.8
+[2025-09-05T12:00:58.004Z] Lower Spark: pos(398.4,152.8) center(385.0,110.0) dx=13.4 dy=75.8 angle=80.0°
+[2025-09-05T12:00:58.004Z] Lower Angle: svg=10.0° normalized=10.0°
+[2025-09-05T12:00:58.004Z] Lower Arc: start=90.0° end=10.0° length=334.5 offset=-362.9 circ=483.8
+[2025-09-05T12:00:58.006Z] Upper Spark: pos(371.6,1.2) center(385.0,110.0) dx=-13.4 dy=-75.8 angle=-100.0°
+[2025-09-05T12:00:58.007Z] Upper Angle: svg=190.0° normalized=190.0°
+[2025-09-05T12:00:58.007Z] Upper Arc: start=190.0° end=270.0° length=95.6 offset=-228.5 circ=483.8
+[2025-09-05T12:00:58.007Z] Lower Spark: pos(398.4,152.8) center(385.0,110.0) dx=13.4 dy=75.8 angle=80.0°
+[2025-09-05T12:00:58.007Z] Lower Angle: svg=10.0° normalized=10.0°
+[2025-09-05T12:00:58.007Z] Lower Arc: start=90.0° end=10.0° length=334.5 offset=-362.9 circ=483.8
+[2025-09-05T12:00:58.020Z] Upper Spark: pos(374.3,0.7) center(385.0,110.0) dx=-10.7 dy=-76.3 angle=-98.0°
+[2025-09-05T12:00:58.020Z] Upper Angle: svg=188.0° normalized=188.0°
+[2025-09-05T12:00:58.020Z] Upper Arc: start=188.0° end=270.0° length=100.4 offset=-231.2 circ=483.8
+[2025-09-05T12:00:58.020Z] Lower Spark: pos(395.7,153.3) center(385.0,110.0) dx=10.7 dy=76.3 angle=82.0°
+[2025-09-05T12:00:58.020Z] Lower Angle: svg=8.0° normalized=8.0°
+[2025-09-05T12:00:58.020Z] Lower Arc: start=90.0° end=8.0° length=340.4 offset=-362.9 circ=483.8
+[2025-09-05T12:00:58.022Z] Upper Spark: pos(374.3,0.7) center(385.0,110.0) dx=-10.7 dy=-76.3 angle=-98.0°
+[2025-09-05T12:00:58.022Z] Upper Angle: svg=188.0° normalized=188.0°
+[2025-09-05T12:00:58.022Z] Upper Arc: start=188.0° end=270.0° length=100.4 offset=-231.2 circ=483.8
+[2025-09-05T12:00:58.022Z] Lower Spark: pos(395.7,153.3) center(385.0,110.0) dx=10.7 dy=76.3 angle=82.0°
+[2025-09-05T12:00:58.022Z] Lower Angle: svg=8.0° normalized=8.0°
+[2025-09-05T12:00:58.023Z] Lower Arc: start=90.0° end=8.0° length=340.4 offset=-362.9 circ=483.8
+[2025-09-05T12:00:58.037Z] Upper Spark: pos(377.0,0.4) center(385.0,110.0) dx=-8.0 dy=-76.6 angle=-96.0°
+[2025-09-05T12:00:58.037Z] Upper Angle: svg=186.0° normalized=186.0°
+[2025-09-05T12:00:58.037Z] Upper Arc: start=186.0° end=270.0° length=105.4 offset=-233.9 circ=483.8
+[2025-09-05T12:00:58.037Z] Lower Spark: pos(393.0,153.6) center(385.0,110.0) dx=8.0 dy=76.6 angle=84.0°
+[2025-09-05T12:00:58.037Z] Lower Angle: svg=6.0° normalized=6.0°
+[2025-09-05T12:00:58.038Z] Lower Arc: start=90.0° end=6.0° length=346.2 offset=-362.9 circ=483.8
+[2025-09-05T12:00:58.039Z] Upper Spark: pos(377.0,0.4) center(385.0,110.0) dx=-8.0 dy=-76.6 angle=-96.0°
+[2025-09-05T12:00:58.039Z] Upper Angle: svg=186.0° normalized=186.0°
+[2025-09-05T12:00:58.039Z] Upper Arc: start=186.0° end=270.0° length=105.4 offset=-233.9 circ=483.8
+[2025-09-05T12:00:58.039Z] Lower Spark: pos(393.0,153.6) center(385.0,110.0) dx=8.0 dy=76.6 angle=84.0°
+[2025-09-05T12:00:58.040Z] Lower Angle: svg=6.0° normalized=6.0°
+[2025-09-05T12:00:58.040Z] Lower Arc: start=90.0° end=6.0° length=346.2 offset=-362.9 circ=483.8
+[2025-09-05T12:00:58.054Z] Upper Spark: pos(379.6,0.2) center(385.0,110.0) dx=-5.4 dy=-76.8 angle=-94.0°
+[2025-09-05T12:00:58.054Z] Upper Angle: svg=184.0° normalized=184.0°
+[2025-09-05T12:00:58.054Z] Upper Arc: start=184.0° end=270.0° length=110.4 offset=-236.5 circ=483.8
+[2025-09-05T12:00:58.054Z] Lower Spark: pos(390.4,153.8) center(385.0,110.0) dx=5.4 dy=76.8 angle=86.0°
+[2025-09-05T12:00:58.054Z] Lower Angle: svg=4.0° normalized=4.0°
+[2025-09-05T12:00:58.054Z] Lower Arc: start=90.0° end=4.0° length=351.9 offset=-362.9 circ=483.8
+[2025-09-05T12:00:58.057Z] Upper Spark: pos(379.6,0.2) center(385.0,110.0) dx=-5.4 dy=-76.8 angle=-94.0°
+[2025-09-05T12:00:58.057Z] Upper Angle: svg=184.0° normalized=184.0°
+[2025-09-05T12:00:58.058Z] Upper Arc: start=184.0° end=270.0° length=110.4 offset=-236.5 circ=483.8
+[2025-09-05T12:00:58.058Z] Lower Spark: pos(390.4,153.8) center(385.0,110.0) dx=5.4 dy=76.8 angle=86.0°
+[2025-09-05T12:00:58.058Z] Lower Angle: svg=4.0° normalized=4.0°
+[2025-09-05T12:00:58.058Z] Lower Arc: start=90.0° end=4.0° length=351.9 offset=-362.9 circ=483.8
+[2025-09-05T12:00:58.070Z] Upper Spark: pos(382.3,0.0) center(385.0,110.0) dx=-2.7 dy=-77.0 angle=-92.0°
+[2025-09-05T12:00:58.070Z] Upper Angle: svg=182.0° normalized=182.0°
+[2025-09-05T12:00:58.070Z] Upper Arc: start=182.0° end=270.0° length=115.7 offset=-239.2 circ=483.8
+[2025-09-05T12:00:58.070Z] Lower Spark: pos(387.7,154.0) center(385.0,110.0) dx=2.7 dy=77.0 angle=88.0°
+[2025-09-05T12:00:58.070Z] Lower Angle: svg=2.0° normalized=2.0°
+[2025-09-05T12:00:58.071Z] Lower Arc: start=90.0° end=2.0° length=357.4 offset=-362.9 circ=483.8
+[2025-09-05T12:00:58.072Z] Upper Spark: pos(382.3,0.0) center(385.0,110.0) dx=-2.7 dy=-77.0 angle=-92.0°
+[2025-09-05T12:00:58.072Z] Upper Angle: svg=182.0° normalized=182.0°
+[2025-09-05T12:00:58.072Z] Upper Arc: start=182.0° end=270.0° length=115.7 offset=-239.2 circ=483.8
+[2025-09-05T12:00:58.072Z] Lower Spark: pos(387.7,154.0) center(385.0,110.0) dx=2.7 dy=77.0 angle=88.0°
+[2025-09-05T12:00:58.072Z] Lower Angle: svg=2.0° normalized=2.0°
+[2025-09-05T12:00:58.073Z] Lower Arc: start=90.0° end=2.0° length=357.4 offset=-362.9 circ=483.8
+[2025-09-05T12:00:58.086Z] Upper Spark: pos(385.0,0.0) center(385.0,110.0) dx=0.0 dy=-77.0 angle=-90.0°
+[2025-09-05T12:00:58.087Z] Upper Angle: svg=180.0° normalized=180.0°
+[2025-09-05T12:00:58.087Z] Upper Arc: start=180.0° end=270.0° length=121.0 offset=-241.9 circ=483.8
+[2025-09-05T12:00:58.087Z] Lower Spark: pos(385.0,154.0) center(385.0,110.0) dx=0.0 dy=77.0 angle=90.0°
+[2025-09-05T12:00:58.087Z] Lower Angle: svg=0.0° normalized=0.0°
+[2025-09-05T12:00:58.087Z] Lower Arc: start=90.0° end=0.0° length=362.9 offset=-362.9 circ=483.8
+[2025-09-05T12:00:58.089Z] Upper Spark: pos(385.0,0.0) center(385.0,110.0) dx=0.0 dy=-77.0 angle=-90.0°
+[2025-09-05T12:00:58.089Z] Upper Angle: svg=180.0° normalized=180.0°
+[2025-09-05T12:00:58.089Z] Upper Arc: start=180.0° end=270.0° length=121.0 offset=-241.9 circ=483.8
+[2025-09-05T12:00:58.089Z] Lower Spark: pos(385.0,154.0) center(385.0,110.0) dx=0.0 dy=77.0 angle=90.0°
+[2025-09-05T12:00:58.090Z] Lower Angle: svg=0.0° normalized=0.0°
+[2025-09-05T12:00:58.090Z] Lower Arc: start=90.0° end=0.0° length=362.9 offset=-362.9 circ=483.8
+[2025-09-05T12:00:58.104Z] Upper Spark: pos(387.7,0.0) center(385.0,110.0) dx=2.7 dy=-77.0 angle=-88.0°
+[2025-09-05T12:00:58.104Z] Upper Angle: svg=178.0° normalized=178.0°
+[2025-09-05T12:00:58.104Z] Upper Arc: start=178.0° end=270.0° length=120.9 offset=-241.8 circ=483.8
+[2025-09-05T12:00:58.104Z] Lower Spark: pos(382.3,154.0) center(385.0,110.0) dx=-2.7 dy=77.0 angle=92.0°
+[2025-09-05T12:00:58.104Z] Lower Angle: svg=-2.0° normalized=358.0°
+[2025-09-05T12:00:58.105Z] Lower Arc: start=90.0° end=358.0° length=352.1 offset=-354.8 circ=483.8
+[2025-09-05T12:00:58.106Z] Upper Spark: pos(387.7,0.0) center(385.0,110.0) dx=2.7 dy=-77.0 angle=-88.0°
+[2025-09-05T12:00:58.106Z] Upper Angle: svg=178.0° normalized=178.0°
+[2025-09-05T12:00:58.106Z] Upper Arc: start=178.0° end=270.0° length=120.9 offset=-241.8 circ=483.8
+[2025-09-05T12:00:58.106Z] Lower Spark: pos(382.3,154.0) center(385.0,110.0) dx=-2.7 dy=77.0 angle=92.0°
+[2025-09-05T12:00:58.107Z] Lower Angle: svg=-2.0° normalized=358.0°
+[2025-09-05T12:00:58.107Z] Lower Arc: start=90.0° end=358.0° length=352.1 offset=-354.8 circ=483.8
+[2025-09-05T12:00:58.120Z] Upper Spark: pos(390.4,0.2) center(385.0,110.0) dx=5.4 dy=-76.8 angle=-86.0°
+[2025-09-05T12:00:58.121Z] Upper Angle: svg=176.0° normalized=176.0°
+[2025-09-05T12:00:58.121Z] Upper Arc: start=176.0° end=270.0° length=120.7 offset=-241.7 circ=483.8
+[2025-09-05T12:00:58.121Z] Lower Spark: pos(379.6,153.8) center(385.0,110.0) dx=-5.4 dy=76.8 angle=94.0°
+[2025-09-05T12:00:58.121Z] Lower Angle: svg=-4.0° normalized=356.0°
+[2025-09-05T12:00:58.121Z] Lower Arc: start=90.0° end=356.0° length=341.5 offset=-346.9 circ=483.8
+[2025-09-05T12:00:58.123Z] Upper Spark: pos(390.4,0.2) center(385.0,110.0) dx=5.4 dy=-76.8 angle=-86.0°
+[2025-09-05T12:00:58.123Z] Upper Angle: svg=176.0° normalized=176.0°
+[2025-09-05T12:00:58.123Z] Upper Arc: start=176.0° end=270.0° length=120.7 offset=-241.7 circ=483.8
+[2025-09-05T12:00:58.123Z] Lower Spark: pos(379.6,153.8) center(385.0,110.0) dx=-5.4 dy=76.8 angle=94.0°
+[2025-09-05T12:00:58.123Z] Lower Angle: svg=-4.0° normalized=356.0°
+[2025-09-05T12:00:58.124Z] Lower Arc: start=90.0° end=356.0° length=341.5 offset=-346.9 circ=483.8
+[2025-09-05T12:00:58.136Z] Upper Spark: pos(393.1,0.4) center(385.0,110.0) dx=8.1 dy=-76.6 angle=-84.0°
+[2025-09-05T12:00:58.136Z] Upper Angle: svg=174.0° normalized=174.0°
+[2025-09-05T12:00:58.137Z] Upper Arc: start=174.0° end=270.0° length=120.4 offset=-241.4 circ=483.8
+[2025-09-05T12:00:58.137Z] Lower Spark: pos(376.9,153.6) center(385.0,110.0) dx=-8.1 dy=76.6 angle=96.0°
+[2025-09-05T12:00:58.137Z] Lower Angle: svg=-6.0° normalized=354.0°
+[2025-09-05T12:00:58.137Z] Lower Arc: start=90.0° end=354.0° length=331.1 offset=-339.2 circ=483.8
+[2025-09-05T12:00:58.139Z] Upper Spark: pos(393.1,0.4) center(385.0,110.0) dx=8.1 dy=-76.6 angle=-84.0°
+[2025-09-05T12:00:58.139Z] Upper Angle: svg=174.0° normalized=174.0°
+[2025-09-05T12:00:58.139Z] Upper Arc: start=174.0° end=270.0° length=120.4 offset=-241.4 circ=483.8
+[2025-09-05T12:00:58.139Z] Lower Spark: pos(376.9,153.6) center(385.0,110.0) dx=-8.1 dy=76.6 angle=96.0°
+[2025-09-05T12:00:58.140Z] Lower Angle: svg=-6.0° normalized=354.0°
+[2025-09-05T12:00:58.140Z] Lower Arc: start=90.0° end=354.0° length=331.1 offset=-339.2 circ=483.8
+[2025-09-05T12:00:58.153Z] Upper Spark: pos(395.7,0.7) center(385.0,110.0) dx=10.7 dy=-76.3 angle=-82.0°
+[2025-09-05T12:00:58.153Z] Upper Angle: svg=172.0° normalized=172.0°
+[2025-09-05T12:00:58.154Z] Upper Arc: start=172.0° end=270.0° length=120.0 offset=-240.9 circ=483.8
+[2025-09-05T12:00:58.154Z] Lower Spark: pos(374.3,153.3) center(385.0,110.0) dx=-10.7 dy=76.3 angle=98.0°
+[2025-09-05T12:00:58.154Z] Lower Angle: svg=-8.0° normalized=352.0°
+[2025-09-05T12:00:58.154Z] Lower Arc: start=90.0° end=352.0° length=320.8 offset=-331.5 circ=483.8
+[2025-09-05T12:00:58.155Z] Upper Spark: pos(395.7,0.7) center(385.0,110.0) dx=10.7 dy=-76.3 angle=-82.0°
+[2025-09-05T12:00:58.156Z] Upper Angle: svg=172.0° normalized=172.0°
+[2025-09-05T12:00:58.156Z] Upper Arc: start=172.0° end=270.0° length=120.0 offset=-240.9 circ=483.8
+[2025-09-05T12:00:58.156Z] Lower Spark: pos(374.3,153.3) center(385.0,110.0) dx=-10.7 dy=76.3 angle=98.0°
+[2025-09-05T12:00:58.156Z] Lower Angle: svg=-8.0° normalized=352.0°
+[2025-09-05T12:00:58.156Z] Lower Arc: start=90.0° end=352.0° length=320.8 offset=-331.5 circ=483.8
+[2025-09-05T12:00:58.170Z] Upper Spark: pos(398.4,1.2) center(385.0,110.0) dx=13.4 dy=-75.8 angle=-80.0°
+[2025-09-05T12:00:58.170Z] Upper Angle: svg=170.0° normalized=170.0°
+[2025-09-05T12:00:58.171Z] Upper Arc: start=170.0° end=270.0° length=119.5 offset=-240.4 circ=483.8
+[2025-09-05T12:00:58.171Z] Lower Spark: pos(371.6,152.8) center(385.0,110.0) dx=-13.4 dy=75.8 angle=100.0°
+[2025-09-05T12:00:58.171Z] Lower Angle: svg=-10.0° normalized=350.0°
+[2025-09-05T12:00:58.171Z] Lower Arc: start=90.0° end=350.0° length=310.5 offset=-324.0 circ=483.8
+[2025-09-05T12:00:58.172Z] Upper Spark: pos(398.4,1.2) center(385.0,110.0) dx=13.4 dy=-75.8 angle=-80.0°
+[2025-09-05T12:00:58.173Z] Upper Angle: svg=170.0° normalized=170.0°
+[2025-09-05T12:00:58.173Z] Upper Arc: start=170.0° end=270.0° length=119.5 offset=-240.4 circ=483.8
+[2025-09-05T12:00:58.173Z] Lower Spark: pos(371.6,152.8) center(385.0,110.0) dx=-13.4 dy=75.8 angle=100.0°
+[2025-09-05T12:00:58.173Z] Lower Angle: svg=-10.0° normalized=350.0°
+[2025-09-05T12:00:58.173Z] Lower Arc: start=90.0° end=350.0° length=310.5 offset=-324.0 circ=483.8
+[2025-09-05T12:00:58.187Z] Upper Spark: pos(401.0,1.7) center(385.0,110.0) dx=16.0 dy=-75.3 angle=-78.0°
+[2025-09-05T12:00:58.187Z] Upper Angle: svg=168.0° normalized=168.0°
+[2025-09-05T12:00:58.187Z] Upper Arc: start=168.0° end=270.0° length=118.8 offset=-239.7 circ=483.8
+[2025-09-05T12:00:58.187Z] Lower Spark: pos(369.0,152.3) center(385.0,110.0) dx=-16.0 dy=75.3 angle=102.0°
+[2025-09-05T12:00:58.188Z] Lower Angle: svg=-12.0° normalized=348.0°
+[2025-09-05T12:00:58.188Z] Lower Arc: start=90.0° end=348.0° length=300.4 offset=-316.6 circ=483.8
+[2025-09-05T12:00:58.189Z] Upper Spark: pos(401.0,1.7) center(385.0,110.0) dx=16.0 dy=-75.3 angle=-78.0°
+[2025-09-05T12:00:58.189Z] Upper Angle: svg=168.0° normalized=168.0°
+[2025-09-05T12:00:58.189Z] Upper Arc: start=168.0° end=270.0° length=118.8 offset=-239.7 circ=483.8
+[2025-09-05T12:00:58.190Z] Lower Spark: pos(369.0,152.3) center(385.0,110.0) dx=-16.0 dy=75.3 angle=102.0°
+[2025-09-05T12:00:58.190Z] Lower Angle: svg=-12.0° normalized=348.0°
+[2025-09-05T12:00:58.190Z] Lower Arc: start=90.0° end=348.0° length=300.4 offset=-316.6 circ=483.8
+[2025-09-05T12:00:58.205Z] Upper Spark: pos(403.6,2.3) center(385.0,110.0) dx=18.6 dy=-74.7 angle=-76.0°
+[2025-09-05T12:00:58.207Z] Upper Angle: svg=166.0° normalized=166.0°
+[2025-09-05T12:00:58.207Z] Upper Arc: start=166.0° end=270.0° length=118.0 offset=-239.0 circ=483.8
+[2025-09-05T12:00:58.207Z] Lower Spark: pos(366.4,151.7) center(385.0,110.0) dx=-18.6 dy=74.7 angle=104.0°
+[2025-09-05T12:00:58.207Z] Lower Angle: svg=-14.0° normalized=346.0°
+[2025-09-05T12:00:58.207Z] Lower Arc: start=90.0° end=346.0° length=290.5 offset=-309.3 circ=483.8
+[2025-09-05T12:00:58.208Z] Upper Spark: pos(403.6,2.3) center(385.0,110.0) dx=18.6 dy=-74.7 angle=-76.0°
+[2025-09-05T12:00:58.208Z] Upper Angle: svg=166.0° normalized=166.0°
+[2025-09-05T12:00:58.208Z] Upper Arc: start=166.0° end=270.0° length=118.0 offset=-239.0 circ=483.8
+[2025-09-05T12:00:58.208Z] Lower Spark: pos(366.4,151.7) center(385.0,110.0) dx=-18.6 dy=74.7 angle=104.0°
+[2025-09-05T12:00:58.208Z] Lower Angle: svg=-14.0° normalized=346.0°
+[2025-09-05T12:00:58.208Z] Lower Arc: start=90.0° end=346.0° length=290.5 offset=-309.3 circ=483.8
+[2025-09-05T12:00:58.221Z] Upper Spark: pos(406.2,3.0) center(385.0,110.0) dx=21.2 dy=-74.0 angle=-74.0°
+[2025-09-05T12:00:58.221Z] Upper Angle: svg=164.0° normalized=164.0°
+[2025-09-05T12:00:58.221Z] Upper Arc: start=164.0° end=270.0° length=117.1 offset=-238.1 circ=483.8
+[2025-09-05T12:00:58.221Z] Lower Spark: pos(363.8,151.0) center(385.0,110.0) dx=-21.2 dy=74.0 angle=106.0°
+[2025-09-05T12:00:58.221Z] Lower Angle: svg=-16.0° normalized=344.0°
+[2025-09-05T12:00:58.221Z] Lower Arc: start=90.0° end=344.0° length=280.6 offset=-302.1 circ=483.8
+[2025-09-05T12:00:58.223Z] Upper Spark: pos(406.2,3.0) center(385.0,110.0) dx=21.2 dy=-74.0 angle=-74.0°
+[2025-09-05T12:00:58.223Z] Upper Angle: svg=164.0° normalized=164.0°
+[2025-09-05T12:00:58.223Z] Upper Arc: start=164.0° end=270.0° length=117.1 offset=-238.1 circ=483.8
+[2025-09-05T12:00:58.223Z] Lower Spark: pos(363.8,151.0) center(385.0,110.0) dx=-21.2 dy=74.0 angle=106.0°
+[2025-09-05T12:00:58.224Z] Lower Angle: svg=-16.0° normalized=344.0°
+[2025-09-05T12:00:58.224Z] Lower Arc: start=90.0° end=344.0° length=280.6 offset=-302.1 circ=483.8
+[2025-09-05T12:00:58.236Z] Upper Spark: pos(408.8,3.8) center(385.0,110.0) dx=23.8 dy=-73.2 angle=-72.0°
+[2025-09-05T12:00:58.237Z] Upper Angle: svg=162.0° normalized=162.0°
+[2025-09-05T12:00:58.237Z] Upper Arc: start=162.0° end=270.0° length=116.1 offset=-237.1 circ=483.8
+[2025-09-05T12:00:58.237Z] Lower Spark: pos(361.2,150.2) center(385.0,110.0) dx=-23.8 dy=73.2 angle=108.0°
+[2025-09-05T12:00:58.237Z] Lower Angle: svg=-18.0° normalized=342.0°
+[2025-09-05T12:00:58.237Z] Lower Arc: start=90.0° end=342.0° length=270.9 offset=-295.1 circ=483.8
+[2025-09-05T12:00:58.239Z] Upper Spark: pos(408.8,3.8) center(385.0,110.0) dx=23.8 dy=-73.2 angle=-72.0°
+[2025-09-05T12:00:58.239Z] Upper Angle: svg=162.0° normalized=162.0°
+[2025-09-05T12:00:58.239Z] Upper Arc: start=162.0° end=270.0° length=116.1 offset=-237.1 circ=483.8
+[2025-09-05T12:00:58.240Z] Lower Spark: pos(361.2,150.2) center(385.0,110.0) dx=-23.8 dy=73.2 angle=108.0°
+[2025-09-05T12:00:58.240Z] Lower Angle: svg=-18.0° normalized=342.0°
+[2025-09-05T12:00:58.240Z] Lower Arc: start=90.0° end=342.0° length=270.9 offset=-295.1 circ=483.8
+[2025-09-05T12:00:58.254Z] Upper Spark: pos(411.3,4.6) center(385.0,110.0) dx=26.3 dy=-72.4 angle=-70.0°
+[2025-09-05T12:00:58.254Z] Upper Angle: svg=160.0° normalized=160.0°
+[2025-09-05T12:00:58.254Z] Upper Arc: start=160.0° end=270.0° length=115.0 offset=-235.9 circ=483.8
+[2025-09-05T12:00:58.255Z] Lower Spark: pos(358.7,149.4) center(385.0,110.0) dx=-26.3 dy=72.4 angle=110.0°
+[2025-09-05T12:00:58.255Z] Lower Angle: svg=-20.0° normalized=340.0°
+[2025-09-05T12:00:58.255Z] Lower Arc: start=90.0° end=340.0° length=261.3 offset=-288.2 circ=483.8
+[2025-09-05T12:00:58.257Z] Upper Spark: pos(411.3,4.6) center(385.0,110.0) dx=26.3 dy=-72.4 angle=-70.0°
+[2025-09-05T12:00:58.257Z] Upper Angle: svg=160.0° normalized=160.0°
+[2025-09-05T12:00:58.257Z] Upper Arc: start=160.0° end=270.0° length=115.0 offset=-235.9 circ=483.8
+[2025-09-05T12:00:58.257Z] Lower Spark: pos(358.7,149.4) center(385.0,110.0) dx=-26.3 dy=72.4 angle=110.0°
+[2025-09-05T12:00:58.257Z] Lower Angle: svg=-20.0° normalized=340.0°
+[2025-09-05T12:00:58.257Z] Lower Arc: start=90.0° end=340.0° length=261.3 offset=-288.2 circ=483.8
+[2025-09-05T12:00:58.269Z] Upper Spark: pos(413.8,5.6) center(385.0,110.0) dx=28.8 dy=-71.4 angle=-68.0°
+[2025-09-05T12:00:58.269Z] Upper Angle: svg=158.0° normalized=158.0°
+[2025-09-05T12:00:58.270Z] Upper Arc: start=158.0° end=270.0° length=113.7 offset=-234.7 circ=483.8
+[2025-09-05T12:00:58.270Z] Lower Spark: pos(356.2,148.4) center(385.0,110.0) dx=-28.8 dy=71.4 angle=112.0°
+[2025-09-05T12:00:58.270Z] Lower Angle: svg=-22.0° normalized=338.0°
+[2025-09-05T12:00:58.270Z] Lower Arc: start=90.0° end=338.0° length=251.8 offset=-281.4 circ=483.8
+[2025-09-05T12:00:58.272Z] Upper Spark: pos(413.8,5.6) center(385.0,110.0) dx=28.8 dy=-71.4 angle=-68.0°
+[2025-09-05T12:00:58.272Z] Upper Angle: svg=158.0° normalized=158.0°
+[2025-09-05T12:00:58.272Z] Upper Arc: start=158.0° end=270.0° length=113.7 offset=-234.7 circ=483.8
+[2025-09-05T12:00:58.272Z] Lower Spark: pos(356.2,148.4) center(385.0,110.0) dx=-28.8 dy=71.4 angle=112.0°
+[2025-09-05T12:00:58.273Z] Lower Angle: svg=-22.0° normalized=338.0°
+[2025-09-05T12:00:58.273Z] Lower Arc: start=90.0° end=338.0° length=251.8 offset=-281.4 circ=483.8
+[2025-09-05T12:00:58.286Z] Upper Spark: pos(416.3,6.6) center(385.0,110.0) dx=31.3 dy=-70.4 angle=-66.0°
+[2025-09-05T12:00:58.287Z] Upper Angle: svg=156.0° normalized=156.0°
+[2025-09-05T12:00:58.287Z] Upper Arc: start=156.0° end=270.0° length=112.3 offset=-233.3 circ=483.8
+[2025-09-05T12:00:58.287Z] Lower Spark: pos(353.7,147.4) center(385.0,110.0) dx=-31.3 dy=70.4 angle=114.0°
+[2025-09-05T12:00:58.287Z] Lower Angle: svg=-24.0° normalized=336.0°
+[2025-09-05T12:00:58.287Z] Lower Arc: start=90.0° end=336.0° length=242.4 offset=-274.7 circ=483.8
+[2025-09-05T12:00:58.289Z] Upper Spark: pos(416.3,6.6) center(385.0,110.0) dx=31.3 dy=-70.4 angle=-66.0°
+[2025-09-05T12:00:58.289Z] Upper Angle: svg=156.0° normalized=156.0°
+[2025-09-05T12:00:58.289Z] Upper Arc: start=156.0° end=270.0° length=112.3 offset=-233.3 circ=483.8
+[2025-09-05T12:00:58.289Z] Lower Spark: pos(353.7,147.4) center(385.0,110.0) dx=-31.3 dy=70.4 angle=114.0°
+[2025-09-05T12:00:58.290Z] Lower Angle: svg=-24.0° normalized=336.0°
+[2025-09-05T12:00:58.290Z] Lower Arc: start=90.0° end=336.0° length=242.4 offset=-274.7 circ=483.8
+[2025-09-05T12:00:58.303Z] Upper Spark: pos(418.8,7.8) center(385.0,110.0) dx=33.8 dy=-69.2 angle=-64.0°
+[2025-09-05T12:00:58.303Z] Upper Angle: svg=154.0° normalized=154.0°
+[2025-09-05T12:00:58.303Z] Upper Arc: start=154.0° end=270.0° length=110.9 offset=-231.8 circ=483.8
+[2025-09-05T12:00:58.304Z] Lower Spark: pos(351.2,146.2) center(385.0,110.0) dx=-33.8 dy=69.2 angle=116.0°
+[2025-09-05T12:00:58.304Z] Lower Angle: svg=-26.0° normalized=334.0°
+[2025-09-05T12:00:58.304Z] Lower Arc: start=90.0° end=334.0° length=233.2 offset=-268.1 circ=483.8
+[2025-09-05T12:00:58.305Z] Upper Spark: pos(418.8,7.8) center(385.0,110.0) dx=33.8 dy=-69.2 angle=-64.0°
+[2025-09-05T12:00:58.306Z] Upper Angle: svg=154.0° normalized=154.0°
+[2025-09-05T12:00:58.306Z] Upper Arc: start=154.0° end=270.0° length=110.9 offset=-231.8 circ=483.8
+[2025-09-05T12:00:58.306Z] Lower Spark: pos(351.2,146.2) center(385.0,110.0) dx=-33.8 dy=69.2 angle=116.0°
+[2025-09-05T12:00:58.306Z] Lower Angle: svg=-26.0° normalized=334.0°
+[2025-09-05T12:00:58.306Z] Lower Arc: start=90.0° end=334.0° length=233.2 offset=-268.1 circ=483.8
+[2025-09-05T12:00:58.319Z] Upper Spark: pos(421.2,9.0) center(385.0,110.0) dx=36.2 dy=-68.0 angle=-62.0°
+[2025-09-05T12:00:58.319Z] Upper Angle: svg=152.0° normalized=152.0°
+[2025-09-05T12:00:58.319Z] Upper Arc: start=152.0° end=270.0° length=109.2 offset=-230.2 circ=483.8
+[2025-09-05T12:00:58.320Z] Lower Spark: pos(348.8,145.0) center(385.0,110.0) dx=-36.2 dy=68.0 angle=118.0°
+[2025-09-05T12:00:58.320Z] Lower Angle: svg=-28.0° normalized=332.0°
+[2025-09-05T12:00:58.320Z] Lower Arc: start=90.0° end=332.0° length=224.1 offset=-261.7 circ=483.8
+[2025-09-05T12:00:58.321Z] Upper Spark: pos(421.2,9.0) center(385.0,110.0) dx=36.2 dy=-68.0 angle=-62.0°
+[2025-09-05T12:00:58.322Z] Upper Angle: svg=152.0° normalized=152.0°
+[2025-09-05T12:00:58.322Z] Upper Arc: start=152.0° end=270.0° length=109.2 offset=-230.2 circ=483.8
+[2025-09-05T12:00:58.322Z] Lower Spark: pos(348.8,145.0) center(385.0,110.0) dx=-36.2 dy=68.0 angle=118.0°
+[2025-09-05T12:00:58.322Z] Lower Angle: svg=-28.0° normalized=332.0°
+[2025-09-05T12:00:58.323Z] Lower Arc: start=90.0° end=332.0° length=224.1 offset=-261.7 circ=483.8
+[2025-09-05T12:00:58.336Z] Upper Spark: pos(423.5,10.3) center(385.0,110.0) dx=38.5 dy=-66.7 angle=-60.0°
+[2025-09-05T12:00:58.337Z] Upper Angle: svg=150.0° normalized=150.0°
+[2025-09-05T12:00:58.337Z] Upper Arc: start=150.0° end=270.0° length=107.5 offset=-228.5 circ=483.8
+[2025-09-05T12:00:58.337Z] Lower Spark: pos(346.5,143.7) center(385.0,110.0) dx=-38.5 dy=66.7 angle=120.0°
+[2025-09-05T12:00:58.337Z] Lower Angle: svg=-30.0° normalized=330.0°
+[2025-09-05T12:00:58.337Z] Lower Arc: start=90.0° end=330.0° length=215.0 offset=-255.3 circ=483.8
+[2025-09-05T12:00:58.338Z] Upper Spark: pos(423.5,10.3) center(385.0,110.0) dx=38.5 dy=-66.7 angle=-60.0°
+[2025-09-05T12:00:58.339Z] Upper Angle: svg=150.0° normalized=150.0°
+[2025-09-05T12:00:58.339Z] Upper Arc: start=150.0° end=270.0° length=107.5 offset=-228.5 circ=483.8
+[2025-09-05T12:00:58.339Z] Lower Spark: pos(346.5,143.7) center(385.0,110.0) dx=-38.5 dy=66.7 angle=120.0°
+[2025-09-05T12:00:58.339Z] Lower Angle: svg=-30.0° normalized=330.0°
+[2025-09-05T12:00:58.339Z] Lower Arc: start=90.0° end=330.0° length=215.0 offset=-255.3 circ=483.8
+[2025-09-05T12:00:58.353Z] Upper Spark: pos(425.8,11.7) center(385.0,110.0) dx=40.8 dy=-65.3 angle=-58.0°
+[2025-09-05T12:00:58.353Z] Upper Angle: svg=148.0° normalized=148.0°
+[2025-09-05T12:00:58.353Z] Upper Arc: start=148.0° end=270.0° length=105.7 offset=-226.6 circ=483.8
+[2025-09-05T12:00:58.353Z] Lower Spark: pos(344.2,142.3) center(385.0,110.0) dx=-40.8 dy=65.3 angle=122.0°
+[2025-09-05T12:00:58.354Z] Lower Angle: svg=-32.0° normalized=328.0°
+[2025-09-05T12:00:58.354Z] Lower Arc: start=90.0° end=328.0° length=206.1 offset=-249.1 circ=483.8
+[2025-09-05T12:00:58.355Z] Upper Spark: pos(425.8,11.7) center(385.0,110.0) dx=40.8 dy=-65.3 angle=-58.0°
+[2025-09-05T12:00:58.355Z] Upper Angle: svg=148.0° normalized=148.0°
+[2025-09-05T12:00:58.356Z] Upper Arc: start=148.0° end=270.0° length=105.7 offset=-226.6 circ=483.8
+[2025-09-05T12:00:58.356Z] Lower Spark: pos(344.2,142.3) center(385.0,110.0) dx=-40.8 dy=65.3 angle=122.0°
+[2025-09-05T12:00:58.356Z] Lower Angle: svg=-32.0° normalized=328.0°
+[2025-09-05T12:00:58.356Z] Lower Arc: start=90.0° end=328.0° length=206.1 offset=-249.1 circ=483.8
+[2025-09-05T12:00:58.370Z] Upper Spark: pos(428.1,13.2) center(385.0,110.0) dx=43.1 dy=-63.8 angle=-56.0°
+[2025-09-05T12:00:58.370Z] Upper Angle: svg=146.0° normalized=146.0°
+[2025-09-05T12:00:58.371Z] Upper Arc: start=146.0° end=270.0° length=103.7 offset=-224.6 circ=483.8
+[2025-09-05T12:00:58.371Z] Lower Spark: pos(341.9,140.8) center(385.0,110.0) dx=-43.1 dy=63.8 angle=124.0°
+[2025-09-05T12:00:58.371Z] Lower Angle: svg=-34.0° normalized=326.0°
+[2025-09-05T12:00:58.371Z] Lower Arc: start=90.0° end=326.0° length=197.3 offset=-243.0 circ=483.8
+[2025-09-05T12:00:58.372Z] Upper Spark: pos(428.1,13.2) center(385.0,110.0) dx=43.1 dy=-63.8 angle=-56.0°
+[2025-09-05T12:00:58.373Z] Upper Angle: svg=146.0° normalized=146.0°
+[2025-09-05T12:00:58.373Z] Upper Arc: start=146.0° end=270.0° length=103.7 offset=-224.6 circ=483.8
+[2025-09-05T12:00:58.373Z] Lower Spark: pos(341.9,140.8) center(385.0,110.0) dx=-43.1 dy=63.8 angle=124.0°
+[2025-09-05T12:00:58.373Z] Lower Angle: svg=-34.0° normalized=326.0°
+[2025-09-05T12:00:58.373Z] Lower Arc: start=90.0° end=326.0° length=197.3 offset=-243.0 circ=483.8
+[2025-09-05T12:00:58.386Z] Upper Spark: pos(430.3,14.7) center(385.0,110.0) dx=45.3 dy=-62.3 angle=-54.0°
+[2025-09-05T12:00:58.386Z] Upper Angle: svg=144.0° normalized=144.0°
+[2025-09-05T12:00:58.387Z] Upper Arc: start=144.0° end=270.0° length=101.6 offset=-222.5 circ=483.8
+[2025-09-05T12:00:58.387Z] Lower Spark: pos(339.7,139.3) center(385.0,110.0) dx=-45.3 dy=62.3 angle=126.0°
+[2025-09-05T12:00:58.387Z] Lower Angle: svg=-36.0° normalized=324.0°
+[2025-09-05T12:00:58.387Z] Lower Arc: start=90.0° end=324.0° length=188.7 offset=-237.1 circ=483.8
+[2025-09-05T12:00:58.388Z] Upper Spark: pos(430.3,14.7) center(385.0,110.0) dx=45.3 dy=-62.3 angle=-54.0°
+[2025-09-05T12:00:58.389Z] Upper Angle: svg=144.0° normalized=144.0°
+[2025-09-05T12:00:58.389Z] Upper Arc: start=144.0° end=270.0° length=101.6 offset=-222.5 circ=483.8
+[2025-09-05T12:00:58.389Z] Lower Spark: pos(339.7,139.3) center(385.0,110.0) dx=-45.3 dy=62.3 angle=126.0°
+[2025-09-05T12:00:58.389Z] Lower Angle: svg=-36.0° normalized=324.0°
+[2025-09-05T12:00:58.389Z] Lower Arc: start=90.0° end=324.0° length=188.7 offset=-237.1 circ=483.8
+[2025-09-05T12:00:58.403Z] Upper Spark: pos(432.4,16.3) center(385.0,110.0) dx=47.4 dy=-60.7 angle=-52.0°
+[2025-09-05T12:00:58.404Z] Upper Angle: svg=142.0° normalized=142.0°
+[2025-09-05T12:00:58.404Z] Upper Arc: start=142.0° end=270.0° length=99.4 offset=-220.3 circ=483.8
+[2025-09-05T12:00:58.404Z] Lower Spark: pos(337.6,137.7) center(385.0,110.0) dx=-47.4 dy=60.7 angle=128.0°
+[2025-09-05T12:00:58.404Z] Lower Angle: svg=-38.0° normalized=322.0°
+[2025-09-05T12:00:58.404Z] Lower Arc: start=90.0° end=322.0° length=180.1 offset=-231.2 circ=483.8
+[2025-09-05T12:00:58.406Z] Upper Spark: pos(432.4,16.3) center(385.0,110.0) dx=47.4 dy=-60.7 angle=-52.0°
+[2025-09-05T12:00:58.406Z] Upper Angle: svg=142.0° normalized=142.0°
+[2025-09-05T12:00:58.406Z] Upper Arc: start=142.0° end=270.0° length=99.4 offset=-220.3 circ=483.8
+[2025-09-05T12:00:58.406Z] Lower Spark: pos(337.6,137.7) center(385.0,110.0) dx=-47.4 dy=60.7 angle=128.0°
+[2025-09-05T12:00:58.407Z] Lower Angle: svg=-38.0° normalized=322.0°
+[2025-09-05T12:00:58.407Z] Lower Arc: start=90.0° end=322.0° length=180.1 offset=-231.2 circ=483.8
+[2025-09-05T12:00:58.420Z] Upper Spark: pos(434.5,18.0) center(385.0,110.0) dx=49.5 dy=-59.0 angle=-50.0°
+[2025-09-05T12:00:58.420Z] Upper Angle: svg=140.0° normalized=140.0°
+[2025-09-05T12:00:58.421Z] Upper Arc: start=140.0° end=270.0° length=97.0 offset=-218.0 circ=483.8
+[2025-09-05T12:00:58.421Z] Lower Spark: pos(335.5,136.0) center(385.0,110.0) dx=-49.5 dy=59.0 angle=130.0°
+[2025-09-05T12:00:58.421Z] Lower Angle: svg=-40.0° normalized=320.0°
+[2025-09-05T12:00:58.421Z] Lower Arc: start=90.0° end=320.0° length=171.7 offset=-225.5 circ=483.8
+[2025-09-05T12:00:58.422Z] Upper Spark: pos(434.5,18.0) center(385.0,110.0) dx=49.5 dy=-59.0 angle=-50.0°
+[2025-09-05T12:00:58.423Z] Upper Angle: svg=140.0° normalized=140.0°
+[2025-09-05T12:00:58.423Z] Upper Arc: start=140.0° end=270.0° length=97.0 offset=-218.0 circ=483.8
+[2025-09-05T12:00:58.423Z] Lower Spark: pos(335.5,136.0) center(385.0,110.0) dx=-49.5 dy=59.0 angle=130.0°
+[2025-09-05T12:00:58.423Z] Lower Angle: svg=-40.0° normalized=320.0°
+[2025-09-05T12:00:58.423Z] Lower Arc: start=90.0° end=320.0° length=171.7 offset=-225.5 circ=483.8
+[2025-09-05T12:00:58.436Z] Upper Spark: pos(436.5,19.8) center(385.0,110.0) dx=51.5 dy=-57.2 angle=-48.0°
+[2025-09-05T12:00:58.436Z] Upper Angle: svg=138.0° normalized=138.0°
+[2025-09-05T12:00:58.437Z] Upper Arc: start=138.0° end=270.0° length=94.6 offset=-215.6 circ=483.8
+[2025-09-05T12:00:58.437Z] Lower Spark: pos(333.5,134.2) center(385.0,110.0) dx=-51.5 dy=57.2 angle=132.0°
+[2025-09-05T12:00:58.437Z] Lower Angle: svg=-42.0° normalized=318.0°
+[2025-09-05T12:00:58.437Z] Lower Arc: start=90.0° end=318.0° length=163.4 offset=-219.9 circ=483.8
+[2025-09-05T12:00:58.438Z] Upper Spark: pos(436.5,19.8) center(385.0,110.0) dx=51.5 dy=-57.2 angle=-48.0°
+[2025-09-05T12:00:58.439Z] Upper Angle: svg=138.0° normalized=138.0°
+[2025-09-05T12:00:58.439Z] Upper Arc: start=138.0° end=270.0° length=94.6 offset=-215.6 circ=483.8
+[2025-09-05T12:00:58.439Z] Lower Spark: pos(333.5,134.2) center(385.0,110.0) dx=-51.5 dy=57.2 angle=132.0°
+[2025-09-05T12:00:58.439Z] Lower Angle: svg=-42.0° normalized=318.0°
+[2025-09-05T12:00:58.439Z] Lower Arc: start=90.0° end=318.0° length=163.4 offset=-219.9 circ=483.8
+[2025-09-05T12:00:58.454Z] Upper Spark: pos(438.5,21.6) center(385.0,110.0) dx=53.5 dy=-55.4 angle=-46.0°
+[2025-09-05T12:00:58.454Z] Upper Angle: svg=136.0° normalized=136.0°
+[2025-09-05T12:00:58.454Z] Upper Arc: start=136.0° end=270.0° length=92.0 offset=-213.0 circ=483.8
+[2025-09-05T12:00:58.454Z] Lower Spark: pos(331.5,132.4) center(385.0,110.0) dx=-53.5 dy=55.4 angle=134.0°
+[2025-09-05T12:00:58.455Z] Lower Angle: svg=-44.0° normalized=316.0°
+[2025-09-05T12:00:58.455Z] Lower Arc: start=90.0° end=316.0° length=155.2 offset=-214.4 circ=483.8
+[2025-09-05T12:00:58.456Z] Upper Spark: pos(438.5,21.6) center(385.0,110.0) dx=53.5 dy=-55.4 angle=-46.0°
+[2025-09-05T12:00:58.457Z] Upper Angle: svg=136.0° normalized=136.0°
+[2025-09-05T12:00:58.457Z] Upper Arc: start=136.0° end=270.0° length=92.0 offset=-213.0 circ=483.8
+[2025-09-05T12:00:58.457Z] Lower Spark: pos(331.5,132.4) center(385.0,110.0) dx=-53.5 dy=55.4 angle=134.0°
+[2025-09-05T12:00:58.457Z] Lower Angle: svg=-44.0° normalized=316.0°
+[2025-09-05T12:00:58.457Z] Lower Arc: start=90.0° end=316.0° length=155.2 offset=-214.4 circ=483.8
+[2025-09-05T12:00:58.469Z] Upper Spark: pos(440.4,23.5) center(385.0,110.0) dx=55.4 dy=-53.5 angle=-44.0°
+[2025-09-05T12:00:58.470Z] Upper Angle: svg=134.0° normalized=134.0°
+[2025-09-05T12:00:58.470Z] Upper Arc: start=134.0° end=270.0° length=89.3 offset=-210.3 circ=483.8
+[2025-09-05T12:00:58.470Z] Lower Spark: pos(329.6,130.5) center(385.0,110.0) dx=-55.4 dy=53.5 angle=136.0°
+[2025-09-05T12:00:58.470Z] Lower Angle: svg=-46.0° normalized=314.0°
+[2025-09-05T12:00:58.470Z] Lower Arc: start=90.0° end=314.0° length=147.1 offset=-209.0 circ=483.8
+[2025-09-05T12:00:58.472Z] Upper Spark: pos(440.4,23.5) center(385.0,110.0) dx=55.4 dy=-53.5 angle=-44.0°
+[2025-09-05T12:00:58.472Z] Upper Angle: svg=134.0° normalized=134.0°
+[2025-09-05T12:00:58.472Z] Upper Arc: start=134.0° end=270.0° length=89.3 offset=-210.3 circ=483.8
+[2025-09-05T12:00:58.472Z] Lower Spark: pos(329.6,130.5) center(385.0,110.0) dx=-55.4 dy=53.5 angle=136.0°
+[2025-09-05T12:00:58.473Z] Lower Angle: svg=-46.0° normalized=314.0°
+[2025-09-05T12:00:58.473Z] Lower Arc: start=90.0° end=314.0° length=147.1 offset=-209.0 circ=483.8
+[2025-09-05T12:00:58.486Z] Upper Spark: pos(442.2,25.5) center(385.0,110.0) dx=57.2 dy=-51.5 angle=-42.0°
+[2025-09-05T12:00:58.487Z] Upper Angle: svg=132.0° normalized=132.0°
+[2025-09-05T12:00:58.487Z] Upper Arc: start=132.0° end=270.0° length=86.5 offset=-207.5 circ=483.8
+[2025-09-05T12:00:58.487Z] Lower Spark: pos(327.8,128.5) center(385.0,110.0) dx=-57.2 dy=51.5 angle=138.0°
+[2025-09-05T12:00:58.487Z] Lower Angle: svg=-48.0° normalized=312.0°
+[2025-09-05T12:00:58.487Z] Lower Arc: start=90.0° end=312.0° length=139.2 offset=-203.7 circ=483.8
+[2025-09-05T12:00:58.489Z] Upper Spark: pos(442.2,25.5) center(385.0,110.0) dx=57.2 dy=-51.5 angle=-42.0°
+[2025-09-05T12:00:58.489Z] Upper Angle: svg=132.0° normalized=132.0°
+[2025-09-05T12:00:58.489Z] Upper Arc: start=132.0° end=270.0° length=86.5 offset=-207.5 circ=483.8
+[2025-09-05T12:00:58.489Z] Lower Spark: pos(327.8,128.5) center(385.0,110.0) dx=-57.2 dy=51.5 angle=138.0°
+[2025-09-05T12:00:58.489Z] Lower Angle: svg=-48.0° normalized=312.0°
+[2025-09-05T12:00:58.490Z] Lower Arc: start=90.0° end=312.0° length=139.2 offset=-203.7 circ=483.8
+[2025-09-05T12:00:58.503Z] Upper Spark: pos(444.0,27.5) center(385.0,110.0) dx=59.0 dy=-49.5 angle=-40.0°
+[2025-09-05T12:00:58.504Z] Upper Angle: svg=130.0° normalized=130.0°
+[2025-09-05T12:00:58.504Z] Upper Arc: start=130.0° end=270.0° length=83.6 offset=-204.6 circ=483.8
+[2025-09-05T12:00:58.504Z] Lower Spark: pos(326.0,126.5) center(385.0,110.0) dx=-59.0 dy=49.5 angle=140.0°
+[2025-09-05T12:00:58.504Z] Lower Angle: svg=-50.0° normalized=310.0°
+[2025-09-05T12:00:58.504Z] Lower Arc: start=90.0° end=310.0° length=131.4 offset=-198.6 circ=483.8
+[2025-09-05T12:00:58.505Z] Upper Spark: pos(444.0,27.5) center(385.0,110.0) dx=59.0 dy=-49.5 angle=-40.0°
+[2025-09-05T12:00:58.506Z] Upper Angle: svg=130.0° normalized=130.0°
+[2025-09-05T12:00:58.506Z] Upper Arc: start=130.0° end=270.0° length=83.6 offset=-204.6 circ=483.8
+[2025-09-05T12:00:58.506Z] Lower Spark: pos(326.0,126.5) center(385.0,110.0) dx=-59.0 dy=49.5 angle=140.0°
+[2025-09-05T12:00:58.506Z] Lower Angle: svg=-50.0° normalized=310.0°
+[2025-09-05T12:00:58.507Z] Lower Arc: start=90.0° end=310.0° length=131.4 offset=-198.6 circ=483.8
+[2025-09-05T12:00:58.520Z] Upper Spark: pos(445.7,29.6) center(385.0,110.0) dx=60.7 dy=-47.4 angle=-38.0°
+[2025-09-05T12:00:58.520Z] Upper Angle: svg=128.0° normalized=128.0°
+[2025-09-05T12:00:58.520Z] Upper Arc: start=128.0° end=270.0° length=80.6 offset=-201.5 circ=483.8
+[2025-09-05T12:00:58.521Z] Lower Spark: pos(324.3,124.4) center(385.0,110.0) dx=-60.7 dy=47.4 angle=142.0°
+[2025-09-05T12:00:58.521Z] Lower Angle: svg=-52.0° normalized=308.0°
+[2025-09-05T12:00:58.521Z] Lower Arc: start=90.0° end=308.0° length=123.7 offset=-193.6 circ=483.8
+[2025-09-05T12:00:58.522Z] Upper Spark: pos(445.7,29.6) center(385.0,110.0) dx=60.7 dy=-47.4 angle=-38.0°
+[2025-09-05T12:00:58.523Z] Upper Angle: svg=128.0° normalized=128.0°
+[2025-09-05T12:00:58.523Z] Upper Arc: start=128.0° end=270.0° length=80.6 offset=-201.5 circ=483.8
+[2025-09-05T12:00:58.523Z] Lower Spark: pos(324.3,124.4) center(385.0,110.0) dx=-60.7 dy=47.4 angle=142.0°
+[2025-09-05T12:00:58.523Z] Lower Angle: svg=-52.0° normalized=308.0°
+[2025-09-05T12:00:58.524Z] Lower Arc: start=90.0° end=308.0° length=123.7 offset=-193.6 circ=483.8
+[2025-09-05T12:00:58.536Z] Upper Spark: pos(447.3,31.7) center(385.0,110.0) dx=62.3 dy=-45.3 angle=-36.0°
+[2025-09-05T12:00:58.537Z] Upper Angle: svg=126.0° normalized=126.0°
+[2025-09-05T12:00:58.537Z] Upper Arc: start=126.0° end=270.0° length=77.4 offset=-198.4 circ=483.8
+[2025-09-05T12:00:58.537Z] Lower Spark: pos(322.7,122.3) center(385.0,110.0) dx=-62.3 dy=45.3 angle=144.0°
+[2025-09-05T12:00:58.537Z] Lower Angle: svg=-54.0° normalized=306.0°
+[2025-09-05T12:00:58.537Z] Lower Arc: start=90.0° end=306.0° length=116.1 offset=-188.7 circ=483.8
+[2025-09-05T12:00:58.538Z] Upper Spark: pos(447.3,31.7) center(385.0,110.0) dx=62.3 dy=-45.3 angle=-36.0°
+[2025-09-05T12:00:58.539Z] Upper Angle: svg=126.0° normalized=126.0°
+[2025-09-05T12:00:58.539Z] Upper Arc: start=126.0° end=270.0° length=77.4 offset=-198.4 circ=483.8
+[2025-09-05T12:00:58.539Z] Lower Spark: pos(322.7,122.3) center(385.0,110.0) dx=-62.3 dy=45.3 angle=144.0°
+[2025-09-05T12:00:58.539Z] Lower Angle: svg=-54.0° normalized=306.0°
+[2025-09-05T12:00:58.539Z] Lower Arc: start=90.0° end=306.0° length=116.1 offset=-188.7 circ=483.8
+[2025-09-05T12:00:58.553Z] Upper Spark: pos(448.8,33.9) center(385.0,110.0) dx=63.8 dy=-43.1 angle=-34.0°
+[2025-09-05T12:00:58.554Z] Upper Angle: svg=124.0° normalized=124.0°
+[2025-09-05T12:00:58.554Z] Upper Arc: start=124.0° end=270.0° length=74.1 offset=-195.1 circ=483.8
+[2025-09-05T12:00:58.554Z] Lower Spark: pos(321.2,120.1) center(385.0,110.0) dx=-63.8 dy=43.1 angle=146.0°
+[2025-09-05T12:00:58.554Z] Lower Angle: svg=-56.0° normalized=304.0°
+[2025-09-05T12:00:58.554Z] Lower Arc: start=90.0° end=304.0° length=108.6 offset=-183.9 circ=483.8
+[2025-09-05T12:00:58.556Z] Upper Spark: pos(448.8,33.9) center(385.0,110.0) dx=63.8 dy=-43.1 angle=-34.0°
+[2025-09-05T12:00:58.556Z] Upper Angle: svg=124.0° normalized=124.0°
+[2025-09-05T12:00:58.556Z] Upper Arc: start=124.0° end=270.0° length=74.1 offset=-195.1 circ=483.8
+[2025-09-05T12:00:58.556Z] Lower Spark: pos(321.2,120.1) center(385.0,110.0) dx=-63.8 dy=43.1 angle=146.0°
+[2025-09-05T12:00:58.556Z] Lower Angle: svg=-56.0° normalized=304.0°
+[2025-09-05T12:00:58.556Z] Lower Arc: start=90.0° end=304.0° length=108.6 offset=-183.9 circ=483.8
+[2025-09-05T12:00:58.569Z] Upper Spark: pos(450.3,36.2) center(385.0,110.0) dx=65.3 dy=-40.8 angle=-32.0°
+[2025-09-05T12:00:58.569Z] Upper Angle: svg=122.0° normalized=122.0°
+[2025-09-05T12:00:58.569Z] Upper Arc: start=122.0° end=270.0° length=70.7 offset=-191.7 circ=483.8
+[2025-09-05T12:00:58.570Z] Lower Spark: pos(319.7,117.8) center(385.0,110.0) dx=-65.3 dy=40.8 angle=148.0°
+[2025-09-05T12:00:58.570Z] Lower Angle: svg=-58.0° normalized=302.0°
+[2025-09-05T12:00:58.570Z] Lower Arc: start=90.0° end=302.0° length=101.3 offset=-179.3 circ=483.8
+[2025-09-05T12:00:58.572Z] Upper Spark: pos(450.3,36.2) center(385.0,110.0) dx=65.3 dy=-40.8 angle=-32.0°
+[2025-09-05T12:00:58.572Z] Upper Angle: svg=122.0° normalized=122.0°
+[2025-09-05T12:00:58.572Z] Upper Arc: start=122.0° end=270.0° length=70.7 offset=-191.7 circ=483.8
+[2025-09-05T12:00:58.572Z] Lower Spark: pos(319.7,117.8) center(385.0,110.0) dx=-65.3 dy=40.8 angle=148.0°
+[2025-09-05T12:00:58.572Z] Lower Angle: svg=-58.0° normalized=302.0°
+[2025-09-05T12:00:58.573Z] Lower Arc: start=90.0° end=302.0° length=101.3 offset=-179.3 circ=483.8
+[2025-09-05T12:00:58.586Z] Upper Spark: pos(451.7,38.5) center(385.0,110.0) dx=66.7 dy=-38.5 angle=-30.0°
+[2025-09-05T12:00:58.586Z] Upper Angle: svg=120.0° normalized=120.0°
+[2025-09-05T12:00:58.587Z] Upper Arc: start=120.0° end=270.0° length=67.2 offset=-188.1 circ=483.8
+[2025-09-05T12:00:58.587Z] Lower Spark: pos(318.3,115.5) center(385.0,110.0) dx=-66.7 dy=38.5 angle=150.0°
+[2025-09-05T12:00:58.587Z] Lower Angle: svg=-60.0° normalized=300.0°
+[2025-09-05T12:00:58.587Z] Lower Arc: start=90.0° end=300.0° length=94.1 offset=-174.7 circ=483.8
+[2025-09-05T12:00:58.589Z] Upper Spark: pos(451.7,38.5) center(385.0,110.0) dx=66.7 dy=-38.5 angle=-30.0°
+[2025-09-05T12:00:58.589Z] Upper Angle: svg=120.0° normalized=120.0°
+[2025-09-05T12:00:58.589Z] Upper Arc: start=120.0° end=270.0° length=67.2 offset=-188.1 circ=483.8
+[2025-09-05T12:00:58.589Z] Lower Spark: pos(318.3,115.5) center(385.0,110.0) dx=-66.7 dy=38.5 angle=150.0°
+[2025-09-05T12:00:58.589Z] Lower Angle: svg=-60.0° normalized=300.0°
+[2025-09-05T12:00:58.590Z] Lower Arc: start=90.0° end=300.0° length=94.1 offset=-174.7 circ=483.8
+[2025-09-05T12:00:58.602Z] Upper Spark: pos(453.0,40.8) center(385.0,110.0) dx=68.0 dy=-36.2 angle=-28.0°
+[2025-09-05T12:00:58.603Z] Upper Angle: svg=118.0° normalized=118.0°
+[2025-09-05T12:00:58.603Z] Upper Arc: start=118.0° end=270.0° length=63.5 offset=-184.5 circ=483.8
+[2025-09-05T12:00:58.603Z] Lower Spark: pos(317.0,113.2) center(385.0,110.0) dx=-68.0 dy=36.2 angle=152.0°
+[2025-09-05T12:00:58.603Z] Lower Angle: svg=-62.0° normalized=298.0°
+[2025-09-05T12:00:58.603Z] Lower Arc: start=90.0° end=298.0° length=87.0 offset=-170.3 circ=483.8
+[2025-09-05T12:00:58.604Z] Upper Spark: pos(453.0,40.8) center(385.0,110.0) dx=68.0 dy=-36.2 angle=-28.0°
+[2025-09-05T12:00:58.604Z] Upper Angle: svg=118.0° normalized=118.0°
+[2025-09-05T12:00:58.604Z] Upper Arc: start=118.0° end=270.0° length=63.5 offset=-184.5 circ=483.8
+[2025-09-05T12:00:58.604Z] Lower Spark: pos(317.0,113.2) center(385.0,110.0) dx=-68.0 dy=36.2 angle=152.0°
+[2025-09-05T12:00:58.604Z] Lower Angle: svg=-62.0° normalized=298.0°
+[2025-09-05T12:00:58.604Z] Lower Arc: start=90.0° end=298.0° length=87.0 offset=-170.3 circ=483.8
+[2025-09-05T12:00:58.619Z] Upper Spark: pos(454.2,43.2) center(385.0,110.0) dx=69.2 dy=-33.8 angle=-26.0°
+[2025-09-05T12:00:58.619Z] Upper Angle: svg=116.0° normalized=116.0°
+[2025-09-05T12:00:58.619Z] Upper Arc: start=116.0° end=270.0° length=59.8 offset=-180.7 circ=483.8
+[2025-09-05T12:00:58.620Z] Lower Spark: pos(315.8,110.8) center(385.0,110.0) dx=-69.2 dy=33.8 angle=154.0°
+[2025-09-05T12:00:58.620Z] Lower Angle: svg=-64.0° normalized=296.0°
+[2025-09-05T12:00:58.620Z] Lower Arc: start=90.0° end=296.0° length=80.0 offset=-166.0 circ=483.8
+[2025-09-05T12:00:58.620Z] Upper Spark: pos(454.2,43.2) center(385.0,110.0) dx=69.2 dy=-33.8 angle=-26.0°
+[2025-09-05T12:00:58.620Z] Upper Angle: svg=116.0° normalized=116.0°
+[2025-09-05T12:00:58.621Z] Upper Arc: start=116.0° end=270.0° length=59.8 offset=-180.7 circ=483.8
+[2025-09-05T12:00:58.621Z] Lower Spark: pos(315.8,110.8) center(385.0,110.0) dx=-69.2 dy=33.8 angle=154.0°
+[2025-09-05T12:00:58.621Z] Lower Angle: svg=-64.0° normalized=296.0°
+[2025-09-05T12:00:58.621Z] Lower Arc: start=90.0° end=296.0° length=80.0 offset=-166.0 circ=483.8
+[2025-09-05T12:00:58.635Z] Upper Spark: pos(455.4,45.7) center(385.0,110.0) dx=70.4 dy=-31.3 angle=-24.0°
+[2025-09-05T12:00:58.636Z] Upper Angle: svg=114.0° normalized=114.0°
+[2025-09-05T12:00:58.636Z] Upper Arc: start=114.0° end=270.0° length=55.9 offset=-176.8 circ=483.8
+[2025-09-05T12:00:58.636Z] Lower Spark: pos(314.6,108.3) center(385.0,110.0) dx=-70.4 dy=31.3 angle=156.0°
+[2025-09-05T12:00:58.636Z] Lower Angle: svg=-66.0° normalized=294.0°
+[2025-09-05T12:00:58.636Z] Lower Arc: start=90.0° end=294.0° length=73.1 offset=-161.8 circ=483.8
+[2025-09-05T12:00:58.637Z] Upper Spark: pos(455.4,45.7) center(385.0,110.0) dx=70.4 dy=-31.3 angle=-24.0°
+[2025-09-05T12:00:58.637Z] Upper Angle: svg=114.0° normalized=114.0°
+[2025-09-05T12:00:58.637Z] Upper Arc: start=114.0° end=270.0° length=55.9 offset=-176.8 circ=483.8
+[2025-09-05T12:00:58.637Z] Lower Spark: pos(314.6,108.3) center(385.0,110.0) dx=-70.4 dy=31.3 angle=156.0°
+[2025-09-05T12:00:58.637Z] Lower Angle: svg=-66.0° normalized=294.0°
+[2025-09-05T12:00:58.637Z] Lower Arc: start=90.0° end=294.0° length=73.1 offset=-161.8 circ=483.8
+[2025-09-05T12:00:58.654Z] Upper Spark: pos(456.4,48.1) center(385.0,110.0) dx=71.4 dy=-28.9 angle=-22.0°
+[2025-09-05T12:00:58.654Z] Upper Angle: svg=112.0° normalized=112.0°
+[2025-09-05T12:00:58.655Z] Upper Arc: start=112.0° end=270.0° length=51.9 offset=-172.9 circ=483.8
+[2025-09-05T12:00:58.655Z] Lower Spark: pos(313.6,105.9) center(385.0,110.0) dx=-71.4 dy=28.9 angle=158.0°
+[2025-09-05T12:00:58.655Z] Lower Angle: svg=-68.0° normalized=292.0°
+[2025-09-05T12:00:58.655Z] Lower Arc: start=90.0° end=292.0° length=66.4 offset=-157.8 circ=483.8
+[2025-09-05T12:00:58.655Z] Upper Spark: pos(456.4,48.1) center(385.0,110.0) dx=71.4 dy=-28.9 angle=-22.0°
+[2025-09-05T12:00:58.656Z] Upper Angle: svg=112.0° normalized=112.0°
+[2025-09-05T12:00:58.656Z] Upper Arc: start=112.0° end=270.0° length=51.9 offset=-172.9 circ=483.8
+[2025-09-05T12:00:58.656Z] Lower Spark: pos(313.6,105.9) center(385.0,110.0) dx=-71.4 dy=28.9 angle=158.0°
+[2025-09-05T12:00:58.656Z] Lower Angle: svg=-68.0° normalized=292.0°
+[2025-09-05T12:00:58.656Z] Lower Arc: start=90.0° end=292.0° length=66.4 offset=-157.8 circ=483.8
+[2025-09-05T12:00:58.669Z] Upper Spark: pos(457.4,50.7) center(385.0,110.0) dx=72.4 dy=-26.3 angle=-20.0°
+[2025-09-05T12:00:58.670Z] Upper Angle: svg=110.0° normalized=110.0°
+[2025-09-05T12:00:58.670Z] Upper Arc: start=110.0° end=270.0° length=47.8 offset=-168.7 circ=483.8
+[2025-09-05T12:00:58.670Z] Lower Spark: pos(312.6,103.3) center(385.0,110.0) dx=-72.4 dy=26.3 angle=160.0°
+[2025-09-05T12:00:58.671Z] Lower Angle: svg=-70.0° normalized=290.0°
+[2025-09-05T12:00:58.671Z] Lower Arc: start=90.0° end=290.0° length=59.7 offset=-153.8 circ=483.8
+[2025-09-05T12:00:58.671Z] Upper Spark: pos(457.4,50.7) center(385.0,110.0) dx=72.4 dy=-26.3 angle=-20.0°
+[2025-09-05T12:00:58.671Z] Upper Angle: svg=110.0° normalized=110.0°
+[2025-09-05T12:00:58.671Z] Upper Arc: start=110.0° end=270.0° length=47.8 offset=-168.7 circ=483.8
+[2025-09-05T12:00:58.671Z] Lower Spark: pos(312.6,103.3) center(385.0,110.0) dx=-72.4 dy=26.3 angle=160.0°
+[2025-09-05T12:00:58.672Z] Lower Angle: svg=-70.0° normalized=290.0°
+[2025-09-05T12:00:58.672Z] Lower Arc: start=90.0° end=290.0° length=59.7 offset=-153.8 circ=483.8
+[2025-09-05T12:00:58.686Z] Upper Spark: pos(458.3,53.2) center(385.0,110.0) dx=73.3 dy=-23.8 angle=-18.0°
+[2025-09-05T12:00:58.686Z] Upper Angle: svg=108.0° normalized=108.0°
+[2025-09-05T12:00:58.687Z] Upper Arc: start=108.0° end=270.0° length=43.5 offset=-164.5 circ=483.8
+[2025-09-05T12:00:58.687Z] Lower Spark: pos(311.7,100.8) center(385.0,110.0) dx=-73.3 dy=23.8 angle=162.0°
+[2025-09-05T12:00:58.687Z] Lower Angle: svg=-72.0° normalized=288.0°
+[2025-09-05T12:00:58.687Z] Lower Arc: start=90.0° end=288.0° length=53.2 offset=-150.0 circ=483.8
+[2025-09-05T12:00:58.688Z] Upper Spark: pos(458.3,53.2) center(385.0,110.0) dx=73.3 dy=-23.8 angle=-18.0°
+[2025-09-05T12:00:58.688Z] Upper Angle: svg=108.0° normalized=108.0°
+[2025-09-05T12:00:58.688Z] Upper Arc: start=108.0° end=270.0° length=43.5 offset=-164.5 circ=483.8
+[2025-09-05T12:00:58.688Z] Lower Spark: pos(311.7,100.8) center(385.0,110.0) dx=-73.3 dy=23.8 angle=162.0°
+[2025-09-05T12:00:58.688Z] Lower Angle: svg=-72.0° normalized=288.0°
+[2025-09-05T12:00:58.688Z] Lower Arc: start=90.0° end=288.0° length=53.2 offset=-150.0 circ=483.8
+[2025-09-05T12:00:58.703Z] Upper Spark: pos(459.0,55.8) center(385.0,110.0) dx=74.0 dy=-21.2 angle=-16.0°
+[2025-09-05T12:00:58.703Z] Upper Angle: svg=106.0° normalized=106.0°
+[2025-09-05T12:00:58.704Z] Upper Arc: start=106.0° end=270.0° length=39.2 offset=-160.1 circ=483.8
+[2025-09-05T12:00:58.704Z] Lower Spark: pos(311.0,98.2) center(385.0,110.0) dx=-74.0 dy=21.2 angle=164.0°
+[2025-09-05T12:00:58.704Z] Lower Angle: svg=-74.0° normalized=286.0°
+[2025-09-05T12:00:58.704Z] Lower Arc: start=90.0° end=286.0° length=46.8 offset=-146.3 circ=483.8
+[2025-09-05T12:00:58.705Z] Upper Spark: pos(459.0,55.8) center(385.0,110.0) dx=74.0 dy=-21.2 angle=-16.0°
+[2025-09-05T12:00:58.705Z] Upper Angle: svg=106.0° normalized=106.0°
+[2025-09-05T12:00:58.705Z] Upper Arc: start=106.0° end=270.0° length=39.2 offset=-160.1 circ=483.8
+[2025-09-05T12:00:58.706Z] Lower Spark: pos(311.0,98.2) center(385.0,110.0) dx=-74.0 dy=21.2 angle=164.0°
+[2025-09-05T12:00:58.706Z] Lower Angle: svg=-74.0° normalized=286.0°
+[2025-09-05T12:00:58.706Z] Lower Arc: start=90.0° end=286.0° length=46.8 offset=-146.3 circ=483.8
+[2025-09-05T12:00:58.719Z] Upper Spark: pos(459.7,58.4) center(385.0,110.0) dx=74.7 dy=-18.6 angle=-14.0°
+[2025-09-05T12:00:58.719Z] Upper Angle: svg=104.0° normalized=104.0°
+[2025-09-05T12:00:58.719Z] Upper Arc: start=104.0° end=270.0° length=34.7 offset=-155.6 circ=483.8
+[2025-09-05T12:00:58.720Z] Lower Spark: pos(310.3,95.6) center(385.0,110.0) dx=-74.7 dy=18.6 angle=166.0°
+[2025-09-05T12:00:58.720Z] Lower Angle: svg=-76.0° normalized=284.0°
+[2025-09-05T12:00:58.720Z] Lower Arc: start=90.0° end=284.0° length=40.5 offset=-142.7 circ=483.8
+[2025-09-05T12:00:58.720Z] Upper Spark: pos(459.7,58.4) center(385.0,110.0) dx=74.7 dy=-18.6 angle=-14.0°
+[2025-09-05T12:00:58.720Z] Upper Angle: svg=104.0° normalized=104.0°
+[2025-09-05T12:00:58.721Z] Upper Arc: start=104.0° end=270.0° length=34.7 offset=-155.6 circ=483.8
+[2025-09-05T12:00:58.721Z] Lower Spark: pos(310.3,95.6) center(385.0,110.0) dx=-74.7 dy=18.6 angle=166.0°
+[2025-09-05T12:00:58.721Z] Lower Angle: svg=-76.0° normalized=284.0°
+[2025-09-05T12:00:58.721Z] Lower Arc: start=90.0° end=284.0° length=40.5 offset=-142.7 circ=483.8
+[2025-09-05T12:00:58.737Z] Upper Spark: pos(460.3,61.0) center(385.0,110.0) dx=75.3 dy=-16.0 angle=-12.0°
+[2025-09-05T12:00:58.738Z] Upper Angle: svg=102.0° normalized=102.0°
+[2025-09-05T12:00:58.738Z] Upper Arc: start=102.0° end=270.0° length=30.1 offset=-151.1 circ=483.8
+[2025-09-05T12:00:58.738Z] Lower Spark: pos(309.7,93.0) center(385.0,110.0) dx=-75.3 dy=16.0 angle=168.0°
+[2025-09-05T12:00:58.738Z] Lower Angle: svg=-78.0° normalized=282.0°
+[2025-09-05T12:00:58.739Z] Lower Arc: start=90.0° end=282.0° length=34.4 offset=-139.2 circ=483.8
+[2025-09-05T12:00:58.739Z] Upper Spark: pos(460.3,61.0) center(385.0,110.0) dx=75.3 dy=-16.0 angle=-12.0°
+[2025-09-05T12:00:58.739Z] Upper Angle: svg=102.0° normalized=102.0°
+[2025-09-05T12:00:58.739Z] Upper Arc: start=102.0° end=270.0° length=30.1 offset=-151.1 circ=483.8
+[2025-09-05T12:00:58.739Z] Lower Spark: pos(309.7,93.0) center(385.0,110.0) dx=-75.3 dy=16.0 angle=168.0°
+[2025-09-05T12:00:58.739Z] Lower Angle: svg=-78.0° normalized=282.0°
+[2025-09-05T12:00:58.739Z] Lower Arc: start=90.0° end=282.0° length=34.4 offset=-139.2 circ=483.8
+[2025-09-05T12:00:58.752Z] Upper Spark: pos(460.8,63.6) center(385.0,110.0) dx=75.8 dy=-13.4 angle=-10.0°
+[2025-09-05T12:00:58.752Z] Upper Angle: svg=100.0° normalized=100.0°
+[2025-09-05T12:00:58.753Z] Upper Arc: start=100.0° end=270.0° length=25.4 offset=-146.3 circ=483.8
+[2025-09-05T12:00:58.753Z] Lower Spark: pos(309.2,90.4) center(385.0,110.0) dx=-75.8 dy=13.4 angle=170.0°
+[2025-09-05T12:00:58.753Z] Lower Angle: svg=-80.0° normalized=280.0°
+[2025-09-05T12:00:58.753Z] Lower Arc: start=90.0° end=280.0° length=28.4 offset=-135.9 circ=483.8
+[2025-09-05T12:00:58.753Z] Upper Spark: pos(460.8,63.6) center(385.0,110.0) dx=75.8 dy=-13.4 angle=-10.0°
+[2025-09-05T12:00:58.754Z] Upper Angle: svg=100.0° normalized=100.0°
+[2025-09-05T12:00:58.754Z] Upper Arc: start=100.0° end=270.0° length=25.4 offset=-146.3 circ=483.8
+[2025-09-05T12:00:58.754Z] Lower Spark: pos(309.2,90.4) center(385.0,110.0) dx=-75.8 dy=13.4 angle=170.0°
+[2025-09-05T12:00:58.754Z] Lower Angle: svg=-80.0° normalized=280.0°
+[2025-09-05T12:00:58.754Z] Lower Arc: start=90.0° end=280.0° length=28.4 offset=-135.9 circ=483.8
+[2025-09-05T12:00:58.769Z] Upper Spark: pos(461.3,66.3) center(385.0,110.0) dx=76.3 dy=-10.7 angle=-8.0°
+[2025-09-05T12:00:58.769Z] Upper Angle: svg=98.0° normalized=98.0°
+[2025-09-05T12:00:58.770Z] Upper Arc: start=98.0° end=270.0° length=20.5 offset=-141.5 circ=483.8
+[2025-09-05T12:00:58.770Z] Lower Spark: pos(308.7,87.7) center(385.0,110.0) dx=-76.3 dy=10.7 angle=172.0°
+[2025-09-05T12:00:58.770Z] Lower Angle: svg=-82.0° normalized=278.0°
+[2025-09-05T12:00:58.770Z] Lower Arc: start=90.0° end=278.0° length=22.4 offset=-132.6 circ=483.8
+[2025-09-05T12:00:58.771Z] Upper Spark: pos(461.3,66.3) center(385.0,110.0) dx=76.3 dy=-10.7 angle=-8.0°
+[2025-09-05T12:00:58.771Z] Upper Angle: svg=98.0° normalized=98.0°
+[2025-09-05T12:00:58.771Z] Upper Arc: start=98.0° end=270.0° length=20.5 offset=-141.5 circ=483.8
+[2025-09-05T12:00:58.771Z] Lower Spark: pos(308.7,87.7) center(385.0,110.0) dx=-76.3 dy=10.7 angle=172.0°
+[2025-09-05T12:00:58.771Z] Lower Angle: svg=-82.0° normalized=278.0°
+[2025-09-05T12:00:58.771Z] Lower Arc: start=90.0° end=278.0° length=22.4 offset=-132.6 circ=483.8
+[2025-09-05T12:00:58.786Z] Upper Spark: pos(461.6,68.9) center(385.0,110.0) dx=76.6 dy=-8.1 angle=-6.0°
+[2025-09-05T12:00:58.786Z] Upper Angle: svg=96.0° normalized=96.0°
+[2025-09-05T12:00:58.787Z] Upper Arc: start=96.0° end=270.0° length=15.6 offset=-136.5 circ=483.8
+[2025-09-05T12:00:58.787Z] Lower Spark: pos(308.4,85.1) center(385.0,110.0) dx=-76.6 dy=8.1 angle=174.0°
+[2025-09-05T12:00:58.787Z] Lower Angle: svg=-84.0° normalized=276.0°
+[2025-09-05T12:00:58.787Z] Lower Arc: start=90.0° end=276.0° length=16.7 offset=-129.6 circ=483.8
+[2025-09-05T12:00:58.789Z] Upper Spark: pos(461.6,68.9) center(385.0,110.0) dx=76.6 dy=-8.1 angle=-6.0°
+[2025-09-05T12:00:58.789Z] Upper Angle: svg=96.0° normalized=96.0°
+[2025-09-05T12:00:58.789Z] Upper Arc: start=96.0° end=270.0° length=15.6 offset=-136.5 circ=483.8
+[2025-09-05T12:00:58.789Z] Lower Spark: pos(308.4,85.1) center(385.0,110.0) dx=-76.6 dy=8.1 angle=174.0°
+[2025-09-05T12:00:58.790Z] Lower Angle: svg=-84.0° normalized=276.0°
+[2025-09-05T12:00:58.790Z] Lower Arc: start=90.0° end=276.0° length=16.7 offset=-129.6 circ=483.8
+[2025-09-05T12:00:58.803Z] Upper Spark: pos(461.8,71.6) center(385.0,110.0) dx=76.8 dy=-5.4 angle=-4.0°
+[2025-09-05T12:00:58.804Z] Upper Angle: svg=94.0° normalized=94.0°
+[2025-09-05T12:00:58.804Z] Upper Arc: start=94.0° end=270.0° length=10.5 offset=-131.5 circ=483.8
+[2025-09-05T12:00:58.804Z] Lower Spark: pos(308.2,82.4) center(385.0,110.0) dx=-76.8 dy=5.4 angle=176.0°
+[2025-09-05T12:00:58.804Z] Lower Angle: svg=-86.0° normalized=274.0°
+[2025-09-05T12:00:58.804Z] Lower Arc: start=90.0° end=274.0° length=11.0 offset=-126.6 circ=483.8
+[2025-09-05T12:00:58.806Z] Upper Spark: pos(461.8,71.6) center(385.0,110.0) dx=76.8 dy=-5.4 angle=-4.0°
+[2025-09-05T12:00:58.806Z] Upper Angle: svg=94.0° normalized=94.0°
+[2025-09-05T12:00:58.806Z] Upper Arc: start=94.0° end=270.0° length=10.5 offset=-131.5 circ=483.8
+[2025-09-05T12:00:58.807Z] Lower Spark: pos(308.2,82.4) center(385.0,110.0) dx=-76.8 dy=5.4 angle=176.0°
+[2025-09-05T12:00:58.807Z] Lower Angle: svg=-86.0° normalized=274.0°
+[2025-09-05T12:00:58.807Z] Lower Arc: start=90.0° end=274.0° length=11.0 offset=-126.6 circ=483.8
+[2025-09-05T12:00:58.820Z] Upper Spark: pos(462.0,74.3) center(385.0,110.0) dx=77.0 dy=-2.7 angle=-2.0°
+[2025-09-05T12:00:58.820Z] Upper Angle: svg=92.0° normalized=92.0°
+[2025-09-05T12:00:58.820Z] Upper Arc: start=92.0° end=270.0° length=5.3 offset=-126.2 circ=483.8
+[2025-09-05T12:00:58.820Z] Lower Spark: pos(308.0,79.7) center(385.0,110.0) dx=-77.0 dy=2.7 angle=178.0°
+[2025-09-05T12:00:58.821Z] Lower Angle: svg=-88.0° normalized=272.0°
+[2025-09-05T12:00:58.821Z] Lower Arc: start=90.0° end=272.0° length=5.4 offset=-123.7 circ=483.8
+[2025-09-05T12:00:58.822Z] Upper Spark: pos(462.0,74.3) center(385.0,110.0) dx=77.0 dy=-2.7 angle=-2.0°
+[2025-09-05T12:00:58.822Z] Upper Angle: svg=92.0° normalized=92.0°
+[2025-09-05T12:00:58.822Z] Upper Arc: start=92.0° end=270.0° length=5.3 offset=-126.2 circ=483.8
+[2025-09-05T12:00:58.823Z] Lower Spark: pos(308.0,79.7) center(385.0,110.0) dx=-77.0 dy=2.7 angle=178.0°
+[2025-09-05T12:00:58.823Z] Lower Angle: svg=-88.0° normalized=272.0°
+[2025-09-05T12:00:58.823Z] Lower Arc: start=90.0° end=272.0° length=5.4 offset=-123.7 circ=483.8

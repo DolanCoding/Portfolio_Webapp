@@ -1,0 +1,267 @@
+/* =====================================================
+   Headline.css — Blueprint theme with skewed lint/grid,
+   left→right fade, and soft top/bottom edge tint
+   ===================================================== */
+
+/* Hero container (fixed width) */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: calc(20 * var(--bp-grid-size));
+  position: relative;
+}
+.hero-grid {
+  display: flex;
+  width: 100%;
+  height: calc(20 * var(--bp-grid-size));
+  z-index: 1;
+
+  .left {
+    width: var(--home-hl-side);
+    height: calc(16 * var(--bp-grid-size));
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: end;
+
+    .headline-bubble {
+      height: calc(4 * var(--bp-grid-size));
+      position: relative;
+      right: var(--bubbles-offset);
+      width: var(--bubblesW);
+      z-index: 2;
+      display: grid;
+      grid-template-rows: calc(100% / 3) calc((100% / 3) * 2 - 0.5 * var(--bp-grid-size));
+      row-gap: calc(0.5 * var(--bp-grid-size));
+      justify-content: center;
+
+      padding: calc(0.5 * var(--bp-grid-size)) var(--bp-grid-size);
+      border: 0.1vmin solid #0095ff;
+      border-radius: calc(0.5 * var(--bp-grid-size));
+
+      .descriptive-text {
+        font-size: 1rem;
+        white-space: nowrap;
+        height: 100%;
+        align-self: center;
+      }
+      .reason-text {
+        font-size: 0.75rem;
+        align-self: center;
+      }
+
+      /* Refined blueprint background (removed radial cutoff shimmer) */
+      --hb-bg-top: rgba(4, 43, 69, 0.95);
+      --hb-bg-bottom: rgba(2, 26, 49, 0.93);
+      --hb-sheen-a: rgba(120, 210, 255, 0.18); /* initial diagonal entry */
+      --hb-sheen-b: rgba(120, 210, 255, 0.1); /* mid soft */
+      --hb-sheen-c: rgba(120, 210, 255, 0); /* fade */
+      --hb-conic: rgba(80, 180, 255, 0.1);
+      background:
+        /* subtle diagonal flowing sheen (top-left to bottom-right) */
+        linear-gradient(145deg, var(--hb-sheen-a) 0%, var(--hb-sheen-b) 26%, var(--hb-sheen-c) 55%),
+        /* ultra-soft conic micro glow, low alpha to avoid band */
+          conic-gradient(from 230deg at 32% 28%, var(--hb-conic) 0deg, transparent 110deg 360deg),
+        /* base vertical depth */
+          linear-gradient(180deg, var(--hb-bg-top) 0%, var(--hb-bg-bottom) 100%);
+      background-blend-mode: screen, overlay, normal;
+      box-shadow:
+        0 0 0.3rem rgba(0, 149, 255, 0.3),
+        0 0 0.65rem rgba(0, 149, 255, 0.16),
+        inset 0 0 0.35rem rgba(0, 149, 255, 0.16),
+        inset 0 0 0.9rem rgba(0, 149, 255, 0.08);
+    }
+  }
+
+  .right {
+    width: var(--home-hl-side);
+    height: calc(16 * var(--bp-grid-size));
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: start;
+    flex-wrap: wrap;
+
+    .headline-bubble {
+      height: calc(4 * var(--bp-grid-size));
+      position: relative;
+      left: var(--bubbles-offset);
+      z-index: 2;
+      display: grid;
+      grid-template-rows: calc(100% / 3) calc((100% / 3) * 2 - 0.5 * var(--bp-grid-size));
+      row-gap: calc(0.5 * var(--bp-grid-size));
+      justify-content: center;
+      width: var(--bubblesW);
+      padding: calc(0.5 * var(--bp-grid-size));
+      border: 0.1vmin solid #0095ff;
+      border-radius: calc(0.5 * var(--bp-grid-size));
+
+      .descriptive-text {
+        font-size: 1rem;
+        white-space: nowrap;
+        height: 100%;
+        align-self: center;
+      }
+      .reason-text {
+        font-size: 0.75rem;
+        align-self: center;
+      }
+
+      /* Refined blueprint background (removed radial cutoff shimmer) */
+      --hb-bg-top: rgba(4, 43, 69, 0.95);
+      --hb-bg-bottom: rgba(2, 26, 49, 0.93);
+      --hb-sheen-a: rgba(120, 210, 255, 0.18);
+      --hb-sheen-b: rgba(120, 210, 255, 0.1);
+      --hb-sheen-c: rgba(120, 210, 255, 0);
+      --hb-conic: rgba(80, 180, 255, 0.1);
+      background:
+        linear-gradient(215deg, var(--hb-sheen-a) 0%, var(--hb-sheen-b) 26%, var(--hb-sheen-c) 55%),
+        conic-gradient(from 310deg at 68% 28%, var(--hb-conic) 0deg, transparent 110deg 360deg),
+        linear-gradient(180deg, var(--hb-bg-top) 0%, var(--hb-bg-bottom) 100%);
+      background-blend-mode: screen, overlay, normal;
+      box-shadow:
+        0 0 0.3rem rgba(0, 149, 255, 0.3),
+        0 0 0.65rem rgba(0, 149, 255, 0.16),
+        inset 0 0 0.35rem rgba(0, 149, 255, 0.16),
+        inset 0 0 0.9rem rgba(0, 149, 255, 0.08);
+    }
+  }
+
+  /* Shared pseudo-element for blueprint grid + lint (before connector line ::after) */
+  .left .headline-bubble::before,
+  .right .headline-bubble::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    mix-blend-mode: screen;
+    background-image:
+      /* fine grid */
+      repeating-linear-gradient(
+        90deg,
+        var(--hb-grid) 0 1px,
+        transparent 1px calc(var(--bp-grid-size) / 3)
+      ),
+      repeating-linear-gradient(
+        0deg,
+        var(--hb-grid) 0 1px,
+        transparent 1px calc(var(--bp-grid-size) / 3)
+      ),
+      /* fibers */ repeating-linear-gradient(25deg, var(--hb-fiber) 0 2px, transparent 2px 9px),
+      repeating-linear-gradient(115deg, var(--hb-fiber) 0 2px, transparent 2px 11px);
+    opacity: 0.24; /* further reduced to prevent perceptual division */
+    filter: blur(0.3px) contrast(0.98) brightness(1.02);
+    /* soft vertical fade mask to remove hard horizontal perception */
+    -webkit-mask-image: linear-gradient(
+      180deg,
+      transparent 0%,
+      #000 10%,
+      #000 85%,
+      transparent 100%
+    );
+    mask-image: linear-gradient(180deg, transparent 0%, #000 10%, #000 85%, transparent 100%);
+  }
+
+  .profileDiv {
+    width: var(--home-hl-center);
+    height: 100%;
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 15% 70% 15%;
+    grid-template-columns: 100%;
+    justify-items: center;
+    align-items: end;
+    position: relative;
+    justify-content: center;
+
+    .avatar {
+      grid-row: 2;
+      grid-column: 1;
+      height: 100%;
+      object-fit: cover;
+      left: 0;
+      box-shadow: 0 0 0.5rem #0095ff;
+      border: 0.2vmin solid #0095ff;
+      border-radius: 9999px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .avatar::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: inherit;
+      box-shadow:
+        inset 0 0 0.5rem #0095ff,
+        inset 0 0.5rem #0095ff,
+        inset -0.5rem 0 #0095ff;
+    }
+  }
+}
+
+.profileDiv .name {
+  color: var(--color-text-light);
+  grid-row: 3;
+  height: calc(2 * var(--bp-grid-size));
+  line-height: calc(2 * var(--bp-grid-size));
+  font-size: 2.5rem; /* slightly larger */
+  font-weight: 500; /* more authority */
+  position: relative;
+  top: calc(0.2 * var(--bp-grid-size));
+  width: 100%;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* subtle depth via layered shadows */
+  text-shadow:
+    0 0.15vmin 0.2vmin rgba(0, 0, 0, 0.6),
+    /* dark base */ 0 0 0.5vmin #0095ff; /* cyan glow */
+}
+
+.profileDiv .name span {
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.profileDiv .name span:first-child {
+  text-align: end;
+  padding-right: var(--bp-grid-size);
+  position: relative;
+  letter-spacing: 0.05rem;
+  left: calc(0.1 * var(--bp-grid-size));
+}
+.profileDiv .name span:last-child {
+  text-align: start;
+  padding-left: var(--bp-grid-size);
+  position: relative;
+  left: calc(-0.1 * var(--bp-grid-size));
+}
+
+.spark-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: visible;
+  z-index: 0;
+}
+.spark-connector {
+  fill: none;
+  stroke: #0095ff;
+  stroke-width: 1px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  opacity: 0.6;
+}

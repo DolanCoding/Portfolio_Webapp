@@ -1,0 +1,154 @@
+.home {
+  overflow-y: unset !important;
+  /* Responsive: center column width is total minus 2 * snapped 1/6 side padding.
+     Falls back to previous fixed 40 * grid-size if variable not yet set. */
+  width: calc(var(--bp-content-width) * var(--bp-grid-size));
+  justify-self: center;
+}
+.home-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: start; /* Center content horizontally */
+  align-items: center; /* Center content vertically if section has a defined height */
+  color: var(--color-text-light);
+  text-align: center; /* Center text elements */
+}
+
+.intro-container {
+  width: 100%;
+  height: calc(100% - 10 * var(--bp-grid-size));
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: calc(100% - 3 * var(--bp-grid-size)) calc(3 * var(--bp-grid-size));
+  align-items: center;
+  border-radius: calc(0.5 * var(--bp-grid-size));
+  overflow-y: visible;
+
+  .home-text {
+    grid-row: 1;
+    height: 100%;
+    font-size: calc(1.25 * var(--bp-grid-size));
+    overflow: hidden;
+    display: grid;
+    grid-template-rows:
+      calc(10 * var(--bp-grid-size)) calc(10 * var(--bp-grid-size)) calc(10 * var(--bp-grid-size))
+      calc(10 * var(--bp-grid-size));
+    grid-template-columns: 100%;
+
+    .first-paragraph {
+      padding-top: calc(2 * var(--bp-grid-size));
+
+      .welcoming {
+        display: block;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        left: calc(0.25 * var(--bp-grid-size));
+        top: calc(-0.5 * var(--bp-grid-size));
+        font-size: calc(1.35 * var(--bp-grid-size));
+
+        em {
+          font-style: italic;
+          font-weight: 600;
+          color: var(--color-accent);
+          text-decoration: underline;
+          text-underline-position: below;
+          text-decoration-thickness: 0.15vmin;
+        }
+      }
+      .introduction {
+        position: relative;
+        top: calc(-0.5 * var(--bp-grid-size));
+      }
+    }
+
+    .second-paragraph {
+      position: relative;
+      top: calc(0.5 * var(--bp-grid-size));
+    }
+    .third-paragraph {
+    }
+  }
+}
+
+.diagram-container {
+  height: calc(10 * var(--bp-grid-size));
+  align-self: center;
+  width: 100%;
+  border: 0.15vmin solid #0095ff;
+  background: rgba(15, 95, 176, 0.05);
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+
+  h5 {
+    position: relative;
+    justify-self: start;
+    left: calc(0 * var(--bp-grid-size));
+    border-bottom: 0.15vmin solid #0095ff;
+    border-right: 0.15vmin solid #0095ff;
+    top: calc(0 * var(--bp-grid-size));
+    font-size: 1.15rem;
+    font-style: italic;
+    line-height: calc(2 * var(--bp-grid-size));
+    width: calc(20 * var(--bp-grid-size));
+    height: calc(2 * var(--bp-grid-size));
+  }
+
+  svg {
+    width: calc(100% + 2 * 0.15vmin);
+    height: calc(100% + 2 * 0.15vmin);
+    max-width: unset !important;
+    top: 0;
+    left: 0;
+  }
+}
+
+.intro-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+.intro-paragraph {
+  text-align: start;
+  line-height: calc(2 * var(--bp-grid-size));
+  position: relative;
+  hyphens: auto; /* Allow hyphens if needed for justification */
+  color: #5f94bf;
+  user-select: none;
+  pointer-events: none;
+
+  b {
+    white-space: nowrap; /* Prevent line breaks in bold text */
+  }
+}
+
+.cta-button.primary-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #1b3b5aa6, #122b43);
+  color: var(--color-text-light);
+  height: calc(4 * var(--bp-grid-size));
+  width: var(--home-text-button-width);
+  justify-self: center;
+  border-radius: 0.8vmin;
+  border: 0.1vmin solid rgba(27, 58, 90, 0.8);
+  align-self: center;
+}
+
+.cta-button.primary-cta:hover {
+  background-image: linear-gradient(to bottom, #234e78, #1b3a5a);
+  transform: translateY(-0.3vmin);
+  box-shadow:
+    0 0.6vmin 1.5vmin rgba(0, 0, 0, 0.8),
+    0 0 1.5vmin rgba(27, 58, 90, 0.8);
+}
+
+.cta-button.primary-cta:active {
+  transform: translateY(0);
+  box-shadow:
+    inset 0 0.2vmin 0.5vmin rgba(0, 0, 0, 0.4),
+    inset 0 0.1vmin 0.2vmin rgba(255, 255, 255, 0.1),
+    0 0 0.5vmin rgba(27, 58, 90, 0.4);
+}

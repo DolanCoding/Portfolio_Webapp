@@ -1,0 +1,145 @@
+/* Spark overlay styles (separated from Headline.css) */
+.spark-overlay {
+  width: 100%;
+  position: absolute; /* changed from fixed to absolute so it anchors to .hero */
+  height: calc(14 * var(--bp-grid-size));
+  align-self: center;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  font-size: 1rem;
+}
+
+.spark-connector {
+  fill: none;
+  stroke: #00aaff;
+  stroke-width: 0.15vmin; /* switched from 1px to responsive vmin */
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  opacity: 0.6;
+}
+
+/* Underline arrow label (new slim style) */
+.label-wrapper {
+  position: relative;
+  width: calc(var(--bp-grid-size) * 8);
+  margin: 0 var(--bp-grid-size);
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.9;
+}
+.label-text {
+  /* soften prominence */
+  font-size: calc(1.05 * var(--bp-grid-size));
+  width: calc(var(--bp-grid-size) * 7);
+  font-weight: 400;
+  color: var(--color-text-light);
+  opacity: 0.75;
+  line-height: 1;
+  white-space: nowrap;
+  position: absolute;
+  text-align: center;
+  font-style: italic;
+}
+.left-left-text {
+  top: calc(0 * var(--bp-grid-size));
+  right: 0;
+}
+.left-right-text {
+  top: calc(1 * var(--bp-grid-size));
+  left: 0;
+}
+.right-right-text {
+  top: calc(0 * var(--bp-grid-size));
+  left: 0;
+}
+.right-left-text {
+  top: calc(1 * var(--bp-grid-size));
+  right: 0;
+}
+.label-underline {
+  width: 100%;
+  height: calc(var(--bp-grid-size) * 0.5);
+  position: absolute;
+  top: calc(0.8 * var(--bp-grid-size));
+}
+.label-line {
+  /* lighter stroke than connectors */
+  stroke: #00ccff98;
+  stroke-width: 2;
+  fill: #00ccff98;
+  vector-effect: non-scaling-stroke;
+}
+.label-head {
+  /* subtle arrow head */
+  fill: #00ccff79;
+
+  stroke: #00ccff98;
+  stroke-width: 2;
+  vector-effect: non-scaling-stroke;
+}
+
+.spark-shadow-path {
+  stroke-width: 4;
+  stroke: transparent;
+  fill: none;
+  pointer-events: none;
+}
+
+.spark-moving {
+  filter: url(#spark-glow);
+}
+
+.spark-avatar-fade {
+  opacity: 0;
+  transition: opacity 0.08s linear; /* was 0.2s */
+}
+
+.spark-beam {
+  filter: drop-shadow(0 0 0.2vmin #4f8cff) drop-shadow(0 0 0.4vmin #6fa2ff33);
+  pointer-events: none;
+}
+
+/* spark.css */
+.spark-moving {
+  filter: drop-shadow(0 0 0.2vmin #4f8cff) drop-shadow(0 0 0.4vmin #6fa2ff33);
+}
+
+.spark-glow-path {
+  stroke: #00aaff;
+  stroke-width: 3;
+  fill: none;
+  filter: drop-shadow(0 0 0.3vmin #00aaff) drop-shadow(0 0 0.6vmin #00ccff44)
+    drop-shadow(0 0 0.9vmin #00aaff22);
+  pointer-events: none;
+}
+
+/* Enhanced glow for avatar arc effects */
+.spark-arc-glow {
+  stroke: #00aaff;
+  stroke-width: 6;
+  fill: none;
+  filter: drop-shadow(0 0 0.6vmin #00aaff) drop-shadow(0 0 1.2vmin #00ccff88)
+    drop-shadow(0 0 1.8vmin #00aaff44);
+  pointer-events: none;
+}
+
+/* Enhanced return spark styling for better visibility */
+.spark-return {
+  filter: drop-shadow(0 0 0.6vmin #00aaff) drop-shadow(0 0 1.2vmin #00aaff)
+    drop-shadow(0 0 1.8vmin #00ccff44);
+  animation: spark-return-pulse 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes spark-return-pulse {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,134 @@
+/* Final Blueprint background, focused on static elegance and performance */
+body {
+  background-color: #0d1b2a;
+  overflow: hidden;
+
+  /* Blueprint sheet unified tone variables (align header/footer + field) */
+  --bp-sheet-blue-1: #021a31; /* deepest edge */
+  --bp-sheet-blue-2: #03243e; /* edge-mid */
+  --bp-sheet-blue-3: #042b45; /* core base */
+  --bp-sheet-blue-4: #04324f; /* subtle depth accent */
+  /* Updated accent palette (reduced green component, purer blue) */
+  --bp-accent-electric: #1f66ff; /* electric edge */
+  --bp-accent-core: #2f74ff; /* core mid */
+  --bp-accent-sky: #4f8cff; /* softer mid-high */
+  --bp-accent-fade: #6fa2ff; /* outer fade */
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  color: var(--color-text-light); /* Ersetzt #eee */
+  display: grid;
+  grid-template-rows: var(--padTop) calc(100% - var(--padTop) - var(--padBottom)) var(--padBottom);
+  grid-template-columns: 100%;
+  overflow: hidden;
+}
+
+.app-content {
+  grid-row: 2;
+  grid-column: 1;
+  position: relative;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: var(--padLeft) calc(100% - var(--padLeft) - var(--padRight)) var(
+      --padRight
+    );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-content::before {
+    animation: none;
+  }
+}
+
+.main-content-wrapper {
+  max-height: 100%;
+  overflow-y: hidden;
+  grid-row: 1;
+  grid-column: 2;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  position: relative;
+
+  border-radius: 0.8vmin;
+}
+
+/* Calibration Screen Styles */
+.calibration-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #0d1b2a 0%, #1b263b 50%, #0d1b2a 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  backdrop-filter: blur(8px);
+}
+
+.calibration-content {
+  text-align: center;
+  color: #4f8cff;
+  font-family: "Courier New", monospace;
+}
+
+.calibration-spinner {
+  width: 60px;
+  height: 60px;
+  border: 4px solid rgba(79, 140, 255, 0.2);
+  border-top: 4px solid #4f8cff;
+  border-radius: 50%;
+  animation: calibration-spin 1s linear infinite;
+  margin: 0 auto 20px;
+}
+
+.calibration-content h2 {
+  font-size: 2rem;
+  margin: 0 0 10px 0;
+  font-weight: 300;
+  text-shadow: 0 0 20px rgba(79, 140, 255, 0.5);
+  animation: calibration-pulse 2s ease-in-out infinite;
+}
+
+.calibration-content p {
+  font-size: 1.1rem;
+  margin: 0;
+  opacity: 0.8;
+  font-weight: 200;
+  animation: calibration-fade 3s ease-in-out infinite;
+}
+
+@keyframes calibration-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes calibration-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+@keyframes calibration-fade {
+  0%,
+  100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}

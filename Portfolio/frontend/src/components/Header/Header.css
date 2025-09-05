@@ -1,0 +1,82 @@
+/* src/components/Header/Header.css */
+.App > header {
+  background: transparent; /* allow underlying blueprint */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  min-height: calc(2 * var(--bp-grid-size));
+  padding-right: calc(var(--padRight));
+  padding-left: calc(var(--padLeft));
+  height: var(--padTop);
+  display: flex;
+  align-items: end;
+  justify-content: start;
+  box-shadow: none;
+  backdrop-filter: none;
+  isolation: isolate; /* contain pseudo elements */
+
+  nav {
+    border: var(--bp-thick) solid rgba(10, 166, 255, 0.67);
+    border-top-left-radius: calc(0.25 * var(--bp-grid-size));
+    border-top-right-radius: calc(0.25 * var(--bp-grid-size));
+    border-bottom: none;
+    height: 66.67%;
+    width: calc(40 * var(--bp-grid-size) + 0.15vmin);
+    ul {
+      list-style: none;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      position: relative;
+    }
+  }
+}
+
+nav a {
+  color: rgba(180, 220, 240, 0.75);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  position: relative;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+nav a::before,
+nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--bp-edge-glow) 50%, transparent);
+  transform-origin: center;
+  scale: 0 1;
+  transition: scale 0.35s ease;
+}
+nav a::before {
+  bottom: -0.15rem;
+}
+nav a::after {
+  top: -0.15rem;
+}
+
+nav a.active {
+  color: var(--bp-edge-glow);
+  font-weight: 700;
+  text-shadow: 0 0 0.8rem var(--bp-edge-glow);
+  transform: translateY(-0.2rem);
+}
+
+nav a:hover,
+nav a:focus {
+  color: rgba(145, 235, 255, 0.9);
+  text-shadow: 0 0 0.5rem var(--bp-edge-glow);
+  transform: translateY(-0.2rem);
+}

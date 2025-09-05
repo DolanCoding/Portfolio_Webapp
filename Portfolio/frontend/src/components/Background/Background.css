@@ -1,0 +1,84 @@
+/* Background container with individual padding values for fine-tuned alignment */
+.bp-root {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background: var(--bp-bg);
+  padding-top: var(--padTop);
+  padding-right: var(--padRight);
+  padding-bottom: var(--padBottom);
+  padding-left: var(--padLeft);
+  box-sizing: border-box;
+}
+
+.bp-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: var(--bp-bg);
+  --bp-grid-pattern:
+    repeating-linear-gradient(
+      to right,
+      var(--bp-mid) 0 var(--bp-thick),
+      transparent var(--bp-thick) calc(10 * var(--bp-grid-size))
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      var(--bp-mid) 0 var(--bp-thick),
+      transparent var(--bp-thick) calc(10 * var(--bp-grid-size))
+    ),
+    repeating-linear-gradient(
+      to right,
+      var(--bp-weak) 0 var(--bp-thin),
+      transparent var(--bp-thin) var(--bp-grid-size)
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      var(--bp-weak) 0 var(--bp-thin),
+      transparent var(--bp-thin) var(--bp-grid-size)
+    );
+  background-image: var(--bp-grid-pattern);
+}
+
+/* Blurred glow layer */
+.bp-inner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  background-image:
+    /* vignette */
+    radial-gradient(120% 90% at 50% 50%, transparent 55%, rgba(0, 0, 0, 0.18) 100%),
+    /* fold lines */
+      repeating-linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.06) 0 0.1vmin,
+        transparent 0.1vmin calc(8 * var(--bp-grid-size))
+      ),
+    /* fiber/noise via SVG data URI */
+      url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256"><filter id="darkNoise"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="-1 0 0 0 1  0 -1 0 0 1  0 0 -1 0 1  0 0 0 1 0"/></filter><rect width="256" height="256" filter="url(%23darkNoise)" opacity="0.2"/></svg>')
+      var(--bp-grid-pattern);
+
+  background-blend-mode: multiply, overlay, soft-light, soft-light, soft-light, normal;
+
+  background-size:
+    100% 100%,
+    100% 100%,
+    auto,
+    auto,
+    256px 256px,
+    auto;
+
+  filter: blur(0.05vmin) contrast(1.02) brightness(1.01);
+  opacity: 0.25;
+}
+
+.bp-inner::before {
+  content: "";
+  position: absolute;
+  /* Position frame outside the content area to not interfere with grid alignment */
+  inset: calc(var(--bp-thick) / -2);
+  box-shadow: inset 0 0 0 var(--bp-thick) var(--bp-frame);
+  pointer-events: none;
+}
